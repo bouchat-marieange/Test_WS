@@ -15,7 +15,7 @@ Pour installer WordPress vous avez besoin de :
 
 * Un logiciel FTP qui permet de transférer les fichiers de votre ordinateur vers votre serveur en ligne.
 
-Le logiciel FTP est nécessaire uniquement lorsque vous mettrez votre site en ligne. Pour ce workshop nous développerons en local. Vous trouverez la procédure pour mettre votre site en ligne dans la partie contenant les annexes. 
+Le logiciel FTP est nécessaire uniquement lorsque vous mettrez votre site en ligne. Pour ce workshop nous développerons en local. Vous trouverez la procédure pour mettre votre site en ligne dans la partie contenant les annexes.
 
 ## Création de la DB avec phpMyAdmin
 
@@ -42,7 +42,8 @@ Une fois dans phpMyAdmin, aller sur l'onglet "Bases de données", indiqué le no
 Une nouvelle base de données apparait dans la liste de gauche.
 Lors de l'installation de WordPress, toutes les tables nécessaires au fonctionnement de WordPress viendront se placer dans cette base de données que nous avons préalablement crée.
 
-La base de données après l'installation de WordPress :
+
+**La base de données après l'installation de WordPress :**
 
 
 ![db apres install WP](images/install_wp_DB_apres_install_WP.jpg)
@@ -56,7 +57,13 @@ Site: https://fr.wordpress.org/ (version de l'interface en français ou anglais)
 Site: https://wordpress.org/ (site avec interface en anglais - attention format date)
 
 
+**Site WordPress.org en français**
+
+
 ![fr.wordPress.org](images/install_wp_wordpress-org-fr.jpg)
+
+
+**Site WordPress.org en anglais**
 
 
 ![wordPress.org](images/install_wp_wordpress-org.jpg)
