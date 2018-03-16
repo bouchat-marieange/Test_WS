@@ -23,15 +23,18 @@ Mot de passe: vide, root, user, autres ....
 
 Veuillez à bien connaitre votre nom d'utilisateur et mot de passe pour PhpMyAdmin pour pouvoir créer une base de données et vous connecter à celle-ci.
 
-
-
-![creation db](install_wp_creation_db.jpg)
-
-
-
 Une fois dans phpMyAdmin, aller sur l'onglet "Bases de données", indiqué le nom de votre base de données. Pour l'exercice, nous l'appellerons "wp_workshop" puis cliquer sur le bouton "créer".
 Une nouvelle base de données apparait dans la liste de gauche.
 Lors de l'installation de WordPress, toutes les tables nécessaires au fonctionnement de WordPress viendront se placer dans cette base de données que nous avons préalablement crée.
+
+
+![creation db](images/install_wp_creation_db.jpg)
+
+
+La base de données après l'installation de WordPress :
+
+
+![db apres install WP](images/install_wp_DB_apres_install_WP.jpg)
 
 
 ## Téléchargement WordPress et installation en local
