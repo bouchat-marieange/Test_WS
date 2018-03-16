@@ -59,12 +59,11 @@ Site: https://wordpress.org/ (site avec interface en anglais - attention format 
 
 **Site WordPress.org en français**
 
-
 ![fr.wordPress.org](images/install_wp_wordpress-org-fr.jpg)
 
 
-**Site WordPress.org en anglais**
 
+**Site WordPress.org en anglais**
 
 ![wordPress.org](images/install_wp_wordpress-org.jpg)
 
