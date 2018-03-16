@@ -98,11 +98,11 @@ A ce stade, nous avons donc un dossier wp_workshop (contenant tous les dossiers 
 Aller à l'adresse localhost (localhost:8888 pour Mac utilisant Mamp) sur votre navigateur et cliquer sur le votre dossier wp_workshop. L'installation de wordpress se lance.
 
 
-![Lancement installation WP à partir localhost](images/install_wp_lancement_install_wp_localhost.jpg)
+![Lancement installation WP à partir localhost](images/install_wp_lancement_install_wp-localhost.jpg)
 
 
 
-![Installation WP - etape 1](images/install_wp_1.jpg)
+![Installation WP etape 1](images/install_wp_1.jpg)
 
 
 Dans l'écran suivant on vous demande d'indiquer différentes informations, remplisser le nom de votre DB soit wp_workshop, votre nom d'utilisateur et votre mot de passe sur phpmyadmin, laisser localhost dans le champ suivant et afin d'améliorer la sécurité nous allons changer le préfixe qui sera ajouté à toutes les tables wordpress dans la DB par work_ à la place du wp_ par défault.
