@@ -68,7 +68,13 @@ Site: https://wordpress.org/ (site avec interface en anglais - attention format 
 ![wordPress.org](images/install_wp_wordpress-org.jpg)
 
 
-Attention : Ne confondez pas wordpress.org avec les sites https://fr.wordpress.com ou https://wordpress.com qui proposent une formule d'hébergement intégrée et gratuite de votre site WordPress mais dont les fonctionnalités, la possibilité de personnalisation, l'espace des stockage sont nettement plus limitée que celles de la version complète de WordPress. Nous allons donc nous intéresser à WordPress.org car qui peut le plus peut le moins. Libre à vous ensuite de choisir une formule plutôt que l'autre selon vos besoins en étant bien informé.
+**Attention :**
+
+Ne confondez pas wordpress.org avec les sites https://fr.wordpress.com ou https://wordpress.com qui proposent une formule d'hébergement intégrée et gratuite de votre site WordPress mais dont les fonctionnalités, la possibilité de personnalisation, l'espace des stockage sont nettement plus limitée que celles de la version complète de WordPress.
+
+Nous utiliserons donc dans ce workshop la version complète de WordPress téléchargée sur le site de WordPress.org. Nous étudierons WordPress dans le cadre d'une installation locale lors de ce workshop
+
+Libre à vous ensuite de choisir une formule plutôt que l'autre selon vos besoins en étant correctement informer sur les possibilité qu'offre chacune de ses formules.
 
 Pour en savoir plus sur la différence entre WordPress.org et WordPress.com :
 
@@ -95,7 +101,7 @@ Nous allons à présent renommé ce dossier wordpress et nous allons l'appeller 
 
 A ce stade, nous avons donc un dossier wp_workshop (contenant tous les dossiers et fichiers de WordPress) dans le repertoire de notre serveur local et un base de donnée appellée wp_workshop vide crée dans phpmyAdmin. Nous pouvons passé à l'installation de WordPress.
 
-Aller à l'adresse localhost (localhost:8888 pour Mac utilisant Mamp) sur votre navigateur et cliquer sur le votre dossier wp_workshop. L'installation de wordpress se lance.
+Aller à l'adresse localhost (localhost:8888 pour Mac utilisant Mamp) sur votre navigateur et cliquer sur le votre dossier wp_workshop. L'installation de wordpress se lance. Cliquer sur le bouton "C'est parti !"
 
 
 ![Lancement installation WP à partir localhost](images/install_wp_lancement_install_wp_localhost.jpg)
