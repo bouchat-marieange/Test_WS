@@ -1,8 +1,10 @@
 # WorkShop WordPress
 
-Date: 23/03/2018 de 09h00 à 12h30
-Lieu: BeCode - BeCentral - Local Lovelace
-Animatrice: Marie-Ange Bouchat
+**Date:** 23/03/2018 de 09h00 à 12h30
+
+**Lieu:** BeCode - BeCentral - Local Lovelace
+
+**Animatrice:** Marie-Ange Bouchat
 
 ---------------------------------------------------------------------------------------
 
@@ -78,19 +80,19 @@ Aller à l'adresse localhost (localhost:8888 pour Mac utilisant Mamp) sur votre 
 ![Lancement installation WP à partir localhost](images/install_wp_lancement install wp - localhost.jpg)
 
 
-![Installation WP - etape 1](images/install wp 1.jpg)
+![Installation WP - etape 1](images/install_wp_1.jpg)
 
 
 Dans l'écran suivant on vous demande d'indiquer différentes informations, remplisser le nom de votre DB soit wp_workshop, votre nom d'utilisateur et votre mot de passe sur phpmyadmin, laisser localhost dans le champ suivant et afin d'améliorer la sécurité nous allons changer le préfixe qui sera ajouté à toutes les tables wordpress dans la DB par work_ à la place du wp_ par défault.
 
-![Installation WP - etape 2](images/install wp 2.jpg)
+![Installation WP - etape 2](images/install_wp_2.jpg)
 
 
 A ce stade il peut arriver qu'une erreur survienne, pas de panique. Cela signifie juste que WordPress n'arrive pas à créer automatiquement le fichier wp-config.php. POur le créer manuellement, il vous suffit de copier le code se trouvant dans la fenêtre (Ctrl+A puis Ctrl+C), de créer un nouveau fichier appelé wp-config.php à la racine du repertoire wp_workshop, d'y coller le contenu du code et de l'enregister.
 
 ![WP erreur création auto de wp-config.php - etape 3](install wp 3 - erreur.jpg)
 
-![Creation wp-config](images/install_wp_creation wp-config.jpg)
+![Creation wp-config](images/install_wp_creation_wp-config.jpg)
 
 Puis de cliquer sur le bouton "Lancer l'installation"
 
