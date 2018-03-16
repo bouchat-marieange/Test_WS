@@ -7,10 +7,15 @@ Dans le cadre de ce WorKshop nous développeront un site WordPress en local (sur
 Pour déployer votre site WordPress sur un serveur en ligne, vous pouvez vous référer a la partie "Annexes" de ce document qui vous explique la marche à suivre.
 
 Pour installer WordPress vous avez besoin de :
-- Le fichier zip télécharger sur le site wordpress.org reprenant tous les fichiers et dossiers composant la dernière version de WordPress
-- Un serveur web ou logiciel permettant de créer un serveur web et DB sur votre ordinateur (mamp, xampp, lamp)
-- Une base de données vide au départ (MySQL)
-- Un logiciel FTP qui permet de transférer les fichiers de votre ordinateur vers votre serveur en ligne (uniquement si vous désirer mettre votre site en ligne immédiatement, pas nécessaire pour découvrir les fonctionnalités de WordPress et développer en local sur votre machine)
+* Le fichier zip télécharger sur le site wordpress.org reprenant tous les fichiers et dossiers composant la dernière version de WordPress
+
+* Un serveur web ou logiciel permettant de créer un serveur web et DB sur votre ordinateur (mamp, xampp, lamp)
+
+* Une base de données vide au départ (MySQL)
+
+* Un logiciel FTP qui permet de transférer les fichiers de votre ordinateur vers votre serveur en ligne.
+
+Le logiciel FTP est nécessaire uniquement lorsque vous mettrez votre site en ligne. Pour ce workshop nous développerons en local. Vous trouverez la procédure pour mettre votre site en ligne dans la partie contenant les annexes. 
 
 ## Création de la DB avec phpMyAdmin
 
