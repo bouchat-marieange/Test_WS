@@ -14,12 +14,17 @@ Pour installer WordPress vous avez besoin de :
 
 ## Création de la DB avec phpMyAdmin
 
-Lancer votre serveur Apache (Lamp, Xampp, Wamp)
-Pour lamp taper dans la console : sudo /opt/lampp/lampp start
-Dans le navigateur aller à l'adresse : http://localhost/phpmyadmin/
-Passer la langue en Français
-Utilisateur: root
-Mot de passe: vide, root, user, autres ....
+* Lancer votre serveur Apache (Lamp, Xampp, Wamp)
+
+* Pour lamp taper dans la console : sudo /opt/lampp/lampp start
+
+* Dans le navigateur aller à l'adresse : http://localhost/phpmyadmin/
+
+* Passer la langue en Français
+
+* Utilisateur: root
+
+* Mot de passe: vide, root, user, autres ....
 
 Veuillez à bien connaitre votre nom d'utilisateur et mot de passe pour PhpMyAdmin pour pouvoir créer une base de données et vous connecter à celle-ci.
 
