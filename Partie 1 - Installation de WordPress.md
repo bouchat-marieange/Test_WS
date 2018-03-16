@@ -120,7 +120,7 @@ Dans l'écran suivant on vous demande d'indiquer différentes informations, remp
 A ce stade il peut arriver qu'une erreur survienne, pas de panique. Cela signifie juste que WordPress n'arrive pas à créer automatiquement le fichier wp-config.php. POur le créer manuellement, il vous suffit de copier le code se trouvant dans la fenêtre (Ctrl+A puis Ctrl+C), de créer un nouveau fichier appelé wp-config.php à la racine du repertoire wp_workshop, d'y coller le contenu du code et de l'enregister.
 
 
-![WP erreur création auto de wp-config.php - etape 3](images/install_wp_3_erreur.jpgg)
+![Erreur création auto de wpconfig](images/install_wp_3_erreur.jpg)
 
 
 ![Creation wp-config](images/install_wp_creation_wp_config.jpg)
