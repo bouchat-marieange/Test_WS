@@ -98,7 +98,7 @@ A ce stade, nous avons donc un dossier wp_workshop (contenant tous les dossiers 
 Aller à l'adresse localhost (localhost:8888 pour Mac utilisant Mamp) sur votre navigateur et cliquer sur le votre dossier wp_workshop. L'installation de wordpress se lance.
 
 
-![Lancement installation WP à partir localhost](images/install_wp_lancement_install_wp-localhost.jpg)
+![Lancement installation WP à partir localhost](images/install_wp_lancement_install_wp_localhost.jpg)
 
 
 
