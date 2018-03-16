@@ -25,7 +25,7 @@ Veuillez à bien connaitre votre nom d'utilisateur et mot de passe pour PhpMyAdm
 
 
 
-![Creation DB](install_wp_creation_db.jpg)
+![creation db](install_wp_creation_db.jpg)
 
 
 
