@@ -24,7 +24,7 @@ Mot de passe: vide, root, user, autres ....
 Veuillez à bien connaitre votre nom d'utilisateur et mot de passe pour PhpMyAdmin pour pouvoir créer une base de données et vous connecter à celle-ci.
 
 
-![Creation DB vide phpmyadmin](images/install_wp_phpmysql-cree-db.jpg)
+![Créer DB avec PHPmyAdmin](images/install_wp_ phpmysql-cree-db.jpg)
 
 
 Une fois dans phpMyAdmin, aller sur l'onglet "Bases de données", indiqué le nom de votre base de données. Pour l'exercice, nous l'appellerons "wp_workshop" puis cliquer sur le bouton "créer".
