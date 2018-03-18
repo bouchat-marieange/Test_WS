@@ -248,24 +248,86 @@ Un article est ...
 
 ![Articles - Etiquettes](images/interface_barre_menus_articles_etiquettes.png)
 
-3. Médias
+
+
+### Médias
+
+![Medias](images/interface_barre_menus_Medias.png)
+
+Dans cette section vous pourrez ...
+
+Un média est ...
 
 **Bibliothèque**
 
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_Bibliotheque1.png)
+
 **Ajouter**
 
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_ Ajouter.png)
 
-4. Pages
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter2.png)
+
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter3.png)
+
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter4.png)
+
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter5.png)
+
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter6.png)
+
+
+
+### Pages
+
+![Pages](images/interface_barre_menus_Pages.png)
 
 **Toutes les pages**
 
+![Pages - Toutes les pages](images/interface_barre_menus_Pages_Toutes_les_pages.png)
+
+![Pages - Modifier pages](images/interface_barre_menus_Pages_Modifier_la_page.png)
+
+![Pages - Previsuliser pages](images/interface_barre_menus_Pages_Prévisualiser_la_page.png)
+
+
 **Ajouter**
 
-5. Commentaires
+![Pages - Ajouter](images/interface_barre_menus_Pages_Ajouter.png)
 
 
 
-6. Apparence
+Générer du faux-texte (lorem ipsum) : http://www.faux-texte.com/
+
+Ou vous pouvez aller dans le dossier "Lorem ipsum" du repository github de ce workshop où vous trouverez un fichier texte avec 10 paragraphes de faux texte.
+
+Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPWhAYil48
+
+
+
+![Pages - Image mise en avant](images/interface_barre_menus_Pages_Image_mise_en_avant.png)
+
+![Pages - Ajout page et aide](images/interface_barre_menus_Pages_ajout_page_aide.png)
+
+![Pages - media mise en forme](images/interface_barre_menus_Pages_ajout_media_mise_en_forme.png)
+
+![Pages - nouveau media 1](images/interface_barre_menus_Pages_téleverser_nouveau_fichier.png)
+
+![Pages - nouveau media - image ](images/interface_barre_menus_Pages_téleverser_nouveau_fichier2.png)
+
+![Pages - nouveau media - video](images/interface_barre_menus_Pages_téleverser_nouveau_fichier3.png)
+
+![Pages - nouveau media - son](images/interface_barre_menus_Pages_téleverser_nouveau_fichier4.png)
+
+![Pages - resultat - multimedia](interface_barre_menus_Pages_multi_medias.png)
+
+
+
+### Commentaires
+
+
+
+### Apparence
 
 **Thèmes**
 
@@ -280,7 +342,7 @@ Un article est ...
 **Editeur**
 
 
-7. Extensions
+### Extensions
 
 **Extensions installées**
 
@@ -290,7 +352,7 @@ Un article est ...
 
 
 
-8. Utilisateurs
+### Utilisateurs
 
 C'est vous qui avez installer votre site WordPress (en local ou directement en ligne), vous avez donc le status d'administrateur (utilisateur rôle administrateur) et avez accès sans restrictions à tous les menus de WordPress. Vous avez les pleins pouvoirs sur votre site et aurez également la possibilité de créer d'autres compte utilisateurs ayant soit également le rôle d'administrateur soit un autre rôle offrant des privilèges plus réduit sur l'interface de WordPress.
 
@@ -301,7 +363,7 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 **Votre profil**
 
 
-9. Outils
+### Outils
 
 **Outils disponibles**
 
@@ -310,7 +372,7 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 **Exporter**
 
 
-10. Réglages
+### Réglages
 
 **Général**
 
@@ -343,25 +405,25 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 
 
 
-### Installation et usage des thèmes
+## Installation et usage des thèmes
 
 
-### Plugins et widgets
+## Plugins et widgets
 
 
-### Connaitre le theme et les plugins utilisés sur un site WordPress**
+## Connaitre le theme et les plugins utilisés sur un site WordPress**
 
 Rendez-vous à l'adresse : http://whatwpthemeisthat.com/
 Taper l'url du site concerné dans le champ de recherche et voilà !!!!
 Pour tester, taper l'adresse: http://www.tinkeringmonkey.com/work/
 
-### Outils de commerce en ligne
+## Outils de commerce en ligne
 
 
-### Traduction de vos sites multilingues
+## Traduction de vos sites multilingues
 
 
-### Bonnes pratiques dans l'usage de WordPress
+## Bonnes pratiques dans l'usage de WordPress
 
 * Effacer les fichiers et articles inutiles sans WordPress après installation - supprimer certains réglages par default (settings/permalinks; supprimer fichier readme.html (à la racine), suppprimer tagline settings/general et remplacer par theme du site pour le SEO, modifier footer (fièrement propulsé par Wordpress + hook avec mise à jour automatique de l'année))
 
@@ -387,6 +449,6 @@ Pour tester, taper l'adresse: http://www.tinkeringmonkey.com/work/
 
 * Changer votre pseudonyme et le nom afficher publiquement dans la section modifier mon profil de la barre d'outils en haut de l'interface d'administration WordPress. Vous pouvez également changer votre identifiant afin de compliquer la tâche des pirates informatique (voir procédure : https://korben.info/securiser-wordpress-changer-nom-compte-admin.html )
 
-* Dans les extensions, supprimer Hello Dolly qui n'est là qu'à titre d'exemple.
+* Dans les extensions, supprimer le plugin Hello Dolly qui n'est là qu'à titre d'exemple et de remplissage.
 
-* Activer l'extension Akismet Anti-Spam dans les extensions
+* Activer l'extension Akismet (Anti-Spam) dans la section "Extensions" et veiller à sa mise à jour régulière. Ce plugin est installé par défault directement lors de votre installation de WordPress, mais il faut encore l'activer pour le rendre opérationnel.
