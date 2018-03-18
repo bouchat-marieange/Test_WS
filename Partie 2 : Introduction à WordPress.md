@@ -76,36 +76,41 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 ## Tour d'horizon des 3 principaux CMS (WordPress, Drupal, Joomla)
 
-![WordPress](images/Logo_CMS/wordpress_logo1.jpg)
+![WordPress](images/Logo_CMS/wordpress_logo.jpg)
 
 **WordPress :**
 
-Le choix favoris des débutants pour sa facilité d'utilisation et de prise en main.
+* Le choix favoris des débutants pour sa facilité d'utilisation et de prise en main.
 
-Ce CMS est particulièrement bien adapté pour les sites web de petites et moyennes taille, les blogs, les magasins de commerce electronique.
+* Ce CMS est particulièrement bien adapté pour les sites web de petites et moyennes taille, les blogs, les magasins de commerce electronique.
 
-Il peut cependant avec l'ajout de certains plugins s'avérer extrêmement complet et convenir parfaitement au sites web de structures beaucoup plus vastes
+* Il peut cependant avec l'ajout de certains plugins s'avérer extrêmement complet et convenir parfaitement au sites web de structures beaucoup plus vastes
+
 
 
 ![Joomla](images/Logo_CMS/joomla_logo.png)
 
 **Joomla :**
 
-Idéal pour les sites Web de commerce electronique ou de réseautage social.
+* Idéal pour les sites Web de commerce electronique ou de réseautage social.
 
-Ce CMS est cependant plus difficile à appréhender et nécessite des compétences techniques plus poussées.
+* Ce CMS est cependant plus difficile à appréhender et nécessite des compétences techniques plus poussées.
+
 
 
 ![Drupal](images/Logo_CMS/drupal_logo.png)
 
 **Drupal :**
 
-Le CMS le plus difficile, mais aussi le plus puissant.
+* Le CMS le plus difficile, mais aussi le plus puissant.
 
-Il nécessite une maitrise de l'Html, CSS et PHP.
+* Il nécessite une maitrise de l'Html, CSS et PHP.
+
 
 Pour en savoir davantage sur le choix entre WordPress, Joomla et Drupal:
 https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
+
+
 
 ## Pourquoi choisir WordPress
 
