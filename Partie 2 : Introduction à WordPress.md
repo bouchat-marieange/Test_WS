@@ -3,19 +3,21 @@
 
 ## Qu'est-ce qu'un CMS
 
-CMS est l'abréviation de Content Management System (Système de gestion de contenu).
+**CMS** est l'abréviation de **Content Management System** (Système de gestion de contenu).
 
-Concrètement, un CMS est un programme qui vous permet de créer facilement un site web car il intègre déja à la base tout ce dont vous avez besoin pour créer votre site sans avoir à coder vous-même vos pages. Vous pouvez vous concentrer uniquement sur la gestion de votre site. De plus la majorité des CMS sont gratuits et opensource.
+Concrètement, un CMS est un programme qui vous permet de créer facilement un site web car il intègre déja à la base tout ce dont vous avez besoin pour créer votre site sans avoir à coder vous-même vos pages. **Vous pouvez vous concentrer uniquement sur la gestion de votre site.** De plus la majorité des CMS sont gratuits et opensource.
 
-Les CMS possède une interface d'administration visuelle (dashboard), simple et facile d'utilisation qui permet de créer un site rapidement en gérant facilement son apparence et l'affichage des différents éléments qui le composent  grâce à des mises en page prédéfinies appelés thèmes ou templates. Vous pourrez choisir un thème parmis les milliers de ceux-ci (gratuit ou payants) proposés sur internet (voir section Annexes) .Les CMS permettent également de gérer ses contenus , la mise en forme du texte, l'insertion d'images.... Vous obtiendrai ainsi rapidement un site à l'allure professionnelle et attractive.
+Les CMS possède une **interface d'administration visuelle** (dashboard), simple et facile d'utilisation qui permet de créer un site rapidement en gérant facilement son apparence et l'affichage des différents éléments qui le composent  grâce à des mises en page prédéfinies appelés **thèmes ou templates**. Vous pourrez choisir un thème parmis les milliers de ceux-ci (gratuit ou payants) proposés sur internet (voir section Annexes) .
 
-Pour s'adapter à tous les besoins, les CMS peuvent s'enrichir de multiples extensions (plugins) qui ajoutent des fonctionnalités au CMS de base. Vous pourrez trouver des plugins sur le site de WordPress (https://fr.wordpress.org/plugins/).
+Les CMS permettent également de gérer ses contenus , la mise en forme du texte, l'insertion d'images.... Vous **obtiendrai ainsi rapidement un site à l'allure professionnelle** et attractive.
 
-Pour les développeurs et les personnes qui ont des connaissance en codage (HTML/CSS/PHP/MySQL), il permet en plus d'accèder au coeur même du CMS (core) pour aller encore plus loin dans la personnalisation et le développement de fonctionnalités sur mesure par la création de plugins, de thèmes et de widgets.
+Pour s'adapter à tous les besoins, les CMS peuvent s'enrichir de **multiples extensions (plugins) qui ajoutent des fonctionnalités au CMS de base.** Vous pourrez trouver des plugins sur le site de WordPress (https://fr.wordpress.org/plugins/).
 
-L'usage d'un CMS pour développer un site permet un gain de temps important, il permet également à plusieurs personnes de collaborer aisément à l'ajout de contenu sans connaissance de codage préalable et permet à l'administrateur du site de gérer des privilèges clairement defini pour chacun de ces collaborateurs et créateurs de contenu afin qu'il ne puissent accéder qu'à la partie du CMS dont ils ont besoins pour mettre à jour leurs contenus.
+Pour les développeurs et les personnes qui ont des connaissance en codage (HTML/CSS/PHP/MySQL), il permet en plus d'accèder au coeur même du CMS (core) pour aller encore plus loin dans la personnalisation et le **développement de fonctionnalités sur mesure par la création de plugins, de thèmes et de widgets.**
 
-Les CMS sont des applications Web qui s'utilise dans les navigateurs web et sont donc indépendant de toute plateforme informatique (Mac, Windows ou Linux).
+L'usage d'un CMS pour développer un site permet un **gain de temps important**, il permet également à plusieurs personnes de **collaborer aisément à l'ajout de contenu sans connaissance de codage** préalable et permet à l'administrateur du site de gérer des privilèges clairement defini pour chacun de ces collaborateurs et créateurs de contenu afin qu'il ne puissent accéder qu'à la partie du CMS dont ils ont besoins pour mettre à jour leurs contenus.
+
+Les CMS sont des applications Web qui s'utilise dans les navigateurs web et sont donc **indépendant de toute plateforme informatique (Mac, Windows ou Linux).**
 
 **Exemple concret:**
 
@@ -26,11 +28,12 @@ Si vous le réaliser en HTML/CSS/javascript, à chaque nouvelle modification dé
 
 La majorité des CMS fonctionnent avec un système de 3 serveurs, chacun ayant un rôle déterminé:
 
-* Serveur web: stocke les fichiers constitutifs du CMS et permet de gérer l'affichage HTML/CSS dans les navigateurs de voyageurs. Le plus utilisé est le serveur Apache.
+* **Serveur web:** stocke les fichiers constitutifs du CMS et permet de gérer l'affichage HTML/CSS dans les navigateurs de voyageurs. Le plus utilisé est le serveur Apache.
 
-* Serveur de base de données :  stocke tous les contenus rédactionnels et tous les réglages du site dans une base de données. Le plus utilisé est MySQL.
+* **Serveur de base de données :**  stocke tous les contenus rédactionnels et tous les réglages du site dans une base de données. Le plus utilisé est MySQL.
 
-* Serveur d'application: son rôle est de construire les pages HTML/CSS qui sont demandées par les visiteurs en interrogeant la base de données. Le serveur le plus utilisé s'appelle PHP.
+* **Serveur d'application:** son rôle est de construire les pages HTML/CSS qui sont demandées par les visiteurs en interrogeant la base de données. Le serveur le plus utilisé s'appelle PHP.
+
 
 Concrètement les serveurs fonctionnent entre eux comme ceci:
 
@@ -48,13 +51,14 @@ Concrètement les serveurs fonctionnent entre eux comme ceci:
 
 ![Fonctionnement CMS](images/Intro_WP_Fonctionnement_CMS.jpg)
 
-Nous venons de voir les serveurs indispensables pour que WordPress focntionnent chez les hébergeurs professionnels en ligne. C'est la raison pour laquelle nous avons dû installer un package serveur (Apache, MySQL, PHP) tel que XAMPP; Mamp ou Lamp sur notre machine pour pouvoir tester et développer notre site en local.
+Nous venons de voir les serveurs indispensables pour que WordPress focntionnent chez les hébergeurs professionnels en ligne. C'est la raison pour laquelle nous avons dû installer un package serveur (Apache, MySQL, PHP) tel que XAMPP; Mamp ou Lamp sur notre machine pour pouvoir tester et développer notre site en local en bénéficiant des même serveurs que si le site était héberger en ligne.
 
 
 ## WordPress et les autres CMS
 
-WordPress est le leader des CMS.
-Sur la totalité des sites présent sur le web, 30% sont réalisé avec WordPress. Ce chiffre est en constante évolution. Ce qui signifie qu'un peu moins d'un site sur trois tourne sous WordPress.
+WordPress est le **leader des CMS.**
+
+Sur la totalité des sites présent sur le web, **30% sont réalisé avec WordPress**. Ce chiffre est en constante évolution. Ce qui signifie qu'un peu moins d'un site sur trois tourne sous WordPress.
 
 Pour vous donner une idée de ce que cela représente voici un shéma plus parlant:
 
@@ -62,7 +66,7 @@ Pour vous donner une idée de ce que cela représente voici un shéma plus parla
 
 *Source : https://www.numerama.com/tech/333438-30-des-sites-web-tournent-maintenant-sous-wordpress.html*
 
-En 2018, sur la totalité des sites réalisé avec des CMS, 48.8% sont réalisés avec WordPress, qui écrase ainsi ses concurrent Drupal 5% et Joomla 4%. (Source: http://trends.builtwith.com/cms)
+En 2018, **sur la totalité des sites réalisé avec des CMS, 48.8% sont réalisés avec WordPress**, qui écrase ainsi ses concurrent Drupal 5% et Joomla 4%. (Source: http://trends.builtwith.com/cms)
 
 ![CMS Trends](images/Intro_WP_CMS_trends_2018.png)
 
@@ -72,25 +76,33 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 ## Tour d'horizon des 3 principaux CMS (WordPress, Drupal, Joomla)
 
-![WordPress](images/Logo CMS/wordpress_logo1.jpg)
+![WordPress](images/Logo_CMS/wordpress_logo1.jpg)
 
 **WordPress :**
 
-Le choix favoris des débutants pour sa facilité d'utilisation et de prise en main. Ce CMS est particulièrement bien adapté pour les sites web de petites et moyennes taille, les blogs, les magasins de commerce electronique. Il peut cependant avec l'ajout de certains plugins s'avérer extrêmement complet et convenir parfaitement au sites web de structures beaucoup plus vastes
+Le choix favoris des débutants pour sa facilité d'utilisation et de prise en main.
+
+Ce CMS est particulièrement bien adapté pour les sites web de petites et moyennes taille, les blogs, les magasins de commerce electronique.
+
+Il peut cependant avec l'ajout de certains plugins s'avérer extrêmement complet et convenir parfaitement au sites web de structures beaucoup plus vastes
 
 
-![Joomla](images/Logo CMS/joomla_logo.png)
+![Joomla](images/Logo_CMS/joomla_logo.png)
 
 **Joomla :**
 
-Idéal pour les sites Web de commerce electronique ou de réseautage social. Ce CMS est cependant plus difficile à appréhender et nécessite des compétences techniques plus poussées.
+Idéal pour les sites Web de commerce electronique ou de réseautage social.
+
+Ce CMS est cependant plus difficile à appréhender et nécessite des compétences techniques plus poussées.
 
 
-![Drupal](images/Logo CMS/drupal_logo.png)
+![Drupal](images/Logo_CMS/drupal_logo.png)
 
 **Drupal :**
 
-Le CMS le plus difficile, mais aussi le plus puissant. Il nécessite une maitrise de l'Html, CSS et PHP.
+Le CMS le plus difficile, mais aussi le plus puissant.
+
+Il nécessite une maitrise de l'Html, CSS et PHP.
 
 Pour en savoir davantage sur le choix entre WordPress, Joomla et Drupal:
 https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
@@ -111,7 +123,7 @@ https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
 
 ## Quelques points sur lesquels portés votre attention lorsque vous utiliser WordPress
 
-* La multitudes des plugins et des thèmes proposés peut vite vous faire tourner la tête et vous inciter à installer tous ce qui vous tombe sous la main. **Former vous un minimum à WordPress avant de vous lancer tête baissée dans l'installation à tout va de plugins** qui pourraient de par leurs accumulation provoqués des lenteurs et des erreurs. 
+* La multitudes des plugins et des thèmes proposés peut vite vous faire tourner la tête et vous inciter à installer tous ce qui vous tombe sous la main. **Former vous un minimum à WordPress avant de vous lancer tête baissée dans l'installation à tout va de plugins** qui pourraient de par leurs accumulation provoqués des lenteurs et des erreurs.
 
 * De nombreux sites vous conseille sur les plugins de bases incontournables. Déterminer les fonctionnalités que devra avoir votre site, voyez ce que vous fournit déja le core de WordPress et **ajouter un plugin uniquement si son usage se justifie.**
 
