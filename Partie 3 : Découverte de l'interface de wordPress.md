@@ -1,6 +1,6 @@
-Partie 3 : Découverte de l'interface de wordPress
+# Partie 3 : Découverte de l'interface de wordPress
 
-### L'interface de WP - Les différentes parties de la console d'administration de WordPress (Tableau de bord)
+## L'interface de WP - Les différentes parties de la console d'administration de WordPress (Tableau de bord)
 
 Comment accèder à l'interface de wordpress (console d'administration ou Dashboard). Entrez l'adresse de votre site dans votre navigateur suivie de /wp-admin (exemple:votre-nom-de-domaine.com/wp-admin). Si vous travailler en local et que votre site n'est pas encore en ligne (exemple:http://localhost/nom_de_votre_site/wp-admin/). Dans notre cas nous allons donc taper l'url:http://localhost/wp_workshop/wp-admin/ pour accèder à l'interface d'administration.
 
@@ -15,11 +15,11 @@ L'interface d'administration de WordPress est composée de 3 zones principales:
 2. La barre des menus sur la gauche
 3. La partie centrale de gestion de l'administration
 
-#### La barre d'Outils
+## La barre d'Outils
 
 La barre d'outils présente différentes parties :
 
-1. Le menu WordPress
+### Le menu WordPress
 
 ![Barre d'outils - Menu WordPress](images/interface_barre_outils_menu_wordpress.jpg)
 
@@ -43,14 +43,14 @@ Vous redirige vers les forums d'entraide du site de la communauté francophone d
 
 Ce lien renvoie vers la section "Support" du site americain https://wordpress.org/
 
-2. Le menu du site
+### Le menu du site
 
 ![Barre d'outils - Menu site](images/interface_barre_outils_ menu_site.jpg)
 
 Le lien reprend le nom du site défini à l'installation. L'unique élément de ce menu s'appelle toujours "Aller sur le site". Il vous permet d'afficher votre site tel qu'il sera vu par vos visiteur (basculer de l'administration vers la partie visible du site).
 Petite astuce. Cliquer sur le lien "Aller sur le site" en appuyant en même temps sur la touche Ctrl de votre clavier. Cela permet d'ouvrir le visuel de votres site dans un nouvel onglet et de garder le tableau de bord ouvert dans un autre onglet. C'est plus pratique pour voir les modifications.
 
-3. Menu mises à jour
+### Menu mises à jour
 
 ![Barre d'outils - Mise à jour](images/interface_barre_outils_mise_a_jour.jpg)
 
@@ -71,19 +71,19 @@ Les mises à jour disponibles s'affiche également sous la forme d'un rond orang
 
 Certaines mises à jour mettent un certains temps pour s'effectuer. Il faut savoir que durant cette période, votre site apparaitra comme indisponible pour la consultation par vos utilisateurs. Je vous conseille donc dans la mesure du possible d'effectuer ces mises à jour à une période de faibles affluences sur votre site (par exemple tôt le matin ou tard le soir)
 
-4. Menu des commentaires
+### Menu des commentaires
 
 ![Barre d'outils - Commentaires](images/interface_barre_outils_commentaires.jpg)
 
 Le menu des commentaires indique si des commentaires sont en attente de modération. Au départ WordPress a été conçu comme un CMS orienté blog (ce qui explique le système de page, article et commentaires). Un commentaire en attente de modération est un commentaire qui est en attente de savoir ce qu'on va faire de lui. (désapprouver, répondre, modifier, placer dans la zone indésirable ou placer dans la corbeille). Nous verrons cela plus en détails plus tard.
 
-5. Le menu des nouveaux contenus (+ Créer)
+### Le menu des nouveaux contenus (+ Créer)
 
 ![Barre d'outils - Nouveaux contenus](images/interface_barre_outils_nouveaux_contenus.jpg)
 
 Ce menu permet d'accéder rapidement à la création de nouveaux contenus (Article, Fichier media, Page, Utilistateur). Nous verrons plus en détails l'ajout de chacun de ces contenus lors de la présentation de la barre latérale qui reprend un liens "Pages", "Articles", "Médias" et "Utilisateurs". Il s'agit juste ici d'une sorte de raccourci qui mène exactement au même endroit dans l'interface d'administration que lorsque vous cliquer sur les liens de la barre latérale.
 
-6. Le menu de connexion (tout à fait à droite)
+### Le menu de connexion (tout à fait à droite)
 
 ![Barre d'outils - menu connexion](images/interface_barre_outils_menu_connexion.jpg)
 
@@ -112,7 +112,8 @@ N'oubliez pas de cliquer sur le bouton "Mettre à jour le profil" pour que les m
 
 Le lien "Se déconnecter" vous permet comme son nom l'indique de vous déconnecter  de l'interface d'administration de WordPress. Un fois que vous avez terminer de travailler dans votre site, n'oubliez pas de quitter l'administration en utilisant "Se déconnecter". Eviter de fermer la fenêtre ou l'onglet par la cas de fermeture ou de quitter votre navigateur directement, car la connexion ne serait alors pas effectuer correctement et permettrait une reconnexion sans indiquer le login et mot de passe. Cela peut vous sembler pratique mais cela signifie aussi que toute personne qui utiliserait votre ordinateur ou en cas de vol, aurait accès à l'administration de votre site.
 
-#### La barre des menus (barre latérale gauche)
+
+## La barre des menus (barre latérale gauche)
 
 La barre des menus permet de gérer la totalité de votre site web.
 
@@ -144,11 +145,32 @@ Selon que vous soyez sur le tableau de bord, les articles, les pages ... vous au
 
 ![Barre menus - Option de l'écran2](images/interface_barre_menus_options_ecran2.jpg)
 
-1. Tableau de bord
+### Tableau de bord
 
 **Accueil**
 
-Vous ramène à la page d'accueil de l'interface d'administration de WordPress
+Vous ramène à la page d'accueil de l'interface d'administration de WordPress. Cette page affiche un résumé de tout ce qui se passe sur votre site dans la zone principale.
+
+Vous avez le module de bienvenue, qui offre un accès rapide et très pratique à la majorité des actions courantes que l'on effectue lors de la création d'un site WordPress.
+
+Il y a bien entendu l'énorme bouton "Personnaliser votre site" qui vous amène directement aux options de personnalisation du thème installé par défault sur WordPress (actuellement Twenty Seventeen). Nous y reviendrons plus tard.
+
+Ainsi que des raccourcis vers les actions suivantes:
+
+* Ecrivez votre premier article (lien vers la section articles)
+
+* Ajouter une page "A propos" (lien vers la section pages)
+
+* Afficher votre site (accès directe à l'adresse de votre site - également via la barre d'outils)
+
+* Gérer vos widgets ou vos menus (lien vers la section apparence/widgets et apparence/Menus)
+
+* Activez ou désactivez les commentaires (lien vers la section commentaires)
+
+* Plus d'informations pour bien démarrer (lien vers le codex (documentation) de WordPress - premiers pas)
+
+Chacun de ses raccourcis mène à une page qu'il vous est possible d'atteindre grâce à la barre d'outils ou à la barre des menus. Vous pouvez décidez de masquer ce module en cliquant sur la petite croix "fermer" en haut à droite du module. Il vous sera possible d'afficher à nouveau ce module avec les "Options de l'écran" en cochant la case "Bienvenue".
+
 
 **Mise à jour**
 
@@ -164,7 +186,7 @@ Pour certain utilisateur de linux sous Ubuntu, WordPress demande de passer par F
 
 ![Barre menus - problème_FTP_Ubuntu](images/interface_barre_menus_probleme_FTP.jpg)
 
-##### Etape à suivre uniquement pour les utilisateurs qui rencontre le problème FTP lors de la mise à jour des extensions WordPress
+**Etape à suivre uniquement pour les utilisateurs qui rencontre le problème FTP lors de la mise à jour des extensions WordPress**
 
 * Récupérer le fichier test.php dans le repo github dédié au workshop (dossier installation/Etape 3 - Solution demande FTP install en local sous Ubuntu/test.php)
 
@@ -255,6 +277,8 @@ Voici la procédure détaillée dans un tuto : https://medrhamnia.wordpress.com/
 
 
 8. Utilisateurs
+
+C'est vous qui avez installer votre site WordPress (en local ou directement en ligne), vous avez donc le status d'administrateur (utilisateur rôle administrateur) et avez accès sans restrictions à tous les menus de WordPress. Vous avez les pleins pouvoirs sur votre site et aurez également la possibilité de créer d'autres compte utilisateurs ayant soit également le rôle d'administrateur soit un autre rôle offrant des privilèges plus réduit sur l'interface de WordPress.
 
 **Tous les utilisateurs**
 

@@ -17,6 +17,11 @@ L'usage d'un CMS pour développer un site permet un gain de temps important, il 
 
 Les CMS sont des applications Web qui s'utilise dans les navigateurs web et sont donc indépendant de toute plateforme informatique (Mac, Windows ou Linux).
 
+**Exemple concret:**
+
+Vous construiser un site multipages pour un restaurateur.
+Si vous le réaliser en HTML/CSS/javascript, à chaque nouvelle modification désirée (par exemple mise à jour du menu des plats du jour de la semaine), votre client sera contraint de faire appel à vous, car il ne dispose pas des connaissance nécessaire pour effectuer seul ces modifications. Grâce à l'usage d'un CMS vous allez pouvoir lui fournir un site avec un accès rédacteur limité à une interface graphique qui lui permettra de mettre à jour facilement lui-même chaque semaine sa carte des plats du jour.Selon les privilèges que vous donnerez à son compte, il pourra où non apporter des modifications à d'autres pages de son site.
+
 ### Comment fonctionne un CMS
 
 La majorité des CMS fonctionnent avec un système de 3 serveurs, chacun ayant un rôle déterminé:
@@ -33,7 +38,7 @@ Concrètement les serveurs fonctionnent entre eux comme ceci:
 
 2. Le serveur web (Apache) envoie la demande au serveur d'application PHP, car le serveur web ne sait pas gérer les pages provenant des CMS.
 
-3.Le serveur d'application PHP interrroge la base de données MySQL pour récupérer le contenu à afficher au visiteur.
+3. Le serveur d'application PHP interrroge la base de données MySQL pour récupérer le contenu à afficher au visiteur.
 
 4. La base de données MySQL envoie le bon contenu au serveur d'application PHP
 
@@ -45,16 +50,17 @@ Concrètement les serveurs fonctionnent entre eux comme ceci:
 
 Nous venons de voir les serveurs indispensables pour que WordPress focntionnent chez les hébergeurs professionnels en ligne. C'est la raison pour laquelle nous avons dû installer un package serveur (Apache, MySQL, PHP) tel que XAMPP; Mamp ou Lamp sur notre machine pour pouvoir tester et développer notre site en local.
 
-Exemple concret:
-
-Vous construiser un site multipages pour un restaurateur.
-Si vous le réaliser en HTML/CSS/javascript, à chaque nouvelle modification désirée (par exemple mise à jour du menu des plats du jour de la semaine), votre client sera contraint de faire appel à vous, car il ne dispose pas des connaissance nécessaire pour effectuer seul ces modifications. Grâce à l'usage d'un CMS vous allez pouvoir lui fournir un site avec un accès rédacteur limité à une interface graphique qui lui permettra de mettre à jour facilement lui-même chaque semaine sa carte des plats du jour.Selon les privilèges que vous donnerez à son compte, il pourra où non apporter des modifications à d'autres pages de son site.
-
 
 ### WordPress et les autres CMS
 
 WordPress est le leader des CMS.
-Sur la totalité des sites présent sur le web, 30% sont réalisé avec WordPress. Ce chiffre est en constante évolution.
+Sur la totalité des sites présent sur le web, 30% sont réalisé avec WordPress. Ce chiffre est en constante évolution. Ce qui signifie qu'un peu moins d'un site sur trois tourne sous WordPress.
+
+Pour vous donner une idée de ce que cela représente voici un shéma plus parlant:
+
+![Usage WordPress totalité internet](images/usage_wordpress_internet.png)
+
+*Source : https://www.numerama.com/tech/333438-30-des-sites-web-tournent-maintenant-sous-wordpress.html*
 
 En 2018, sur la totalité des sites réalisé avec des CMS, 48.8% sont réalisés avec WordPress, qui écrase ainsi ses concurrent Drupal 5% et Joomla 4%. (Source: http://trends.builtwith.com/cms)
 

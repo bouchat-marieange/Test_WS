@@ -6,7 +6,8 @@ Dans le cadre de ce WorKshop nous développeront un site WordPress en local (sur
 
 Pour déployer votre site WordPress sur un serveur en ligne, vous pouvez vous référer a la partie "Annexes" de ce document qui vous explique la marche à suivre.
 
-Pour installer WordPress vous avez besoin de :
+**Pour installer WordPress vous avez besoin de :**
+
 * Le fichier zip télécharger sur le site wordpress.org reprenant tous les fichiers et dossiers composant la dernière version de WordPress
 
 * Un serveur web ou logiciel permettant de créer un serveur web et DB sur votre ordinateur (mamp, xampp, lamp)
