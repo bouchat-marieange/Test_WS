@@ -49,7 +49,7 @@ Concrètement les serveurs fonctionnent entre eux comme ceci :
 
 6. Le serveur web envoie la page demandée au navigateur du visiteur.
 
-! [Fonctionnement CMS](images/Intro_WP_Fonctionnement_CMS.jpg)
+![Fonctionnement CMS](images/Intro_WP_Fonctionnement_CMS.jpg)
 
 Nous venons de voir les serveurs indispensables pour que WordPress fonctionne chez les hébergeurs professionnels en ligne. C’est la raison pour laquelle nous avons dû installer un package serveur (Apache, MySQL, PHP) tel que XAMPP ; Mamp ou Lamp sur notre machine pour pouvoir tester et développer notre site en local en bénéficiant des mêmes serveurs que si le site était hébergé en ligne.
 
@@ -62,13 +62,13 @@ Sur la totalité des sites présents sur le web, **30 % sont réalisé avec Word
 
 Pour vous donner une idée de ce que cela représente voici un schéma plus parlant :
 
-! [Usage WordPress totalité internet](images/usage_wordpress_internet.png)
+![Usage WordPress totalité internet](images/usage_wordpress_internet.png)
 
 *Source : https://www.numerama.com/tech/333438-30-des-sites-web-tournent-maintenant-sous-wordpress.html*
 
 En 2018, **sur la totalité des sites réalisés avec des CMS, 48.8 % sont réalisés avec WordPress**, qui écrase ainsi ses concurrents Drupal 5 % et Joomla 4 %. (Source : http://trends.builtwith.com/cms)
 
-! [CMS Trends](images/Intro_WP_CMS_trends_2018.png)
+![CMS Trends](images/Intro_WP_CMS_trends_2018.png)
 
 Pour en savoir davantage sur les statistiques concernant WordPress :
 https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms/
@@ -76,7 +76,7 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 ## Tour d’horizon des 3 principaux CMS (WordPress, Drupal, Joomla)
 
-! [WordPress](images/Logo_CMS/wordpress_logo.jpg)
+![WordPress](images/Logo_CMS/wordpress_logo.jpg)
 
 **WordPress:**
 
@@ -88,7 +88,7 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 ----------------------------------------------------------------------------------------------
 
-! [Joomla](images/Logo_CMS/joomla_logo.png)
+![Joomla](images/Logo_CMS/joomla_logo.png)
 
 **Joomla:**
 
@@ -98,7 +98,7 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 ----------------------------------------------------------------------------------------------
 
-! [Drupal](images/Logo_CMS/drupal_logo.png)
+![Drupal](images/Logo_CMS/drupal_logo.png)
 
 **Drupal:**
 
