@@ -175,11 +175,11 @@ N’hésitez pas à consulter internet pour vous tenir au courant des nouveaux p
 
 Et bien d’autres, voir : https://www.elegantthemes.com/blog/tips-tricks/11-examples-of-actor-websites-built-with-wordpress
 
-**Blog : **
+**Blog :**
 
 * Star Wars Blog officiel (http://www.starwars.com/news)
 
-**E-commerce : **
+**E-commerce :**
 
 * Picky Bars (WP + WoocCommerce) (https://pickybars.com/)
 * Blue Star coffee Roasters (https://bluestarcoffeeroasters.com/)
@@ -189,11 +189,11 @@ Et bien d’autres, voir : https://www.elegantthemes.com/blog/tips-tricks/11-exa
 * Tinkering Monkey (http://www.tinkeringmonkey.com/work/)
 * Brian Smith Pictures (http://briansmith.com/)
 
-**Achat de ticket en ligne : **
+**Achat de ticket en ligne :**
 
 * Carolina Roller Girls (http://www.carolinarollergirls.com/)
 
-**Site corporate : **
+**Site corporate :**
 
 * Google Ventures (http://www.gv.com/)
 
