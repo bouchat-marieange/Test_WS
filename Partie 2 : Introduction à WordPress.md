@@ -121,7 +121,7 @@ https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
 
 * WordPress est **gratuit est open source** (vous pouvez donc non seulement l’utiliser gratuitement, mais également avoir accès à son code source afin de pouvoir le modifier ou de créer vos propres thèmes et plugins)
 
-* WordPress bénéficie d’une **grande communauté et vous pouvez trouver de l’aide et de la documentation** dans pratiquement toutes les langues. Cette communauté est très active et participe à l’évolution constante de WordPress. Grâce à cette communauté vous pouvez être quasiment certains que les fonctionnalités que vous cherchez à développer sur votre site, on déjà dû être développée auparavant et qu’une solution existe pour vous facilité la vie par exemple un plugin ou un tutoriel.
+* WordPress bénéficie d’une **grande communauté et vous pouvez trouver de l’aide et de la documentation** dans pratiquement toutes les langues. Cette communauté est très active et participe à l’évolution constante de WordPress. Grâce à cette communauté vous pouvez être quasiment certains que les fonctionnalités que vous cherchez à développer sur votre site, on déjà dû être développée auparavant et qu’une solution existe pour vous faciliter la vie par exemple un plugin ou un tutoriel.
 
 * WordPress suit de près l’évolution d’internet et des normes HTML et CSS. La majorité des thèmes proposés inclut l’aspect **responsive,** afin de pouvoir s’adapter à toutes les tailles d’écran (smartphone,tablette, PC portable ou grands écrans)
 
