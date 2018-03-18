@@ -86,7 +86,7 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 * Il peut cependant avec l'ajout de certains plugins s'avérer extrêmement complet et convenir parfaitement au sites web de structures beaucoup plus vastes
 
-
+----------------------------------------------------------------------------------------------
 
 ![Joomla](images/Logo_CMS/joomla_logo.png)
 
@@ -96,7 +96,7 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 * Ce CMS est cependant plus difficile à appréhender et nécessite des compétences techniques plus poussées.
 
-
+----------------------------------------------------------------------------------------------
 
 ![Drupal](images/Logo_CMS/drupal_logo.png)
 
@@ -106,6 +106,7 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 * Il nécessite une maitrise de l'Html, CSS et PHP.
 
+----------------------------------------------------------------------------------------------
 
 Pour en savoir davantage sur le choix entre WordPress, Joomla et Drupal:
 https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
