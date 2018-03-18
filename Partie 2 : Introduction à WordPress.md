@@ -46,7 +46,7 @@ Concrètement les serveurs fonctionnent entre eux comme ceci:
 
 6. Le serveur web envoie la page demandé au navigateur du visiteur.
 
-![Fonctionnement CMS](images/Intro_WP_Fonctionnement CMS.jpg)
+![Fonctionnement CMS](images/Intro_WP_Fonctionnement_CMS.jpg)
 
 Nous venons de voir les serveurs indispensables pour que WordPress focntionnent chez les hébergeurs professionnels en ligne. C'est la raison pour laquelle nous avons dû installer un package serveur (Apache, MySQL, PHP) tel que XAMPP; Mamp ou Lamp sur notre machine pour pouvoir tester et développer notre site en local.
 
@@ -64,7 +64,7 @@ Pour vous donner une idée de ce que cela représente voici un shéma plus parla
 
 En 2018, sur la totalité des sites réalisé avec des CMS, 48.8% sont réalisés avec WordPress, qui écrase ainsi ses concurrent Drupal 5% et Joomla 4%. (Source: http://trends.builtwith.com/cms)
 
-![CMS Trends](images/Intro_WP_CMS trends 2018.png)
+![CMS Trends](images/Intro_WP_CMS_trends_2018.png)
 
 Pour en savoir d'avantage sur les statistiques concernant WordPress:
 https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms/
@@ -72,13 +72,21 @@ https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms
 
 ## Tour d'horizon des 3 principaux CMS (WordPress, Drupal, Joomla)
 
+![WordPress](images/Logo CMS/wordpress_logo1.jpg)
+
 **WordPress :**
 
 Le choix favoris des débutants pour sa facilité d'utilisation et de prise en main. Ce CMS est particulièrement bien adapté pour les sites web de petites et moyennes taille, les blogs, les magasins de commerce electronique. Il peut cependant avec l'ajout de certains plugins s'avérer extrêmement complet et convenir parfaitement au sites web de structures beaucoup plus vastes
 
+
+![Joomla](images/Logo CMS/joomla_logo.png)
+
 **Joomla :**
 
 Idéal pour les sites Web de commerce electronique ou de réseautage social. Ce CMS est cependant plus difficile à appréhender et nécessite des compétences techniques plus poussées.
+
+
+![Drupal](images/Logo CMS/drupal_logo.png)
 
 **Drupal :**
 
@@ -89,29 +97,32 @@ https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
 
 ## Pourquoi choisir WordPress
 
-* Ce CMS est simple d'utilisation et permet une prise en main rapide sans nécessité de connaissance du code pour une installation de base.Cependant il permet aussi une personnalisation très fine lorsque l'on a recours à l'usage du code. Il convient donc aussi bien à des débutants, qu'à des utilisateurs avancés qui connaissent les langages de développement.
+* Ce CMS est **simple d'utilisation** et permet une prise en main rapide sans nécessité de connaissance du code pour une installation de base.Cependant il permet aussi une personnalisation très fine lorsque l'on a recours à l'usage du code. Il convient donc aussi bien à des débutants, qu'à des utilisateurs avancés qui connaissent les langages de développement.
 
-* Ce CMS vous permet de créer presque tout type de site (site vitrine, simple portail, magazine, blog, site de photo, annuaire, site d'annonce, site comunautaire, forum , réseaux sociaux, boutique en ligne, ....)
+* Ce CMS vous **permet de créer presque tout type de site** (site vitrine, simple portail, magazine, blog, site de photo, annuaire, site d'annonce, site comunautaire, forum , réseaux sociaux, boutique en ligne, ....)
 
-* WordPress est gratuit est open source (vous pouvez donc non seulement l'utiliser gratuitement mais également avoir accès à son code source afin de pouvoir le modifier ou de créer vos propres thèmes et plugins)
+* WordPress est **gratuit est open source** (vous pouvez donc non seulement l'utiliser gratuitement mais également avoir accès à son code source afin de pouvoir le modifier ou de créer vos propres thèmes et plugins)
 
-* Wordpress bénéficie d'un grande communauté et vous pouvez trouvez de l'aide et de la documentation dans pratiquement toutes les langues. Cette communauté est très active et participe à l'évolution constante de WordPress. Grâce à cette communauté vous pouvez être quasiment certains que les fonctionnalités que vous cherchez à developper sur votre site, on déja dû être développée auparavant et qu'une solution existe pour vous facilité la vie comme par exemple un plugin ou un tutoriel.
+* Wordpress bénéficie d'un **grande communauté et vous pouvez trouvez de l'aide et de la documentation** dans pratiquement toutes les langues. Cette communauté est très active et participe à l'évolution constante de WordPress. Grâce à cette communauté vous pouvez être quasiment certains que les fonctionnalités que vous cherchez à developper sur votre site, on déja dû être développée auparavant et qu'une solution existe pour vous facilité la vie comme par exemple un plugin ou un tutoriel.
 
-* WordPress suit de près l'évolution d'internet et des normes HTML et CSS. La majorité des thèmes proposés inclus l'aspect responsive afin de pouvoir s'adapter à toutes les tailles d'écrant (smartphone,tablette, PC portable ou grands écrans)
+* WordPress suit de près l'évolution d'internet et des normes HTML et CSS. La majorité des thèmes proposés inclus l'aspect **responsive** afin de pouvoir s'adapter à toutes les tailles d'écran (smartphone,tablette, PC portable ou grands écrans)
 
-* WordPress est bien optimisé pour le référencement Web. Certaines extensions ou thèmes vous permettront d'acroitre encore cette optimisation SEO mais d'autres sont moins bien pensées à ce sujet. Il existe des extensions dédiées (plugins) spécifiquement développer pour améliorer votre référencement.
+* WordPress est bien **optimisé pour le référencement Web**. Certaines extensions ou thèmes vous permettront d'acroitre encore cette optimisation SEO mais d'autres sont moins bien pensées à ce sujet. Il existe des extensions dédiées (plugins) spécifiquement développer pour améliorer votre référencement.
 
 ## Quelques points sur lesquels portés votre attention lorsque vous utiliser WordPress
 
-* La multitudes des plugins et des thèmes proposés peut vite vous faire tourner la tête et vous inciter à installer tous ce qui vous tombe sous la main. Former vous un minimum à WordPress avant de vous lancer tête baissée dans l'installation à tout va de plugins qui pourraient de par leurs accumulation provoqués des lenteurs et des erreurs. De nombreux sites vous conseille sur les plugins de bases incontournables. Déterminer les fonctionnalités que devra avoir votre site, voyez ce que vous fournit déja le core de WordPress et ajouter un plugin uniquement si son usage se justifie.
-En voici déja 10 gratuits que je vous recommande d'utiliser selon vos besoins: https://blogdummi.fr/dossier/10-plugins-incontournables-wordpress/
+* La multitudes des plugins et des thèmes proposés peut vite vous faire tourner la tête et vous inciter à installer tous ce qui vous tombe sous la main. **Former vous un minimum à WordPress avant de vous lancer tête baissée dans l'installation à tout va de plugins** qui pourraient de par leurs accumulation provoqués des lenteurs et des erreurs. 
+
+* De nombreux sites vous conseille sur les plugins de bases incontournables. Déterminer les fonctionnalités que devra avoir votre site, voyez ce que vous fournit déja le core de WordPress et **ajouter un plugin uniquement si son usage se justifie.**
+
+* **10 plugins gratuits** que je vous recommande d'utiliser selon vos besoins: https://blogdummi.fr/dossier/10-plugins-incontournables-wordpress/
 N'hésitez pas à consulter internet pour vous tenir au courant des nouveaux plugins. Le nombres de téléchargement d'un plugins sur le site de wordpress.org est aussi généralement un bon indicateur de sa popularité. (https://wordpress.org/plugins/)
 
-* Attention, lors de mises à jour il est possible que les thèmes et les plugins ne soient plus compatibles et provoquent des bugs. Dans ce cas référer vous au support du thème (uniquement lorsque thème payant) ainsi qu'au forum de support du plugin (on y accède en cliquant sur le bouton "View support forum" dans la page dédiée du thème sur wordpress.org - exemple: https://wordpress.org/plugins/akismet/). Vérifier également avant d'installer un plugin qu'il est mis régulièrement à jour par son développeur pour éviter ce type de problème (voir last updated sur la page dédié du plugion sur wordpress.org)
+* Attention, lors de mises à jour il est possible que les thèmes et les plugins ne soient plus compatibles et provoquent des bugs. Dans ce cas référer vous au support du thème (uniquement lorsque thème payant) ainsi qu'au forum de support du plugin (on y accède en cliquant sur le bouton "View support forum" dans la page dédiée du thème sur wordpress.org - exemple: https://wordpress.org/plugins/akismet/).
 
-* WordPress victime de sa popularité
+* Vérifier également avant d'installer un plugin qu'il est **mis régulièrement à jour par son développeur** pour éviter ce type de problème (voir last updated sur la page dédié du plugion sur wordpress.org)
 
-Etant donné le nombre de sites conçu avec WordPress, une nouvelles failles de sécurité trouvée par des pirates peut être rapidement exploités sur un grand nombres de sites. Pour évite cela, garder votre WordPress et vos plugins à jour et installer des extensions (plugins) de sécurité contre les spams, mauvaises requêtes, injections ... (exemple : https://wordpress.org/plugins/secupress/ -  )
+* WordPress victime de sa popularité. Etant donné le nombre de sites conçu avec WordPress, une nouvelle faille de sécurité trouvée par des pirates peut être rapidement exploités sur un grand nombres de sites. Pour évite cela, **garder votre WordPress et vos plugins à jour** et **installer des extensions (plugins) de sécurité contre les spams, mauvaises requêtes, injections ...** (exemple : https://wordpress.org/plugins/secupress/ -  )
 
 ## Présentation de sites réalisés avec WordPress
 
