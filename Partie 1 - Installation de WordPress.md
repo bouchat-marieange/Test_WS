@@ -113,7 +113,7 @@ Aller à l’adresse localhost (localhost : 8888 pour Mac utilisant Mamp) sur vo
 ![Installation WP etape 1](images/install_wp_1.jpg)
 
 
-Dans l’écran suivant, on vous demande d’indiquer différentes informations. Remplissez le nom de votre DB soit wp_workshop, le nom d’utilisateur et le mot de passe avec lesquels vous vous connecter à phpMyAdmin (attention il peut différer de celui indiqué sur l’image), laisser localhost dans le champ suivant et afin d’améliorer la sécurité nous allons changer le préfixe qui sera ajouté à toutes les tables WordPress dans la DB par work_ à la place du wp_ par défaut.
+Dans l’écran suivant, on vous demande d’indiquer différentes informations. Remplissez le nom de votre DB soit wp_workshop, **le nom d’utilisateur et le mot de passe avec lesquels vous vous connecter à phpMyAdmin (attention il peut différer de celui indiqué sur l’image)**, laisser localhost dans le champ suivant et afin d’améliorer la sécurité nous allons changer le préfixe qui sera ajouté à toutes les tables WordPress dans la DB par work_ à la place du wp_ par défaut.
 
 ![Installation WP - etape 2](images/install_wp_2.jpg)
 
@@ -139,7 +139,7 @@ Username : admin (pour l’exercice laisser admin, mais pour un site réel, je v
 WordPress génère un mot de passe sécurisé par défaut contenant des majuscules, minuscules et caractères spéciaux, vous pouvez garder celui qui a été généré aléatoirement pour votre site ou utiliser un site du type https://www.motdepasse.xyz/pour en générer un sur mesure. Veillez à ce qu’il affiche un niveau de sécurité "Forte".
 
 
-Attention : À cette étape, faites bien en copier-coller de votre mot de passe dans un fichier ou notez-le sur un morceau de papier, car sans ces informations vous ne pourrez pas vous connecter à l’interface d’administration de votre site.
+**Attention :** À cette étape, faites bien en copier-coller de votre mot de passe dans un fichier ou notez-le sur un morceau de papier, car sans ces informations vous ne pourrez pas vous connecter à l’interface d’administration de votre site.
 
 Indiquez votre adresse mail et ne cochez pas la mention « Discourage search engines from indexing this site », car nous voulons que les moteurs de recherche indexent notre site dès qu’il sera placé en ligne.
 
