@@ -112,7 +112,7 @@ Aller à l'adresse localhost (localhost:8888 pour Mac utilisant Mamp) sur votre 
 ![Installation WP etape 1](images/install_wp_1.jpg)
 
 
-Dans l'écran suivant on vous demande d'indiquer différentes informations, remplisser le nom de votre DB soit wp_workshop, votre nom d'utilisateur et votre mot de passe sur phpmyadmin, laisser localhost dans le champ suivant et afin d'améliorer la sécurité nous allons changer le préfixe qui sera ajouté à toutes les tables wordpress dans la DB par work_ à la place du wp_ par défault.
+Dans l'écran suivant on vous demande d'indiquer différentes informations, remplisser le nom de votre DB soit wp_workshop, **le nom d'utilisateur et le mot de passe avec lesquel vous vous connecter à phpmyadmin (attention il peut différer de celui indiqué sur l'image)**, laisser localhost dans le champ suivant et afin d'améliorer la sécurité nous allons changer le préfixe qui sera ajouté à toutes les tables wordpress dans la DB par work_ à la place du wp_ par défault.
 
 
 ![Installation WP - etape 2](images/install_wp_2.jpg)
