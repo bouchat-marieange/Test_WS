@@ -319,7 +319,7 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 ![Pages - nouveau media - son](images/interface_barre_menus_Pages_téleverser_nouveau_fichier4.png)
 
-![Pages - resultat - multimedia](interface_barre_menus_Pages_multi_medias.png)
+![Pages - resultat - multimedia](images/interface_barre_menus_Pages_multi_medias.png)
 
 
 
