@@ -224,15 +224,29 @@ Retourner sur l'onglet où se trouve l'interface d'administration de votre WordP
 Voici la procédure détaillée dans un tuto : https://medrhamnia.wordpress.com/2011/06/18/pourquoi-wordpress-demande-les-parametres-de-connexion-ftp-en-local/
 
 
-2. Articles
+### Articles
+
+![Articles](images/interface_barre_menus_articles.png)
+
+Dans cette section vous pourrez visionner, ajouter, supprimer, modifier les articles (CRUD) de votre site.
+
+Un article est ...
 
 **Tous les articles**
 
+![Articles - Tous les articles](images/interface_barre_menus_articles_tous_les_articles.png)
+
 **Ajouter**
+
+![Articles - Ajouter](images/interface_barre_menus_articles_ajouter.png)
 
 **Categories**
 
+![Articles - Categories](images/interface_barre_menus_articles_categories.png)
+
 **Etiquettes**
+
+![Articles - Etiquettes](images/interface_barre_menus_articles_etiquettes.png)
 
 3. Médias
 
