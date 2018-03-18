@@ -1,7 +1,7 @@
-## Partie 2 : Introduction à WordPress
+# Partie 2 : Introduction à WordPress
 
 
-### Qu'est-ce qu'un CMS
+## Qu'est-ce qu'un CMS
 
 CMS est l'abréviation de Content Management System (Système de gestion de contenu).
 
@@ -22,7 +22,7 @@ Les CMS sont des applications Web qui s'utilise dans les navigateurs web et sont
 Vous construiser un site multipages pour un restaurateur.
 Si vous le réaliser en HTML/CSS/javascript, à chaque nouvelle modification désirée (par exemple mise à jour du menu des plats du jour de la semaine), votre client sera contraint de faire appel à vous, car il ne dispose pas des connaissance nécessaire pour effectuer seul ces modifications. Grâce à l'usage d'un CMS vous allez pouvoir lui fournir un site avec un accès rédacteur limité à une interface graphique qui lui permettra de mettre à jour facilement lui-même chaque semaine sa carte des plats du jour.Selon les privilèges que vous donnerez à son compte, il pourra où non apporter des modifications à d'autres pages de son site.
 
-### Comment fonctionne un CMS
+## Comment fonctionne un CMS
 
 La majorité des CMS fonctionnent avec un système de 3 serveurs, chacun ayant un rôle déterminé:
 
@@ -51,7 +51,7 @@ Concrètement les serveurs fonctionnent entre eux comme ceci:
 Nous venons de voir les serveurs indispensables pour que WordPress focntionnent chez les hébergeurs professionnels en ligne. C'est la raison pour laquelle nous avons dû installer un package serveur (Apache, MySQL, PHP) tel que XAMPP; Mamp ou Lamp sur notre machine pour pouvoir tester et développer notre site en local.
 
 
-### WordPress et les autres CMS
+## WordPress et les autres CMS
 
 WordPress est le leader des CMS.
 Sur la totalité des sites présent sur le web, 30% sont réalisé avec WordPress. Ce chiffre est en constante évolution. Ce qui signifie qu'un peu moins d'un site sur trois tourne sous WordPress.
@@ -70,7 +70,7 @@ Pour en savoir d'avantage sur les statistiques concernant WordPress:
 https://3click-solutions.com/fr/7-chiffres-cles-tour-de-wordpress-leader-des-cms/
 
 
-### Tour d'horizon des 3 principaux CMS (WordPress, Drupal, Joomla)
+## Tour d'horizon des 3 principaux CMS (WordPress, Drupal, Joomla)
 
 **WordPress :**
 
@@ -87,7 +87,7 @@ Le CMS le plus difficile, mais aussi le plus puissant. Il nécessite une maitris
 Pour en savoir davantage sur le choix entre WordPress, Joomla et Drupal:
 https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
 
-### Pourquoi choisir WordPress
+## Pourquoi choisir WordPress
 
 * Ce CMS est simple d'utilisation et permet une prise en main rapide sans nécessité de connaissance du code pour une installation de base.Cependant il permet aussi une personnalisation très fine lorsque l'on a recours à l'usage du code. Il convient donc aussi bien à des débutants, qu'à des utilisateurs avancés qui connaissent les langages de développement.
 
@@ -101,7 +101,7 @@ https://websitesetup.org/cms-comparison-wordpress-vs-joomla-drupal/
 
 * WordPress est bien optimisé pour le référencement Web. Certaines extensions ou thèmes vous permettront d'acroitre encore cette optimisation SEO mais d'autres sont moins bien pensées à ce sujet. Il existe des extensions dédiées (plugins) spécifiquement développer pour améliorer votre référencement.
 
-### Quelques points sur lesquels portés votre attention lorsque vous utiliser WordPress
+## Quelques points sur lesquels portés votre attention lorsque vous utiliser WordPress
 
 * La multitudes des plugins et des thèmes proposés peut vite vous faire tourner la tête et vous inciter à installer tous ce qui vous tombe sous la main. Former vous un minimum à WordPress avant de vous lancer tête baissée dans l'installation à tout va de plugins qui pourraient de par leurs accumulation provoqués des lenteurs et des erreurs. De nombreux sites vous conseille sur les plugins de bases incontournables. Déterminer les fonctionnalités que devra avoir votre site, voyez ce que vous fournit déja le core de WordPress et ajouter un plugin uniquement si son usage se justifie.
 En voici déja 10 gratuits que je vous recommande d'utiliser selon vos besoins: https://blogdummi.fr/dossier/10-plugins-incontournables-wordpress/
@@ -113,7 +113,7 @@ N'hésitez pas à consulter internet pour vous tenir au courant des nouveaux plu
 
 Etant donné le nombre de sites conçu avec WordPress, une nouvelles failles de sécurité trouvée par des pirates peut être rapidement exploités sur un grand nombres de sites. Pour évite cela, garder votre WordPress et vos plugins à jour et installer des extensions (plugins) de sécurité contre les spams, mauvaises requêtes, injections ... (exemple : https://wordpress.org/plugins/secupress/ -  )
 
-### Présentation de sites réalisés avec WordPress
+## Présentation de sites réalisés avec WordPress
 
 **Sites de Société de renommée internationale réalisés avec WordPress**
 (Automobile, electronique, Telecommunication, Presse, Media, hotellerie, banque, fournisseur d'energie, ...)
