@@ -19,7 +19,7 @@ L’usage d’un CMS pour développer un site permet un **gain de temps importan
 
 Les CMS sont des applications web qui s’utilisent dans les navigateurs web et sont donc **indépendants de toute plateforme informatique (Mac, Windows ou Linux).**
 
-**Exemple concret : **
+**Exemple concret :**
 
 Vous construisez un site multipages pour un restaurateur.
 Si vous le réaliser en HTML/CSS/JavaScript, à chaque nouvelle modification désirée (par exemple mise à jour du menu des plats du jour de la semaine), votre client sera contraint de faire appel à vous à chaque modification, car il ne dispose pas des connaissances nécessaires pour effectuer seul ces modifications. Grâce à l’usage d’un CMS, vous allez pouvoir lui fournir un site avec un accès rédacteur limité à une interface graphique qui lui permettra de mettre à jour facilement lui-même chaque semaine sa carte des plats du jour. Selon les privilèges que vous donnerez à son compte, il pourra ou non apporter des modifications à d’autres pages de son site.
