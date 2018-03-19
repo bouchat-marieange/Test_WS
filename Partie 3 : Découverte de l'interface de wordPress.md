@@ -1,5 +1,11 @@
 # Partie 3 : Découverte de l'interface de wordPress
 
+## Note préliminaire pour les utilisateurs de Mac
+
+Lorsque dans la suite de ce cours je fais référence à la touche raccourci clavier Ctrl, celle-ci doit être remplacée par la touche "commande" pour les utilisateurs de Mac. Exemple: Ctrt + C
+
+Afin d'avoir un affichage optimal et de pouvoir switché facilement entre l'interface d'administration de votre site et l'aperçu de celui-ci. Je vous conseille d'ouvrir 2 onglets dans votre navigateur. Le premier avec l'interface de WordPress et le second en cliquant dans la barre d'outils (en haut) sur "Aller sur site" en maintenant la touche Ctrl enfoncée pour l'ouvrir dans un autre onglet.
+
 ## L'interface de WP - Les différentes parties de la console d'administration de WordPress (Tableau de bord)
 
 Comment accèder à l'interface de wordpress (console d'administration ou Dashboard). Entrez l'adresse de votre site dans votre navigateur suivie de /wp-admin (exemple:votre-nom-de-domaine.com/wp-admin). Si vous travailler en local et que votre site n'est pas encore en ligne (exemple:http://localhost/nom_de_votre_site/wp-admin/). Dans notre cas nous allons donc taper l'url:http://localhost/wp_workshop/wp-admin/ pour accèder à l'interface d'administration.
@@ -8,12 +14,20 @@ Comment accèder à l'interface de wordpress (console d'administration ou Dashbo
 
 Voici l'interface d'administration de votre site WordPress. C'est à partir d'ici que vous aller pouvoir personnalisé votre site, y ajouter des pages, des articles et paramètrer les options, installer de nouveaux plugins, ...
 
+L'interface d'administration de votre site WordPress est conçue de manière responsive. Son contenu s'adaptera en fonction de la largeur de votre écran ou de la fenêtre du navigateur qui affiche la page d'interface. Vous pourrez donc gérer votre site web avec votre ordinateur mais également avec votre tablette ou votre téléphone portable.
+
 
 L'interface d'administration de WordPress est composée de 3 zones principales:
 
 1. La barre des outils dans la partie supérieure
 2. La barre des menus sur la gauche
 3. La partie centrale de gestion de l'administration
+
+Quelle que soit la partie de l'administration dans laquelle vous vous trouverez (choix avec barre des menus), vous aurez toujours en haut à droite juste sous la barre des outils, deux onglets:
+
+* **Options de l'écran** qui vous permet d'afficher ou de masquer les modules présents dans la zone centrale de l'administration.
+
+* **Aide** qui vous offre un aide contextuelle en fonction de la partie de l'administration dans laquelle vous vous trouvez.
 
 ## La barre d'Outils
 
@@ -23,11 +37,11 @@ La barre d'outils présente différentes parties :
 
 ![Barre d'outils - Menu WordPress](images/interface_barre_outils_menu_wordpress.jpg)
 
-**A propos de WordPress**
+#### A propos de WordPress
 
 Affiche un écran reprenant toutes les nouveautés de la version de WordPress installée. (Nouveautés)- Les personnes ayant contribués à la création de cette version de WordPress (Crédits) - Des informations concernant la nature open-source et licence GPL de WordPress (Liberté) - Une indications vous informant de l'envoi de données à WordPress.org concernant la version et les plugins utilisé sur votre site à visée essentiellement statistique (Vie privée)
 
-**Site de WordPress-FR**
+#### Site de WordPress-FR
 
 Lien vers le site : https://wpfr.net/ qui reprend un grand nombre d'information sur la communauté WordPress francophone. Vous pourrez trouvez ici des informations très intéressantes si vous désirez apprendre WordPress ou obtenir une aide ou un support vi a différents Forums dédiés (WordPress, WooCommerce, thèmes, extensions, multisite, ...). Vous pourrez également y trouver de nombreuses actualités sur WordPress et sur les évènements à venir (ex: WordCamp). Vous pourrez également adhérez à l'association WPFR où vous serez invité à prendre part à de nombreux projets et pourrez bénéficiez d'offres spéciales auprès des partenaires de l'association.Vous pouvez aussi vous abonnez à la newsletter.
 
@@ -431,6 +445,32 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 **Général**
 
 ![Reglages - Général](images/interface_barre_menus_Reglages_general.png)
+
+Titre: il sagit du titre de votre site qui a déja été déterminer lors de l'installation de WordPress. Si celui-ci ne vous convient pas, vous avez la possiblité de le changer ici.
+
+Slogan: il est générer automatiquement par WordPress "Un site utilisant WordPress", je vous conseille de le changer.
+
+Selon le thème que vous choisirez le titre et le slogan de votre site seront affichés ou non pour vos utlisateurs. Pensez également à choisir des mots qui sont utile selon votre secteur d'activité pour votre référencement SEO. Généralement les thèmes affiche le slogan juste sous le titre du site.
+
+Adress web de WordPress (URL):
+
+Adresse web du site (URL):
+
+Adresse de messagerie :
+
+Inscription :
+
+Rôle par défaut de tout nouvel utilisateur : Abonné, contributeur, auteur, éditeur, administrateur
+
+Langue du site:
+
+Fuseau horaire:
+
+Format de date :
+
+Format d'heure :
+
+La semaine débute le :
 
 **Ecriture**
 
