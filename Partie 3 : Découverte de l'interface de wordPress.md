@@ -391,15 +391,15 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 
 **Tous les utilisateurs**
 
-![Utilisateurs - Tous les utilisateurs](images/interface_barre_menus_Utilisateurs_ tous_les_utilisateurs.png)
+![Utilisateurs - Tous les utilisateurs](images/interface_barre_menus_Utilisateurs_tous_les_utilisateurs.png)
 
 **Ajouter**
 
-![Utilisateurs - Ajouter](images/interface_barre_menus_Utilisateurs_ ajouter.png)
+![Utilisateurs - Ajouter](images/interface_barre_menus_Utilisateurs_ajouter.png)
 
 **Votre profil**
 
-![Utilisateurs - Votre profil](images/interface_barre_menus_Utilisateurs_ votre_profil.png)
+![Utilisateurs - Votre profil](images/interface_barre_menus_Utilisateurs_votre_profil.png)
 
 
 
