@@ -31,6 +31,8 @@ Quelle que soit la partie de l'administration dans laquelle vous vous trouverez 
 
 ## La barre d'Outils
 
+La barre d'outils se trouve dans le haute de la page. Elle est présente par défaut dans l'interface d'administration mais également dans la prévisualisation de votre site (ce qui peut être pratique pour un ajout rapide, mais génant pour avoir un aperçu réel du site publié). Pour masquer la barre d'outils dans la prévisualisation du site, Aller dans la barre de menus - Utilisateurs - Votre profil et décoché la case"Afficher la barre d’outils lorsque vous visitez le site". N'oublierz pas d'enregister vos modifications en cliquant en bas le bouton "Mettre à jour le profil". Actualiser la page d'aperçu de votre site, la barre d'outils à disparu.
+
 La barre d'outils présente différentes parties :
 
 ### Le menu WordPress
@@ -45,17 +47,19 @@ Affiche un écran reprenant toutes les nouveautés de la version de WordPress in
 
 Lien vers le site : https://wpfr.net/ qui reprend un grand nombre d'information sur la communauté WordPress francophone. Vous pourrez trouvez ici des informations très intéressantes si vous désirez apprendre WordPress ou obtenir une aide ou un support vi a différents Forums dédiés (WordPress, WooCommerce, thèmes, extensions, multisite, ...). Vous pourrez également y trouver de nombreuses actualités sur WordPress et sur les évènements à venir (ex: WordCamp). Vous pourrez également adhérez à l'association WPFR où vous serez invité à prendre part à de nombreux projets et pourrez bénéficiez d'offres spéciales auprès des partenaires de l'association.Vous pouvez aussi vous abonnez à la newsletter.
 
-**Documentation**
+#### Documentation
 
 Accès au Codex de WordPress (en anglais : https://codex.wordpress.org/) .Ici est rassembler toute la documentation de WordPress. Une version française est également disponible ici (https://codex.wordpress.org/fr:Accueil). Cette version est partiellement traduite. Vous pouvez contribuer à sa traduction (https://codex.wordpress.org/Codex:Contributing)
 
-**Forums d'entraide**
+#### Forums d'entraide
 
 Vous redirige vers les forums d'entraide du site de la communauté francophone de Wordpress (https://wpfr.net/support/)
 
 **Remarque**
 
 Ce lien renvoie vers la section "Support" du site americain https://wordpress.org/
+
+
 
 ### Le menu du site
 
@@ -103,7 +107,7 @@ Ce menu permet d'accéder rapidement à la création de nouveaux contenus (Artic
 
 WordPress vous salue avec votre identifiant de connexion (admin). Cette partie de la barre d'outils permettent de modifier votre profil
 
-**admin et Modifier mon profil**
+#### admin et Modifier mon profil
 
 Ces deux liens affiche votre Profil dans la partie principale de l'interface et vous permettent de modifier différentes options.
 
@@ -122,7 +126,7 @@ C'est également à cet endroit que vous pourrez "générer un nouveau mot de pa
 
 N'oubliez pas de cliquer sur le bouton "Mettre à jour le profil" pour que les modifications soient prises en compte.
 
-**Se déconnecter**
+#### Se déconnecter
 
 Le lien "Se déconnecter" vous permet comme son nom l'indique de vous déconnecter  de l'interface d'administration de WordPress. Un fois que vous avez terminer de travailler dans votre site, n'oubliez pas de quitter l'administration en utilisant "Se déconnecter". Eviter de fermer la fenêtre ou l'onglet par la cas de fermeture ou de quitter votre navigateur directement, car la connexion ne serait alors pas effectuer correctement et permettrait une reconnexion sans indiquer le login et mot de passe. Cela peut vous sembler pratique mais cela signifie aussi que toute personne qui utiliserait votre ordinateur ou en cas de vol, aurait accès à l'administration de votre site.
 
@@ -161,7 +165,7 @@ Selon que vous soyez sur le tableau de bord, les articles, les pages ... vous au
 
 ### Tableau de bord
 
-**Accueil**
+#### Accueil
 
 Vous ramène à la page d'accueil de l'interface d'administration de WordPress. Cette page affiche un résumé de tout ce qui se passe sur votre site dans la zone principale.
 
@@ -186,11 +190,13 @@ Ainsi que des raccourcis vers les actions suivantes:
 Chacun de ses raccourcis mène à une page qu'il vous est possible d'atteindre grâce à la barre d'outils ou à la barre des menus. Vous pouvez décidez de masquer ce module en cliquant sur la petite croix "fermer" en haut à droite du module. Il vous sera possible d'afficher à nouveau ce module avec les "Options de l'écran" en cochant la case "Bienvenue".
 
 
-**Mise à jour**
+#### Mise à jour
 
-Vous ramène à la page des mises à jour disponible pour votre version de Wordpress ainsi que pour les extensions que vous avez installées comme lorsque vous cliquer sur l'icone mises à jour dans la barre d'outils (en haut)
+Vous ramène à la page des mises à jour disponible pour votre version de Wordpress ainsi que pour les extensions que vous avez installées comme lorsque vous cliquer sur l'icone mises à jour dans la barre d'outils (en haut).
 
-WordPress nous indique qu'une mise à jour est disponiblepour l'extension Akismet Anti-Spam (qui est un plugin très pratique installé par défaut avec WordPress). Je vous conseille de le garder pour protéger votre site du spam. Il faudra cependant penser à activer cette extension. Nous verrons comment faire lorsque nous verrons la partie extensions de la barre de menus.
+Wordpress, ainsi que les plugins sont très régulièrement mis à jour. Il est absolument primordial pour des raison de sécurité de réalisé les mises à jour régulièrement tant de WordPress que des plugins et de votre thème. De plus les mises à jour vous permettent généralement de bénéficier non seulement d'une sécurité accrue et de la correction de certains bugs mais également de nouvelles fonctionnalités.
+
+WordPress nous indique qu'une mise à jour est disponible pour l'extension Akismet Anti-Spam (qui est un plugin très pratique installé par défaut avec WordPress). Je vous conseille de le garder pour protéger votre site du spam. Il faudra cependant penser à activer cette extension. Nous verrons comment faire lorsque nous verrons la partie extensions de la barre de menus.
 
 ![Barre menus - Tableau bord - mise à jour](images/interface_barre_menus_tableaubord_miseajour.jpg)
 
@@ -200,7 +206,7 @@ Pour certain utilisateur de linux sous Ubuntu, WordPress demande de passer par F
 
 ![Barre menus - problème_FTP_Ubuntu](images/interface_barre_menus_probleme_FTP.jpg)
 
-**Etape à suivre uniquement pour les utilisateurs qui rencontre le problème FTP lors de la mise à jour des extensions WordPress**
+#### Etape à suivre uniquement pour les utilisateurs qui rencontre le problème FTP lors de la mise à jour des extensions WordPress
 
 * Récupérer le fichier test.php dans le repo github dédié au workshop (dossier installation/Etape 3 - Solution demande FTP install en local sous Ubuntu/test.php)
 
@@ -238,30 +244,194 @@ Retourner sur l'onglet où se trouve l'interface d'administration de votre WordP
 Voici la procédure détaillée dans un tuto : https://medrhamnia.wordpress.com/2011/06/18/pourquoi-wordpress-demande-les-parametres-de-connexion-ftp-en-local/
 
 
+
 ### Articles
 
 ![Articles](images/interface_barre_menus_articles.png)
 
-Dans cette section vous pourrez visionner, ajouter, supprimer, modifier les articles (CRUD) de votre site.
+Dans cette section vous pourrez visionner, ajouter, supprimer, modifier les articles (opérations CRUD) de votre site.
 
-Un article est ...
+Dans WordPress il existe deux types de contenus redactionnels: les articles et les pages.
 
-**Tous les articles**
+Les articles permettent de gérer le contenu régulier de votre site telles que les actualités courantes, quotidiennes ou hebdomadaires selon la fréquence de publication de votre site. C'est ce que l'on nomme dans la presse "l'Actualité chaude".
+
+Dans de nombreux thèmes les articles seront affichés dans la partie centrale de votre site, les uns au dessus des autres de manière chronologique. Le dernier article, le plus récent sera affiché en premier en haut de la zone d'affichage des articles, suivront ensuite les articles de plus en plus anciens.
+
+Par défaut, a titre d'exemple un article est créer lors de l'installation de WordPress, il porte de titre "Bonjour tout le monde!" et vous souhaite la bienvenue. Grâce à sa présence vous pouvez immédiatement voir de quel manière vont s'afficher les articles en fonction du thème que vous avez choisi. On peut voir la date de publication de l'article ainsi que son auteur et éventuellement le nombre de commentaires portant sur celui-ci selon le thème et le paramètrage que vous aurez effectué.
+
+#### Tous les articles
 
 ![Articles - Tous les articles](images/interface_barre_menus_articles_tous_les_articles.png)
 
-**Ajouter**
+Tous les articles, vous affiche la liste de tous les articles avec une serie d'options (que vous pouvez choisir d'afficher ou de masquer avec l'onglet "Option de l'écran"). Vous pouvez ainsi voir son auteur, sa catégorie, ses étiquettes, ses commentaires, et sa date de publication.
+
+Lors du survol de l'un des articles, vous pourrez voir apparaitre plusieurs liens vous permettant de nouvelles actions (Modifier, Modification rapide, Corbeille, Afficher)
+
+
+![Articles - survol - options](images/interface_barre_menus_articles_survol.png)
+
+
+![Articles - modifier](images/interface_barre_menus_articles_modifier.png)
+
+
+![Articles - modification rapide](interface_barre_menus_articles_modification_rapide.png)
+
+Sachez que si vous placer un article dans la corbeille, il n'aura pas encore été définitivement supprimé. Il faudra encore vous rendre dans le lien corbeille et soit survoler l'article pour voir apparaitre de nouvelle options (supprimer définitivement, rétablir) soit selectionner dans le menu déroulant "Actions groupées" l'option "Supprimer définitivement" ou cliquer sur le bouton "Vider la corbeille". Tans que vous n'avez pas fait cela il vous est toujours possible de selectionner l'article dans la corbeille et de selectionner "Rétablir" dans le menu déroulant pour qu'il soit à nouveau présent sur votre site. N'oubliez pas de cliquer sur le bouton appliquer pour que les modifications soient effectuées.
+
+Pour visualiser à nouveau les articles qui ne sont pas dans la corbeille cliquer sur le lien "Tous" qui vous indique entre parenthèse le nombre d'articles de votre site.
+
+Dans l'écran principal lorsque l'on est dans Articles -  Tous les articles, on peut filtrer les résultat selon la date de parution, la categorie et faire une recherche par nom dans le champ de recherche. On peut trier par ordre alphabétique par titre et par ordre chronologique par date.
+
+Au dessus on peut également choisir d'afficher les articles selon leur état (Publiés, Brouillon, En attente de relecture, Corbeille)
+
+#### Ajouter
 
 ![Articles - Ajouter](images/interface_barre_menus_articles_ajouter.png)
 
-**Categories**
+Dans la page ajouter un article, on retrouve les champs principaux, Titre et contenu, mais on y trouve également plusieurs modules (Publier, Format, Categories, Etiquettes, Image mise en avant). On peut également accéder à cette page via la barre d'outils (en haut) et cliquer sur "Créer" puis sur "Article", cela revient exactement à la même chose.
+
+Une fois que l'on a introduit le titre de l'article, juste en dessous apparait un permalien (c'est l'adresse url pour l'affichage de cet article sur une page qui lui est dédié et qui contient souvent quelques informations complémentaire (étiquettes, commentaires, etc...) par rapport à l'affichage de la page classiques qui affiche tous les articles). On y accède en cliquant sur le titre de l'article. Pour optimiser le référencement et rendre plus propre les url, il est possible de modifier cette url en enlevant par exemple les mots liens qui n'apporte aucune valeur sémantique à l'url et n'apporte rien en matière de référencement. (SEO)
+
+![Modification permalien](images/interface_barre_menus_articles_modification_permalien.png)
+
+![Modification permalien](images/interface_barre_menus_articles_modification_permalien2.png)
+
+Ne pas oubliez de cliquer sur le bouton "Publier" ou "Mettre à jour" pour voir l'url modifié dans l'aperçu du site.
+
+
+**Le module Publier**
+
+![Articles - module publier](images/interface_barre_menus_articles_module_publier.png)
+
+* On peut enregister en tant que brouillon pour ne pas publier immédiatement et revenir plus tard à la rédaction de l'article avant sa publication. Les articles enregistrer en tant que brouillon apparaissent dans la liste de tout les articles avec leur titre suivi de -Brouillon.
+
+* On peut également en cliquant sur état Brouillon dans le module Publier, passer du mode brouillon (c'est le rédacteur qui doit revoir son article) à celui de "en attente de relecture" (c'est une autre personne qui doit revoir l'article).Puis cliquer sur le bouton "Mettre à relire". Dans la liste de tous les articles, ceux en attente de relecture ont leur titre suivi de la mention - En attente.
+
+Si par erreur on a cliquer sur "Publier" sur un brouillon ou un article à relire, on peut égalemenent à cet endroit passer de l'état "Publié" à celui de "Brouillon" ou "en attente de relecture"
+
+* On peut afficher un aperçu de l'article avant de le Publier
+
+* On peut modifier la visibilité de l'article: selectionner Public et choisir de Mettre cet article en avant sur la page d'accueil (il apparaitra toujours en premier donc tout en haut de la page indépendament de la chronologie de sa date de publication), mais on peut également le protégé par mot de passe pour ne permettre qu'à certains utilisateurs d'en visionner le contenu (c'est à vous de déterminer le mot de passe et le communiquer au personne autorisée à voir ce contenu), où encore lui donné la visibilité privé. c'est à dire que les utilisateurs ne pourront pas le voir jusqu'à ce que l'on change ce statut en public (seul les personnes ayant accès à l'interface d'administration pourront le voir). Toujours cliquer sur le bouton "Ok" pour valider les modification des options de validation
+
+* On peut même planifier la date et l'heure à laquelle on veut que cet article soit publier en cliquant sur le lien "Modifier" situé juste après la phrase "Publier tout de suite". Cliquez sur le bouton "Planifier" et l'article sera publier automatiquement à date et heure indiquée.
+
+* On peut également grâce à cette option antidater la date de parution d'un article . Cliquer sur le bouton "Mise à jour"
+
+* On peut bien entendu également déplacer un article dans la Corbeille pour le supprimer définitivement par après.
+
+**Le module Format**
+
+![Articles - Format - module](images/interface_barre_menus_articles_module_format.png)
+
+Le module format permet d'accèder à différentes mise en forme proposées par le thème que vous avez choisi. Elle permet d'appliquer un style prédéfini selon le type de contenu présent dans votre article.
+
+Le format désigne la manière dont votre thème doit afficher un article donné. Par exemple, vous pourriez vouloir utiliser le format par défaut pour afficher titre et contenu, ou le format En passant pour ne pas utiliser le titre et n’afficher qu’un court texte.
+
+Lisez la documentation du Codex pour obtenir une description de chaque format d’article (en): https://codex.wordpress.org/Post_Formats#Supported_Formats.
+
+Attention, il est possible que votre thème ne reconnaisse qu’une partie des 10 formats possibles.
+
+**Le module Categories**
+
+![Articles - Categories - module](images/interface_barre_menus_articles_module_categories.png)
+
+Lorque l'on crée un article on doit le ranger dans une catégorie. Il est encore possible de créer de nouvelle catégorie au moment de l'ajout ou de la modification d'un article en cliquant sur le lien "+ Ajouter une nouvelle categorie"
+
+On peut selectionner plusieurs categories pour un même article.
+
+
+
+**Le module Etiquettes**
+
+![Articles - Etiquettes - module](images/interface_barre_menus_articles_module_etiquettes.png)
+
+Lorsque l'on crée un article on peut si on le souhaite y associer des étiquettes (éviter de n'en associé qu'une ou plus de 5 et veillez à ce que les étiquettes utlisées soient communes à plusieurs articles)
+
+Comme pour le module categorie, il est également possible d'ajouter de nouvelles étiquettes, lors de la rédaction d'un nouvel article. Pour cela il suffit juste de taper le nom d'une étiquettes qui n'existe pas encore dans le champs et elle sera automatiquement ajoutée. Les étiquettes sont séparées par une virgules. Lorsque l'on clique sur le bouton Ajouter, les étiquettes encodée s'ajoute en dessous avec une petite croix qui permet de les supprimer séparément si on le désire.
+
+De plus pour vous facilité la vie WordPress vous propose automatiquement les étiquettes correspondantes au premières lettres que vous taper dans le champs. Vous pouvez ainsi plus facilement retrouver des étiquettes déja utlisées et ne pas créer de doublons (par exemple : photo et photos). Le lien "Choisir parmi les étiquettes les plus utilisées" permet de retrouver plus facilement le nom des étiquettes utilisées fréquemment.
+
+**Le module Image mise en avant**
+
+Vous pouvez associer une image à votre article, sans pour autant l’y insérer. Cela ne sert vraiment que si votre thème fait usage de cette fonctionnalité, sous la forme d’une miniature pour la page d’accueil, d’un en-tête personnalisé, etc.
+
+
+N'oubliez pas de cliquer sur le bouton "Publier" pour enregister vos modifications et publier votre article.
+
+
+
+#### Categories
 
 ![Articles - Categories](images/interface_barre_menus_articles_categories.png)
 
-**Etiquettes**
+Il est important de comprendre la notion de catégorie lorsque l'on rédige des articles dans WordPress. En effet, pour chaque article WordPress il faut définir impérativement classé cet article dans une catégorie. C'est obligatoire.
+
+Les catégories ont deux fonctions principales:
+
+* Pour les rédacteurs de contenus, elles permettent de filtrer les résultats de recherche selon une catégorie définie dans l'administration des Articles
+
+* Pour les visiteurs du site, cela va permettre de n'afficher que les articles d'une catégorie déterminée. Cet affichage va se faire par un simple clic sur le nom d'une catégorie.
+
+Il s'agit donc d'une fonctionnalité essentielle dans la bonne gestion des articles de votre site.
+
+Dans un premier temps, créeé les catégories que l'on souhaites pour son site en fonction du type d'articles que celui-ci va contenir. Lorsque l'on créera un article on le rangera dans une des catégorie que l'on a créer.
+
+Lorsque l'on créer une catégorie, on lui choisi un nom. Il faudra être attentif au libellé de ses catégories car elle vont apparaitre à différents endroits du site selon le thème que l'on va utiliser. Les visiteurs verront ces libéllés, soyez donc attentif à l'orthographe, majuscule, accents, ...
+
+La science de la classification s'appelle la taxinomie. Si vous entendez parler de la taxinomie dans WordPress c'est qu'il s'agit donc de cette manière de classer des contenus.
+
+Pour créer une nouvelle catégorie, aller dans le menu "Articles"--> "Categories". Sur la droite se trouve la liste des catégorie déja existantes (la catégorie Non classé est installée par defaut lors de l'installation de WordPress). Sur la gauche se trouve le formulaire qui va permettre de créer une categorie.
+
+Dans le champ "Nom" on peut indiquer par exemple "CMS"
+
+Le champ libellé correspond à une version sans majuscule, ni espace, ni caractère accentué du nom de votre catégorie. C'est ce libellé qui sera utilisé dans l'URL de votre site lorsque l'utilisateur cliquera sur un catégorie pour afficher les articles correspondants.
+
+On peut laisser WordPress créer lui-même un libéllé à partir du nom de la categorie, dans ce cas laissé le champ vide.
+
+Ou on peut choisir de créer un libéllé personnalisé en supprimant tous espaces, majuscule ou caractère accentué et en ne gardant que les lettres minuscules non-accentués, trait d'union et chiffres. Cette option peut être utilisé pour une parfaite optimisation de la recherche sur internet (SEO)
+
+Grâce au champ parent on peut créer une hiérarchie des catégorie en lui appliquant une catégorie parent et en la transformant du même coup en une catégorie enfant. Cette option n'est pas obligatoire et ne sera utilisé que selon vos besoins. Cela peut introduire de la complexité dans la classification de vos articles mais permet lorsque cela est nécessaire d'effectuer un tri plus précis.(exemple: Recette de cuisine - Desserts)
+
+La description, décrit la catégorie. Elle pourra apparaitre dans le site coté visiteur selon le thème que vous utilisez.
+
+Ensuite on clique sur "Ajouter une categorie". Celle-ci vient s'ajouter dans la liste de droite où il sera encore possible de la modifier, de la supprimer ou de l'afficher.
+
+On peut gérer l'affichage des catégorie en les triant par ordre alphabetique en fonction de leur nom , description, identifiant ou compte (nbr d'article qui appartiennent à cette catégorie) en cliquant sur le titre des colonnes. On peut également effectuer une recherche d'une catégorie via le champ de recherche.
+
+Attention si vous supprimer une categorie associée à des articles, ceux-ci ne seront pas supprimés mais la catégorie par defaut "Non classé" leur sera automatiquement attribuée. De la même manière si un redacteur n'attribue pas de catégorie à un article qu'il a rédigé, la catégorie "Non clasé" lui sera également automatiquement attribuée.  La catégorie par defaut "Non classé" ne peut donc pas être supprimé pour cette raison.
+
+Il est cependant possible de modifier cette categorie par défaut dans le menu "Réglages" --> "Ecriture" en choississant une catégorie dans le menu déroulant "Categorie par défaut des articles". Choisissez dans ce cas une catégorie généraliste puisque c'est celle-ci qui sera appliquée si aucune catégorie n'a été renseignée pour un article.
+
+
+#### Etiquettes
 
 ![Articles - Etiquettes](images/interface_barre_menus_articles_etiquettes.png)
 
+Etiquettes = mots-clefs
+
+Les etiquettes sont en quelques sortes assez proches des hashtags utilisés sur Twitter.
+
+Les etiquettes permettent de catégoriser les articles en utilisant des mots-clefs sachant que ces mot clef ne font pas forcément partie du contenu rédactionnel de l'article.
+
+Le but est d'associé des mots clés qui caractèrisent les articles.
+
+L'usage des etiquettes à l'inverse des categorie n'est pas obligatoire lors de la rédaction d'un article. Il serait cependant dommmage de s'en priver car ils sont très pratiques pour les utilisateurs de votre site. Les utilisateurs pourront lister tous les articles qui partagent les même etiquettes.
+
+Quelques règles du bon usage des etiquettes:
+
+* Eviter de n'associer qu'une seule etiquette à un article (pas pertinent pour la selection des articles)
+
+* Eviter d'associer trop d'étiquettes à un article car cela va compliquer le filtrage des articles
+
+* Un nombre d'étiquettes pertinent se situe autour de 5
+
+* Associer donc plusieurs mots clef dont certains sont communs à plusieurs articles
+
+* Le libellé des étiquettes sera visible par les visiteurs (soigné l'orthographe)
+
+La disposition de l'interface centrale pour les étiquettes est en tout point similaire à celles des catégories et proposes les mêmes fonctionnalités de tri et de recherche ainsi que les mêmes champs à remplir.
+
+![Usage des etiquettes](images/usage_etiquettes.png)
 
 
 ### Médias
@@ -272,11 +442,11 @@ Dans cette section vous pourrez ...
 
 Un média est ...
 
-**Bibliothèque**
+#### Bibliothèque
 
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_Bibliotheque1.png)
 
-**Ajouter**
+#### Ajouter
 
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_ Ajouter.png)
 
@@ -296,7 +466,7 @@ Un média est ...
 
 ![Pages](images/interface_barre_menus_Pages.png)
 
-**Toutes les pages**
+#### Toutes les pages
 
 ![Pages - Toutes les pages](images/interface_barre_menus_Pages_Toutes_les_pages.png)
 
@@ -305,7 +475,7 @@ Un média est ...
 ![Pages - Previsuliser pages](images/interface_barre_menus_Pages_Prévisualiser_la_page.png)
 
 
-**Ajouter**
+#### Ajouter
 
 ![Pages - Ajouter](images/interface_barre_menus_Pages_Ajouter.png)
 
@@ -347,11 +517,11 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 ![Apparence](images/interface_barre_menus_Apparence.png)
 
-**Thèmes**
+#### Thèmes
 
 ![Apparence - themes](images/interface_barre_menus_Apparence_themes.png)
 
-**Personnaliser**
+####Personnaliser
 
 ![Apparence - personnaliser](images/interface_barre_menus_Apparence_personnaliser.png)
 
@@ -360,19 +530,19 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 ![Apparence - personnaliser3](images/interface_barre_menus_Apparence_personnaliser3.png)
 
 
-**Widgets**
+#### Widgets
 
 ![Apparence - Widgets](images/interface_barre_menus_Apparence_widgets.png)
 
-**Menus**
+#### Menus
 
 ![Apparence - Menus](images/interface_barre_menus_Apparence_Menus.png)
 
-**En-tête**
+#### En-tête
 
 ![Apparence - En-tête](images/interface_barre_menus_Apparence_entete.png)
 
-**Editeur**
+#### Editeur
 
 ![Apparence - Editeur](images/interface_barre_menus_Apparence_editeur.png)
 
@@ -382,16 +552,16 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 ![Extensions](images/interface_barre_menus_Extensions.png))
 
-**Extensions installées**
+#### Extensions installées
 
 ![Extensions - Extensions installées](images/interface_barre_menus_Extensions_installees.png)
 
-**Ajouter**
+#### Ajouter
 
 ![Extensions - Ajouter](images/interface_barre_menus_Extensions_ajouter.png)
 
 
-**Editeur**
+#### Editeur
 
 ![Extensions - Editeur](images/interface_barre_menus_Extensions_editeur.png)
 
@@ -403,15 +573,15 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 
 ![Utilisateurs](images/interface_barre_menus_Utilisateurs.png)
 
-**Tous les utilisateurs**
+#### Tous les utilisateurs
 
 ![Utilisateurs - Tous les utilisateurs](images/interface_barre_menus_Utilisateurs_tous_les_utilisateurs.png)
 
-**Ajouter**
+#### Ajouter
 
 ![Utilisateurs - Ajouter](images/interface_barre_menus_Utilisateurs_ajouter.png)
 
-**Votre profil**
+#### Votre profil
 
 ![Utilisateurs - Votre profil](images/interface_barre_menus_Utilisateurs_votre_profil.png)
 
@@ -423,15 +593,15 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 
 ![Outils](images/interface_barre_menus_Outils.png)
 
-**Outils disponibles**
+#### Outils disponibles
 
 ![Outils - Outils disponibles](images/interface_barre_menus_Outils_disponibles.png)
 
-**Importer**
+#### Importer
 
 ![Outils - Importer](images/interface_barre_menus_Outils_importer.png)
 
-**Exporter**
+#### Exporter
 
 ![Outils - Exporter](images/interface_barre_menus_Outils_exporter.png)
 
@@ -442,53 +612,61 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 
 ![Reglages](images/interface_barre_menus_Reglages.png)
 
-**Général**
+#### Général
 
 ![Reglages - Général](images/interface_barre_menus_Reglages_general.png)
 
-Titre: il sagit du titre de votre site qui a déja été déterminer lors de l'installation de WordPress. Si celui-ci ne vous convient pas, vous avez la possiblité de le changer ici.
+**Titre:** il sagit du titre de votre site qui a déja été déterminer lors de l'installation de WordPress. Si celui-ci ne vous convient pas, vous avez la possiblité de le changer ici.
 
-Slogan: il est générer automatiquement par WordPress "Un site utilisant WordPress", je vous conseille de le changer.
+**Slogan:** il est générer automatiquement par WordPress "Un site utilisant WordPress", je vous conseille de le changer.
 
 Selon le thème que vous choisirez le titre et le slogan de votre site seront affichés ou non pour vos utlisateurs. Pensez également à choisir des mots qui sont utile selon votre secteur d'activité pour votre référencement SEO. Généralement les thèmes affiche le slogan juste sous le titre du site.
 
-Adress web de WordPress (URL):
+Si on bascule vers l'onglet qui affiche notre site on voit effectivement que le titre et le slogan sont affiché. Si on désire effectuer des modifications, ne pas oublier de cliquer en bas sur le bouton "Enregistrer les modifications" puis basculer sur l'onglet qui affiche notre site pour voir le résultat après un rafraichissement (actualisation) de la page (Ctrl+F5).
 
-Adresse web du site (URL):
+**Adress web de WordPress (URL):** L'adresse qui permet d'accéder au dossier qui contient tous les fichiers wordpress de votre site.
 
-Adresse de messagerie :
+**Adresse web du site (URL):** Permet d'indiquer une url différente de la précédente. Cela peut être utile pour indiquer une adress simplifiée. Sinon indiqué la même adresse que celle renseignée dans le champ précédent.
 
-Inscription :
+**Adresse de messagerie :** utilisée pour l'administration (vous tenir informé de l'inscription d'un nouvel utilisateur par exemple, ...). C'est l'adresse mail que vous avez renseigner lorsque vous avez installé WordPress. Vous pouvez la modifiée, mais n'oubliez pas de la confirmée pour l'activer grâce au message qui vous sera envoyé à la nouvelle adresse mail.
 
-Rôle par défaut de tout nouvel utilisateur : Abonné, contributeur, auteur, éditeur, administrateur
+**Inscription :** Ne cocher pas cette option si vous voulez garder un certain pouvoir sur votre site au début. Elle est utile uniquement si vous créer un site qui permet par exemple aux utilisateurs de s'enregistrer pour publier des contenus. Dans ce cas soyer particulièrement attentif à l'option qui suit, celui du rôle par défaut de tout nouvel utilisateur sour peine d'avoir de grosses surprises.
 
-Langue du site:
+**Rôle par défaut de tout nouvel utilisateur :** Abonné, contributeur, auteur, éditeur, administrateur.
 
-Fuseau horaire:
+**Langue du site:** Français
 
-Format de date :
+**Fuseau horaire:** Plûtot que d'indiqué UTC+1, je vous conseille de selectionner dans la liste déroulante la ville de Paris. Cela permettra une mise à jour automatique de l'heure d'hivers et d'été.
 
-Format d'heure :
+**Format de date :** On peut indiquer le format de date souhaité qui sera par exemple utlisé pour dater la date de publication d'un contenu. Vous pouvez également le personnalisé avec le format de date PHP.
 
-La semaine débute le :
+**Format d'heure :** On peut indiquer le format d'heure souhaité et qui peut également être personnalisé avec le format d'heure en PHP
 
-**Ecriture**
+**La semaine débute le :** lundi
+
+Ne pas oublier de cliquer sur le bouton "Enregistrer les modifications".
+
+
+
+#### Ecriture
 
 ![Reglages - Ecriture](images/interface_barre_menus_Reglages_ecriture.png)
 
-**Lecture**
+
+
+#### Lecture
 
 ![Reglages - Lecture](images/interface_barre_menus_Reglages_lecture.png)
 
-**Discussion**
+#### Discussion
 
 ![Reglages - Discussion](images/interface_barre_menus_Reglages_discussion.png)
 
-**Médias**
+#### Médias
 
 ![Reglages - Medias](images/interface_barre_menus_Reglages_medias.png)
 
-**Permaliens**
+#### Permaliens
 
 ![Reglages - Permaliens](images/interface_barre_menus_Reglages_permaliens.png)
 
@@ -558,3 +736,5 @@ Pour tester, taper l'adresse: http://www.tinkeringmonkey.com/work/
 * Dans les extensions, supprimer le plugin Hello Dolly qui n'est là qu'à titre d'exemple et de remplissage.
 
 * Activer l'extension Akismet (Anti-Spam) dans la section "Extensions" et veiller à sa mise à jour régulière. Ce plugin est installé par défault directement lors de votre installation de WordPress, mais il faut encore l'activer pour le rendre opérationnel.
+
+* Voici encore quelques astuces qui vont vous permettre de rendre votre site WordPress plus professionnel rapidement : https://wpmarmite.com/site-wordpress-professionnel/
