@@ -430,23 +430,23 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 
 **Général**
 
-![Reglages - Général](images/interface_barre_menus_Reglages_ general.png)
+![Reglages - Général](images/interface_barre_menus_Reglages_general.png)
 
 **Ecriture**
 
-![Reglages - Ecriture](images/interface_barre_menus_Reglages_ ecriture.png)
+![Reglages - Ecriture](images/interface_barre_menus_Reglages_ecriture.png)
 
 **Lecture**
 
-![Reglages - Lecture](images/interface_barre_menus_Reglages_ lecture.png)
+![Reglages - Lecture](images/interface_barre_menus_Reglages_lecture.png)
 
 **Discussion**
 
-![Reglages - Discussion](images/interface_barre_menus_Reglages_ discussion.png)
+![Reglages - Discussion](images/interface_barre_menus_Reglages_discussion.png)
 
 **Médias**
 
-![Reglages - Medias](images/interface_barre_menus_Reglages_ discussion.png)
+![Reglages - Medias](images/interface_barre_menus_Reglages_medias.png)
 
 **Permaliens**
 
