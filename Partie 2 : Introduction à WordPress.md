@@ -28,11 +28,11 @@ Si vous le réaliser en HTML/CSS/JavaScript, à chaque nouvelle modification dé
 
 La majorité des CMS fonctionnent avec un système de 3 serveurs, chacun ayant un rôle déterminé :
 
-* **Serveur web : ** stocke les fichiers constitutifs du CMS et permet de gérer l’affichage HTML/CSS dans les navigateurs de voyageurs. Le plus utilisé est le serveur Apache.
+* **Serveur web :** stocke les fichiers constitutifs du CMS et permet de gérer l’affichage HTML/CSS dans les navigateurs de voyageurs. Le plus utilisé est le serveur Apache.
 
-* **Serveur de base de données : ** stocke tous les contenus rédactionnels et tous les réglages du site dans une base de données. Le plus utilisé est MySQL.
+* **Serveur de base de données :** stocke tous les contenus rédactionnels et tous les réglages du site dans une base de données. Le plus utilisé est MySQL.
 
-* **Serveur d’application : ** son rôle est de construire les pages HTML/CSS qui sont demandées par les visiteurs en interrogeant la base de données. Le serveur le plus utilisé s’appelle PHP.
+* **Serveur d’application :** son rôle est de construire les pages HTML/CSS qui sont demandées par les visiteurs en interrogeant la base de données. Le serveur le plus utilisé s’appelle PHP.
 
 
 Concrètement les serveurs fonctionnent entre eux comme ceci :

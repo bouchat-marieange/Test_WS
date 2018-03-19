@@ -325,30 +325,61 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 ### Commentaires
 
+![Commentaires](images/interface_barre_menus_Commentaires.png)
+
 
 
 ### Apparence
 
+![Apparence](images/interface_barre_menus_Apparence.png)
+
 **Thèmes**
+
+![Apparence - themes](images/interface_barre_menus_Apparence_themes.png)
 
 **Personnaliser**
 
+![Apparence - personnaliser](images/interface_barre_menus_Apparence_personnaliser.png)
+
+![Apparence - personnaliser2](images/interface_barre_menus_Apparence_personnaliser2.png)
+
+![Apparence - personnaliser3](images/interface_barre_menus_Apparence_personnaliser3.png)
+
+
 **Widgets**
+
+![Apparence - Widgets](images/interface_barre_menus_Apparence_widgets.png)
 
 **Menus**
 
+![Apparence - Menus](images/interface_barre_menus_Apparence_Menus.png)
+
 **En-tête**
 
+![Apparence - En-tête](images/interface_barre_menus_Apparence_entete.png)
+
 **Editeur**
+
+![Apparence - Editeur](images/interface_barre_menus_Apparence_editeur.png)
+
 
 
 ### Extensions
 
+![Extensions](images/interface_barre_menus_Extensions.png))
+
 **Extensions installées**
+
+![Extensions - Extensions installées](images/interface_barre_menus_Extensions_installees.png)
 
 **Ajouter**
 
+![Extensions - Ajouter](images/interface_barre_menus_Extensions_ajouter.png)
+
+
 **Editeur**
+
+![Extensions - Editeur](images/interface_barre_menus_Extensions_editeur.png)
 
 
 
@@ -356,35 +387,70 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 C'est vous qui avez installer votre site WordPress (en local ou directement en ligne), vous avez donc le status d'administrateur (utilisateur rôle administrateur) et avez accès sans restrictions à tous les menus de WordPress. Vous avez les pleins pouvoirs sur votre site et aurez également la possibilité de créer d'autres compte utilisateurs ayant soit également le rôle d'administrateur soit un autre rôle offrant des privilèges plus réduit sur l'interface de WordPress.
 
+![Utilisateurs](images/interface_barre_menus_Utilisateurs.png)
+
 **Tous les utilisateurs**
+
+![Utilisateurs - Tous les utilisateurs](images/interface_barre_menus_Utilisateurs_ tous_les_utilisateurs.png)
 
 **Ajouter**
 
+![Utilisateurs - Ajouter](images/interface_barre_menus_Utilisateurs_ ajouter.png)
+
 **Votre profil**
+
+![Utilisateurs - Votre profil](images/interface_barre_menus_Utilisateurs_ votre_profil.png)
+
+
+
 
 
 ### Outils
 
+![Outils](images/interface_barre_menus_Outils.png)
+
 **Outils disponibles**
+
+![Outils - Outils disponibles](images/interface_barre_menus_Outils_disponibles.png)
 
 **Importer**
 
+![Outils - Importer](images/interface_barre_menus_Outils_importer.png)
+
 **Exporter**
+
+![Outils - Exporter](images/interface_barre_menus_Outils_exporter.png)
+
+
 
 
 ### Réglages
 
+![Reglages](images/interface_barre_menus_Reglages.png)
+
 **Général**
+
+![Reglages - Général](images/interface_barre_menus_Reglages_ general.png)
 
 **Ecriture**
 
+![Reglages - Ecriture](images/interface_barre_menus_Reglages_ ecriture.png)
+
 **Lecture**
+
+![Reglages - Lecture](images/interface_barre_menus_Reglages_ lecture.png)
 
 **Discussion**
 
+![Reglages - Discussion](images/interface_barre_menus_Reglages_ discussion.png)
+
 **Médias**
 
+![Reglages - Medias](images/interface_barre_menus_Reglages_ discussion.png)
+
 **Permaliens**
+
+![Reglages - Permaliens](images/interface_barre_menus_Reglages_permaliens.png)
 
 
 
