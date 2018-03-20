@@ -25,7 +25,7 @@ Lorsque vous n'utilisez pas un plugin, désinstaller-le car les pirates informat
 
 ## Sauvegarde
 
-Attention lorsque l'on sauvegarde son site on peut le faire manuellement via un logiciel FTP de type FileZilla et créer une sauvegarde de son site en faisant une copie du site en ligne sur son ordinateur ou sur tout autre support de stockage physique ou en ligne.
+Attention lorsque l'on sauvegarde son site on peut le faire manuellement via un logiciel FTP de type FileZilla et créer une sauvegarde de son site en faisant une copie du site en ligne sur son ordinateur ou sur tout autre support de stockage physique ou en ligne en n'oubliant pas d'exporter la DB avec phpmyadmin en même temps. On peut également sauvegarder son site en toute facilité en une seule étape et le restaurer avec un plugin dédié. Je vous conseille le plugin UpdraftPlus.
 
 ### Sauvegarde manuelle via logiciel FTP
 
@@ -51,11 +51,40 @@ Si vous devez restaurer votre site à partir d'une sauvegarde manuelle, vous dev
 
 **Attention il est important de faire la sauvegarder de votre site et l'exportation de votre DB au même moment (avant que de nouvelles modifications n'interviennent sur votre site), afin que la sauvegarde de Wordpress corresponde à l'état de la DB au moment de sa sauvegarde.**
 
+
+
 ### Sauvegarde grâce à un plugin dédié (updraftplus)
 
 Il existe heureusement un plugin très bien conçu qui va vous facilité la vie. Il s'agit du plugin UpdraftPlus (https://fr.wordpress.org/plugins/updraftplus/).
 
+![UpdraftPlus](images/sauvegarde_updraftplus.png)
+
+Activer l'application.
+
+![UpdraftPlus activé](images/updraftplus_active.png)
+
+Aller dans "Extensions installées" puis dans UpdraftPlus - Sauvegarde/Restauration "réglages" pour paramètrer les options de sauvegarde et de restauration de votre sites.
+
+
+![UpdraftPlus reglages](images/updraftplus_reglages.png)
+
+Sauvegarde du site et de la base de données en une seule opérations
+
+
+![UpdraftPlus - Sauvegarde](images/updraftplus_sauvegarde.png)
+
+
+![UpdraftPlus - Restauration](images/updraftplus_restaurer.png)
+
+
+![UpdraftPlus - Restauration](images/updraftplus_restaurer2.png)
+
+
+![UpdraftPlus - Rapport de Restauration](updraftplus_rapport_restauration.png)
+
+
 ![UpdraftPlus 1](images/updraftplus1.png)
+
 
 Ce plugin gratuit vous permet non seulement de télécharger en une seule opération tout votre site mais également votre DB et de programmer cette sauvegarde de manière automatique (par exemple tous les jours à 22h00.
 
@@ -77,4 +106,4 @@ Dans settings / permalinks choisir l'option post name pour l'affichage des url q
 
 Lors de la rédaction de vos articles, veillez à bien choisir les titres mais également à utiliser des mots clefs vous assurant un bon référencement dans le domaine dont traite votre site. Utliser les catégorie (obligatoire), mais utiliser également les étiquettes avec des mots clefs optimisés SEO.
 
-Modifier les permaliens (url) de vos articles afin d'avoir des url propre et dépourvues de mots liens inutiles. Une bonne gestion des permaliens (URL) de vos articles permet une optimisation de l'indexation des pages de votre site et un meilleur référencement. Choisissez l'option "Structure personnalisée dans "Réglages" --> "Permaliens", car c'est cette option qui offre les meilleurs résultats en matière de référencement. (vous pouvez customiser les différentes parties qui compose l'url en choississant de ne pas inclure la date, l'heure, l'auteur, la categorie ou autres...) 
+Modifier les permaliens (url) de vos articles afin d'avoir des url propre et dépourvues de mots liens inutiles. Une bonne gestion des permaliens (URL) de vos articles permet une optimisation de l'indexation des pages de votre site et un meilleur référencement. Choisissez l'option "Structure personnalisée dans "Réglages" --> "Permaliens", car c'est cette option qui offre les meilleurs résultats en matière de référencement. (vous pouvez customiser les différentes parties qui compose l'url en choississant de ne pas inclure la date, l'heure, l'auteur, la categorie ou autres...)
