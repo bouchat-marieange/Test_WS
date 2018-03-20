@@ -17,7 +17,7 @@ Utiliser le site http://underscores.me/ pour créer un dossier zip portant le no
 
 Les widgets sont des composants de navigation qui permettent de facilité la vie des utilisateurs de votre site. (exemple: articles récents, Archives, Categories,...)
 
-Ces widgets permettent d'avoir un acces direct aux articles récents, aux différentes catégories etc... c'est en cela qu'il facilite et simplifie la navigation sur votre site.
+Ces widgets permettent d'avoir un accès direct aux articles récents, aux différentes catégories etc... c'est en cela qu'il facilite et simplifie la navigation sur votre site.
 
 ### Snippets pour personnalisé votre site avec quelques copier-coller de fragment de code
 https://wpmarmite.com/snippets/

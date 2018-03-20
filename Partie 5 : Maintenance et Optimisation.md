@@ -11,6 +11,8 @@ Une liste des points à sécuriser pour WordPress:https://www.youtube.com/watch?
 Un autre article traitant de cette thématique
 https://wpmarmite.com/video/liste-securite-wordpress/
 
+Lorsque vous n'utilisez pas un plugin, désinstaller-le car les pirates informatiques peuvent continuer à exploiter les failles d'un plugin même désactivé pour nuire à votre site.
+
 
 
 ## Optimisation
@@ -75,4 +77,4 @@ Dans settings / permalinks choisir l'option post name pour l'affichage des url q
 
 Lors de la rédaction de vos articles, veillez à bien choisir les titres mais également à utiliser des mots clefs vous assurant un bon référencement dans le domaine dont traite votre site. Utliser les catégorie (obligatoire), mais utiliser également les étiquettes avec des mots clefs optimisés SEO.
 
-Modifier les permalien lié au titre de vos articles afin d'avoir des url propre et dépourvues de mots liens inutiles
+Modifier les permaliens (url) de vos articles afin d'avoir des url propre et dépourvues de mots liens inutiles. Une bonne gestion des permaliens (URL) de vos articles permet une optimisation de l'indexation des pages de votre site et un meilleur référencement. Choisissez l'option "Structure personnalisée dans "Réglages" --> "Permaliens", car c'est cette option qui offre les meilleurs résultats en matière de référencement. (vous pouvez customiser les différentes parties qui compose l'url en choississant de ne pas inclure la date, l'heure, l'auteur, la categorie ou autres...) 

@@ -290,7 +290,7 @@ Au dessus on peut également choisir d'afficher les articles selon leur état (P
 
 Dans la page ajouter un article, on retrouve les champs principaux, Titre et contenu, mais on y trouve également plusieurs modules (Publier, Format, Categories, Etiquettes, Image mise en avant). On peut également accéder à cette page via la barre d'outils (en haut) et cliquer sur "Créer" puis sur "Article", cela revient exactement à la même chose.
 
-Une fois que l'on a introduit le titre de l'article, juste en dessous apparait un permalien (c'est l'adresse url pour l'affichage de cet article sur une page qui lui est dédié et qui contient souvent quelques informations complémentaire (étiquettes, commentaires, etc...) par rapport à l'affichage de la page classiques qui affiche tous les articles). On y accède en cliquant sur le titre de l'article. Pour optimiser le référencement et rendre plus propre les url, il est possible de modifier cette url en enlevant par exemple les mots liens qui n'apporte aucune valeur sémantique à l'url et n'apporte rien en matière de référencement. (SEO)
+Une fois que l'on a introduit le titre de l'article, juste en dessous apparait un permalien (c'est l'adresse url pour l'affichage de cet article sur une page qui lui est dédié et qui contient souvent quelques informations complémentaire (étiquettes, commentaires, etc...) par rapport à l'affichage de la page classiques qui affiche tous les articles). On y accède en cliquant sur le titre de l'article. Pour optimiser le référencement et rendre plus propre les url, il est possible de modifier cette url en enlevant par exemple les mots liens qui n'apporte aucune valeur sémantique à l'url, la rendre plus complexe et nuise au référencement. (SEO). Une bonne gestion des permaliens (URL) de vos articles permet une optimisation de l'indexation des pages de votre site et un meilleur référencement
 
 ![Modification permalien](images/interface_barre_menus_articles_modification_permalien.png)
 
@@ -534,6 +534,78 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 ![Apparence - Widgets](images/interface_barre_menus_Apparence_widgets.png)
 
+Les **widgets** sont des composants de navigation qui permettent de facilité la vie des utilisateurs de votre site. (exemple: articles récents, Archives, Categories,...)
+
+Ces widgets permettent d'avoir un accès direct aux articles récents, aux différentes catégories etc... c'est en cela qu'il facilite et simplifie la navigation sur votre site.
+
+Voici les widget proposés par défaut par WordPress:
+
+* Archives (archive mensuelle des articles de votre site)
+
+* Articles récents (Les articles les plus récents de votre site)
+
+* Calendrier (Un calendrier des articles de votre site)
+
+* Catégories (Une liste ou un menu déroulant des catégories)
+
+* Commentaires récents (Les commentaires les plus récents de votre site)
+
+* Flux (Les entrées depuis n’importe quel flux RSS ou Atom)
+
+* Galerie (Affiche une galerie d’images)
+
+* HTML personnalisés (Code HTML arbitraire)
+
+* Image (Affichage d'une image)
+
+* Menu de navigation (Ajoutez un menu de navigation pour votre colonne latérale)
+
+* Méta (Connexion, flux RSS et liens WordPress.org)
+
+* Nuage d'étiquettes (Un nuage de vos étiquettes les plus utilisées - attention les mots clefs le plus utilisés seront affiché en plus grand que les autres)
+
+* Pages (Une liste des pages de votre site)
+
+* Rechercher (Un formulaire de recherche pour votre site)
+
+* Son (Affichage d'un lecteur audio)
+
+* Texte (Texte arbitraire)
+
+* Vidéo (Affichage d'une vidéo depuis votre bibliothèque, Youtube, Vimeo ou un autre fournisseur)
+
+Avec quelques compétences de codage vous pourrez également créer vos propres widgets pour WordPress.
+
+
+Selon le thème que vous avez choisi, **les widgets s'afficheront dans des zones précises de votre page spécialement conçues pour les accueillir**. Dans la partie droite de l'écran vous pouvez voir les zones qui peuvent accueillir des widgets dans votre thème.(Exemple: Colonne latérale du blog, Pied de page 1, Pied de page 2)
+
+Lors de l'installation de Wordpress, une série de widgets seront placé dans une des zone (la zone par défault), vous pouvez les retirer, en ajouter ou en changer l'ordre ou les répartir autrement sur les autres zones de widgets disponibles fournie par votre thème.
+
+La partie gauche de l'écran reprends touts les **widgets disponibles** avec un bref descriptif de chacun d'eux.
+
+Sous la liste des widgets diponibles se trouvent les widgets désactivés. Les widgets placés ici sont désactivés et n'apparaissent plus sur l'écran de vos visiteurs mais il garde cependant tous les réglages que vous avez pu leur apporter.
+
+Cette partie de l'administration fonctionne par glisser déplacer. C'est très simple. Pour ajouter un widgets disponibles ou un widgets désactivés dans l'une des zones définies pour les accueillir dans votre thème, il suffit de cliquer et glisser le "bloc" portant le nom du widget sur la zone voulue. Le bloc permet alors d'accéder à ces options comme le titre, et d'autres options spécifiques à chaque blocs de widgets. Il n'est pas obligatoire de donner un titre personnalisé à vos widgets, si volus n'indiquer rien, c'est le titre du widget qui sera utilisé par defaut.
+
+Pour ajouter un widget à une zone définie, il est aussi possible de cliquer sur son titre dans la colonne de gauche et de choisir dans le menu déroulant la zone voulue.
+
+Pour réorganiser l'ordre des widget les uns par rapport aux autres, il vous suffit d'utiliser le cliquer déposer et de les réorganiser selon vos désir.
+
+Attention, il est possible de glisser un même widget plusieurs fois dans une même zone. Veillez à ne pas avoir de doublons. Par contre il peut être utile d'avoir un même widget dans des zones différentes pour faciliter la navigation (exemple: catégorie dans barre latérale et dans pied de page)
+
+N'oublier pas d'enregister vos modifications pour qu'elles s'affichent dans votre site.
+
+Pour supprimer un widget d'une zone, soit vous cliquer sur son nom dans zone et lorsque ses options se déroule, vous cliquer sur le lien "Supprimer". Soit vous cliquer et le déposer sur la colonne des widgets disponibles (vos paramètrage ne seront pas conservés), soit sur la partie Widgets désactivés (vos paramètrage seront conservés pour un usage ultérieur)
+
+En cliquant sur le lien "terminer" vous masquer tout simplement les options du widget.
+
+En cliquant sur Activer le mode « Accessibilité », via les options d’écrans( onglet sous la barre d'outils), vous autorisez l’utilisation des boutons « Ajouter » et « Modifier » à la place du glisser/déposer. De cette manière les options du widgets s'ouvriront dans une fenêtre dédiée dans l'administration au lieu de s'afficher sous le nom du widget. Cette option est moins ergonomique et intuitive que le cliquer déposer. Pour la désactiver retourner dans les "Options de l'écran" (onglet juste sous la barre d'outils)
+
+**Remarque importante:**
+
+En **changeant de thèmes**, il y a souvent des variations sur le nombre et l’agencement des zones de widgets et des barres latérales, et parfois tout cela entre en conflit, rendant la transition moins aisée. Si vous avec changé de thème et que **certains widgets semblent manquer**, faites défiler cet écran jusqu’en bas pour les retrouver **dans la zone des widgets inactifs**, où ils ont été conservés avec leurs derniers réglages.
+
+
 #### Menus
 
 ![Apparence - Menus](images/interface_barre_menus_Apparence_Menus.png)
@@ -670,6 +742,30 @@ Ne pas oublier de cliquer sur le bouton "Enregistrer les modifications".
 
 ![Reglages - Permaliens](images/interface_barre_menus_Reglages_permaliens.png)
 
+La fonction des permaliens de WordPress c'est ce qui permet de construire des URL optimisées.
+
+Par défaut, l'url de la page dédié à l'affichage de vos article sera du type (valeur par defaut):
+
+http://localhost/wp_workshop/?p=123
+
+Le p dans ce cas fait référence à l'identifiant du post (c'est à dire de l'article).
+
+Ce type de permalien est tout à fait déconseillé si vous désirez optimisé votre site pour le référencement (SEO) car il n'est absolument pas optimisé car elle ne contient aucun mots clefs suseptible d'être employer par vos utilisateurs dans un moteur de recherche.
+
+Une meilleur option est de choisir "Nom de l'article" ainsi tout les terme utliser dans le titre seront repris dans l'URL. On obiendra une url du type:
+
+http://localhost/wp_workshop/wordpress-cest-la-simplicite/
+
+Pour créer automatiquement cet url à partir du titre, WordPress a supprimer la ponctuation (, ! ?, ...), les espaces ont été remplacés par des tirets, les majuscules ont été converties en minuscule et les apostrophes ont également été supprimées. Les caractères accentués seront transformer en leur équivalent non accentué é --> e.
+
+On peut aller encore plus loin dans la personnalisation de nos permalien en allant directement dans "Articles" --> "Tous les articles" et en cliquant sur un des articles de la liste. Sous le titre,on vois s'affiche le permalien. Cliquer sur le petit bouton "Modifier" et supprimer dans le lien tout les mots liens inutiles qui n'ont rien de pertinent dans une recherche internet, pour simplifier au maximum l'url. Attention respecter les règles de nommmage (que des minuscule, chiffres, trait d'union, pas d'espace, ni de majuscules, ni de caractère accentués). N'oubliez pas de mettre à jour votre article.
+
+On obtient alors une URL de ce type:
+
+http://localhost/wp_workshop/wordpress-simplicite/
+
+
+
 
 
 
@@ -693,6 +789,10 @@ Ne pas oublier de cliquer sur le bouton "Enregistrer les modifications".
 
 
 ## Plugins et widgets
+
+
+
+
 
 
 ## Connaitre le theme et les plugins utilisés sur un site WordPress**
@@ -738,3 +838,5 @@ Pour tester, taper l'adresse: http://www.tinkeringmonkey.com/work/
 * Activer l'extension Akismet (Anti-Spam) dans la section "Extensions" et veiller à sa mise à jour régulière. Ce plugin est installé par défault directement lors de votre installation de WordPress, mais il faut encore l'activer pour le rendre opérationnel.
 
 * Voici encore quelques astuces qui vont vous permettre de rendre votre site WordPress plus professionnel rapidement : https://wpmarmite.com/site-wordpress-professionnel/
+
+* Modifier les permaliens (url) de vos articles afin d'avoir des url propre et dépourvues de mots liens inutiles. Une bonne gestion des permaliens (URL) de vos articles permet une optimisation de l'indexation des pages de votre site et un meilleur référencement.
