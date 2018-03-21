@@ -612,7 +612,7 @@ Veillez à employer des images de taille suffisante car certains thème les affi
 
 C'est dans cette section que vous aller pouvoir gérer les commentaires portant sur les articles de votre site.
 
-Vous avez la possibilité de désactivé la possibilité pour les utilisateurs de laisser des commentaires soit pour toutes les pages soit pour une ou plusieurs pages uniquement.
+Vous pouvez désactivé la possibilité pour les utilisateurs de laisser des commentaires soit pour toutes les pages soit pour une ou plusieurs pages uniquement.
 
 **Pour désactivé les commentaires sur toutes les pages.**
 
@@ -628,7 +628,6 @@ Vous avez la possibilité de désactivé la possibilité pour les utilisateurs d
 
 * N'oubliez pas de cliquer sur le bouton Mettre à jour.
 
-* Alternative: Vous pouvez aussi après activé la modification rapide sur la page où vous voulez désactivé les commentaires, aller dans les options de l'écran (sous la barre d'outils à droite) et décoché la case "commentaires" puis "Appliquer".
 
 
 **Pour désactivé les commentaires sur une pages précise :**
@@ -638,6 +637,18 @@ Cliquer sur "Modification rapide" et cocher ou non la case "Autorisé les commen
 
 * N'oubliez pas de cliquer sur le bouton "Mettre à jour"
 
+* Alternative: Vous pouvez aussi après activé la modification rapide sur la page où vous voulez désactivé les commentaires, aller dans les options de l'écran (sous la barre d'outils à droite) et décoché la case "commentaires" puis "Appliquer".
+
+Vous pouvez gérer l'ordre dans lequel apparaissent les commentaires dans la liste de votre interface en cliquant sur les titres de colonnes.
+
+En ce qui concerne la gestion des commentaires, au survol de ceux-ci apparait un menu supplémentaire (Désapprouver/ Approuver, Répondre, Modification rapide, Modifier, Indésirable, Corbeille)
+
+Les raccourcis clavier pour gérer plus rapidement vos commentaires:
+https://codex.wordpress.org/fr:Raccourcis_Clavier
+
+Un article intéressant sur les motivations des spammeurs à déposer des liens vers leur site dans les commentaires de votre site et la nécéssiter de les supprimer: https://codex.wordpress.org/fr:Commentaire_Ind%C3%A9sirable
+
+Quelques conseils pour répondre aux commentaires négatifs ou malveillants: https://www.webmarketing-com.com/2015/06/15/38270-repondre-a-commentaire-negatif-laisse-ligne
 
 ### Apparence
 
