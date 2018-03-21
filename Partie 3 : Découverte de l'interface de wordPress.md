@@ -438,25 +438,70 @@ La disposition de l'interface centrale pour les étiquettes est en tout point si
 
 ![Medias](images/interface_barre_menus_Medias.png)
 
-Dans cette section vous pourrez ...
+Dans cette section vous pourrez ajouter toutes une série de médias.
 
-Un média est ...
+Un média peut être une image, un son ou musique, une vidéo ou un fichier à télécharger par vos visiteurs via un lien.
+
+**Attention:**
+
+Renseigner vous bien sur les droits d'auteurs avant d'utiliser sur votre site des contenu provenant d'internet car il serait dommage de voir votre site être fermé pour un non respect de la législation en la matière. Par défaut, si il n'est pas précisé explicitement qu'un média est libre de droits, elle ne l'est pas. Méfiez-vous également des fichiers libre de droits pour un usage privé mais qui deviennent payant pour un usage commercial.
 
 #### Bibliothèque
 
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_Bibliotheque1.png)
 
+La bibliothèque est l'endroit dans WordPress où sont stockées tous vos fichiers médias. C'est ici que vous pourrez modifier les paramètres qui y sont rattaché (titre, légende, description, texte alternatif, etc...).
+
+Il est recommandé d'optimiser vos images pour le web (photoshop ou pixlr https://pixlr.com/editor/ (outil gratuit en ligne)) et vos fichiers afin de réduire leurs taille au maximum pour améliorer les performance de votre site et du même coup améliorer votre référencement qui dépend également de la vitesse de chargement de votre page.
+
+
 #### Ajouter
+
+Vous pouvez ajouter des médias via le menu "Medias" mais vous pouvez aussi ajouter des médias à la bibliothèque directement lors de la rédaction d'une page ou d'un article en cliquant sur le bouton "Ajouter un média" se trouvant juste au-dessus de l'éditeur de texte. Dans ce cas le média sera "lié" à votre page, ce qui peut être nécessaire pour certains plugins permettant par exemple de présenter vos fichiers pdf à télécharger sous forme d'une icone plutôt que sous la forme d'un lien texte.
 
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_ Ajouter.png)
 
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter2.png)
 
+Vous pourrez insérer un contenu provenant de votre disque dur ou provenant directement d'internet en indiquant simplement son url (attention aux droits d'auteur et licence d'utilisation).
+
+Attention la taille maximum pour vos fichiers est de 2MB. Si votre fichier dépasse cette taille il est préférable de les stocker sur un espace en ligne et de proposer son téléchargement via un lien dans une page ou un article de votre site.
+
+
+![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter2.png)
+
+Il est très important de remplir quelques informations concernant les fichiers de votre bibliothèque. Prenez l'habitude de le faire dès que vous télécharger un nouveau fichier dans votre bibliothèque.
+
+Vous avez accès à ces informations en cliquant sur l'icone de votre fichiers dans la bibliothèque.
+
+Adresse web: C'est l'url auquel correspond votre média (il n'est pas nécessaire de la modifier sous peine de rencontrer des problèmes d'affichage)
+
+Titre : Le titre par defaut indiqué sera celui du fichier que vous avez télécharger. Il peut être très intéressant de le modifier pour utiliser des mots qui le définisse bien et qui auront un bon impact sur votre référencement en fonction de votre domaine d'activité. Choississez un nom court et clair. Ce champ peut contenir des majuscules, minuscule, plusieurs mots, des chiffres, ... Eviter cependant les underscores car dans certains cas des plugins affiche le titre de votre fichiers (exemple titre du pdf)
+
+Légende: Ce champ n'est pas obligatoire et s'affichera ou non selon le thème et les réglage du thème que vous utiliserai.
+
+Texte alternatif: Ce champ est très important. Il correspond à l'option alt pour la balise image en html. Il s'agit du texte qui s'affichera si votre image n'est pas disponible et qui sera lu pour les personnes présentant des problèmes de vue. utiliser un texte court et clair. Dans tout les cas remplissez ce champ. Par facilité, vous pouvez faire un copier-coller du titre de votre média, cela devrait convenir.
+
+Description: Ce champ n'est pas obligatoire, mais peut apporter des informations complémentaire, il pourra être affiché dans certains thèmes selon vos réglages. Soigner donc votre orthographe.
+
+Toutes les modifications faites dans cette zone sont automatiquement enregistrées sans que vous deviez cliquer sur un bouton d'enregistrement.
+
+Vous pouvez également à cet endroit apporter des modifications à votre image en cliquant sur le bouton se trouvant juste sous la prévisualisation de celle-ci "Modifier l'image". Vous avez alors la possibilité d'effecuter des rotation (vertical ou horizontal) des symétrie (axe vertical ou horizontal). Vous pourrez également redimensionnez votre image en indiquant de nouvelle dimensions pour celle-ci (les valeurs de hauteur et largeur sont liées pour éviter la déformation de votre image). vous pouvez également recadrer votre image. Le moyen le plus simple pour procéder au recadrage est de cliquer sur l'image et de délimiter la zone à recadrer par cliquer glisser.
+
+
+![Medias - modifier image](interface_barre_menus_Medias_ Modifier.png)
+
+
+Quelques autres exemple de définition des infos pour différents type de média:
+
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter3.png)
+
 
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter4.png)
 
+
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter5.png)
+
 
 ![Medias - Bibliothèques](images/interface_barre_menus_Medias_Ajouter6.png)
 
@@ -464,34 +509,65 @@ Un média est ...
 
 ### Pages
 
+#### Différences entre pages et Articles
+
+Les pages sont comme des articles, en cela qu’elles ont un titre, un contenu et des métadonnées associées ; mais elles diffèrent en cela qu’elles ne font pas partie du flux chronologique du blog - un peu comme des articles permanents.
+
+Les pages ne sont pas catégorisées et ne reçoivent pas d’étiquettes, mais peuvent disposer d’une hiérarchie. En effet, vous pouvez imbriquer des pages sous d’autres pages, faisant de ces dernières les « parentes » des premières, créant ainsi un groupement de pages.
+
 ![Pages](images/interface_barre_menus_Pages.png)
+
+Dans cette partie vous pourrez ajouter de nouvelles pages à votre site.
 
 #### Toutes les pages
 
 ![Pages - Toutes les pages](images/interface_barre_menus_Pages_Toutes_les_pages.png)
 
+Ici sont listés toutes les pages de votre site. Vous pouvez au survol de celle-ci accéder à des options supplémentaires (Modifier, Modification rapide, Corbeille, Afficher). WordPresse installe par défaut une page appellée "Page d'exemple". Lorsque vous aurez créer vos propres pages vous pourrez la supprimer. Elle n'a pour but que de vous montrer les fonctionnalités de base possible dans les pages.
+
+Vous pouvez également voir le nom du créateur de la page (celui que vous avez indiquer dans votre nom d'administrateur dans votre profil), ainsi que sa date de création.
+
+Vous pouvez les classer par ordre alphabétique en cliquant sur le "Titre" de la colonne. Vous pouvez également les classer en fonction de leur date de création en cliquant sur "Date".
+
 ![Pages - Modifier pages](images/interface_barre_menus_Pages_Modifier_la_page.png)
+
+La section modifier du menu "Pages" vous permet d'accéder à toutes les options auxquelles vous avez accès lorsque vous créer une nouvelle page. Vous pouvez ainsi y modifier ce que vous souhaitez
 
 ![Pages - Previsuliser pages](images/interface_barre_menus_Pages_Prévisualiser_la_page.png)
 
+Permet de visualiser la page
 
 #### Ajouter
 
 ![Pages - Ajouter](images/interface_barre_menus_Pages_Ajouter.png)
 
-
+**Astuce WorkShop :**
 
 Générer du faux-texte (lorem ipsum) : http://www.faux-texte.com/
 
-Ou vous pouvez aller dans le dossier "Lorem ipsum" du repository github de ce workshop où vous trouverez un fichier texte avec 10 paragraphes de faux texte.
+Ou vous pouvez aller dans le dossier "Lorem ipsum" du repository github de ce workshop où vous trouverez un fichier texte avec 10 paragraphes de faux texte à copier et coller pour générer rapidement plusieurs articles et pages.
 
 Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPWhAYil48
 
 
+Dans la section "Ajouter" vous avez accès à toutes les options de la page:
 
-![Pages - Image mise en avant](images/interface_barre_menus_Pages_Image_mise_en_avant.png)
+**Titre:** Veuillez à ce qu'il ne soit pas trop long et pensez à y inclure des termes utile pour votre référencement.
+
+**Permalien :** Permet de modifier l'adresse URL de votre page (cette manipulation est délicate et peut posé des problème de lien brisé. Je vous conseille donc de toujours faire une sauvegarde avec updraftplus avant de modifier quoi que se soit dans les permalien). Il peut être intéressant de retirer de l'adresse url tous les mots liens inutiles qui n'apporte rien à vos utlisateur, ni au moteurs de recherche. Faites cette opération avant de rédiger votre contenu et d'y insérer des médias car sinon il y a un risque de problème d'affichage par après.
+
+**Bouton Ajouter un média:** Permet d'ajouter un média dans la bibliothèque. Ce média sera lié à votre page (utile pour certains plugin d'affichage de lien de téléchargement de fichiers sous forme d'icone par exemple). Cette liaison peut être faite également via les options si vous cliquer sur le média dans votre article, une fois dans la bibliothèque, vous pourrez voir dans les infos de l'image que vous aurez selectionner une section "Réglages de l'affichage du fichier joint". Vous pourrez y déterminer l'alignement de votre média, Lier à Aucun, Fichier média, page du fichier joint (ouvre un page avec uniquement la photo), lien personnalisé), ainsi que sa taille: miniature, moyennen ou taille originale)
+
+**L'éditeur de texte:**  vous permet de mettre le texte en forme Titre, paragraphe, gras,italique, lise à puce, alignement, citation, insérer un lien, insérer une balise lire la suite, ...
+Si vous cliquer sur la dernière icone vous aurez accès à d'autres options de mise en forme supplémentaires: texte barré, ligne horizontale, couleur du texte, nettoyer le formatage, caractères spéciaux, diminuer ou augmenter l'indentation, annuler ou rétablir une modification, un bouton ? reprenant tous les raccourcis de mise en forme)?.
+
+Pour les amoureux du code ou si vous avez du texte déja formaté en html que vous désirez utiliser, vous pouvez cliquer sur l'onglet" Texte (Jusqu'à présent nous étions dans l'onglet "Visuel"), où vous pourrez retrouver toute votre mise en forme en html.
+
+Si vous rencontrer un problème ou que vous ne savez pas comment mettre votre texte en forme, référer vous à l'onglet Aide (en haut à droite sous la barre d'outils) qui vous offrira une aide contextuelle sur tout ce qui concerne les pages.
 
 ![Pages - Ajout page et aide](images/interface_barre_menus_Pages_ajout_page_aide.png)
+
+Pour ajouter un média dans votre page il vous suffit de placer votre curseur dans l'éditeur de texte à l'endroit où vous souhaitez insérer le média et de cliquer sur le bouton "Ajouter un média" qui vous redirigera automatiquement vers la bibliothèque ou vous pourrez utiliser des fichiers déja télécharger, en télécharger de nouveau ou insérer un média directement à partir d'une adresse url
 
 ![Pages - media mise en forme](images/interface_barre_menus_Pages_ajout_media_mise_en_forme.png)
 
@@ -503,8 +579,31 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 ![Pages - nouveau media - son](images/interface_barre_menus_Pages_téleverser_nouveau_fichier4.png)
 
+Voici donc le résultat de notre page contenant différents types de médias:
+
 ![Pages - resultat - multimedia](images/interface_barre_menus_Pages_multi_medias.png)
 
+
+#### Le module "Publier"
+
+Le module "Publier" des pages est en tout point similaire à celui utiliser dans la section des articles il permet les même options.
+
+
+#### Le module Attributs de pages
+
+Vous permet de créer une hierarchie entre vos pages et pour certains thème appliquer à votre page un modèle précis particulier.
+
+Parent — Vous pouvez arranger vos pages en hiérarchies. Par exemple, vous pourriez avoir une page « À propos », avec comme sous-pages « Ma vie » et « Mon œuvre ». Il n’y a pas de limite à la profondeur des sous-pages.
+
+Modèle — Certains thèmes utilisent des modèles spéciaux que vous pouvez appliquer à pages des pages précises, avec des fonctionnalités supplémentaires ou une mise en page qui leur est propre. Si c’est le cas, vous les verrez dans ce menu déroulant.
+
+Ordre — Les pages sont généralement affichées par ordre alphabétique, mais vous pouvez indiquer un nombre dans ce champ pour modifier l’ordre d’apparition : 1 pour premier, etc.
+
+#### Image mise en avant
+
+Ce champ n'est pas obligatoire, il permet de choisir une image qui symbolisera le mieux le sujet de votre page et qui sera utiliser différemment selon votre thème. Généralement il affiche l'image en grand sur toute la largeur dans le haut de votre page avant son contenu. 
+
+Veillez à employer des images de taille suffisante car certains thème les affichent sur toute la largeur de la page ce qui peut provoquer une pixelisation de l'image si celle-ci est de petite taille. Bien sur optimisé pour le web votre image avant de la télécharger dans la bibliothèque.
 
 
 ### Commentaires
@@ -738,7 +837,29 @@ Ne pas oublier de cliquer sur le bouton "Enregistrer les modifications".
 
 ![Reglages - Medias](images/interface_barre_menus_Reglages_medias.png)
 
-#### Permaliens
+#### Permaliens (A manipuler avec précaution)
+
+Attention avant de modifier les permaliens que se soit via le menu "Réglages" ou directement dans la modification d'article, FAITES TOUJOURS UNE SAUVEGARDE DE VOTRE SITE !!! Les modifications dans les permaliens peut parfois causer des problèmes et empêche l'affichage correct des articles. Donc ayez à porter de main un sauvegarde prête à être restaurée en cas de problème (plugin updraftplus)
+
+Les permaliens sont la partie visible de l’adresse Web, qui vient après votre nom de domaine, et qui pointe vers les messages et les pages de votre site.
+
+Modifier les permaliens sur un site en place peut être risqué. Vous devez être absolument sûr de vouloir faire ce changement, car il peut avoir un impact sur votre référencement. Cela peut aussi causer beaucoup d’erreurs et de liens rompus si la modification n’est pas faites correctement.
+
+Les permaliens ont plusieurs fonctions:
+
+* Ils permettent à vos lecteurs d’obtenir une compréhension sommaire du sujet traité dans l’article ou la page sans regarder le contenu.
+
+* Ils sont utilisés par les moteurs de recherche pour découvrir le sujet de l’article ou de la page à partir de l’URL.
+
+* Ils fournissent un emplacement permanent à vos visiteurs et aux moteurs de recherche pour accéder à votre contenu.
+
+* Ils sont essentiellement un identifiant unique pour chaque élément de contenu que vous créez.
+
+Lorsque vous avez choisi la syntaxe vous allez utiliser, il est temps d’aller dans le menu permaliens de votre tableau de bord et d’effectuer les changements.
+
+Attention: L’ensemble de vos URL internes sera mis à jour avec la nouvelle syntaxe, si elles ont été ajoutées dans le cadre de WordPress. Tous les autres liens devront être mis à jour manuellement.
+
+Attention: Notez cependant que tous les liens vers votre site provenant des moteurs de recherche, des rétroliens, etc… sont à présent brisés et le contenu indexé par les moteurs de recherche ne pointera plus vers les articles correspondants.
 
 ![Reglages - Permaliens](images/interface_barre_menus_Reglages_permaliens.png)
 
@@ -758,12 +879,48 @@ http://localhost/wp_workshop/wordpress-cest-la-simplicite/
 
 Pour créer automatiquement cet url à partir du titre, WordPress a supprimer la ponctuation (, ! ?, ...), les espaces ont été remplacés par des tirets, les majuscules ont été converties en minuscule et les apostrophes ont également été supprimées. Les caractères accentués seront transformer en leur équivalent non accentué é --> e.
 
-On peut aller encore plus loin dans la personnalisation de nos permalien en allant directement dans "Articles" --> "Tous les articles" et en cliquant sur un des articles de la liste. Sous le titre,on vois s'affiche le permalien. Cliquer sur le petit bouton "Modifier" et supprimer dans le lien tout les mots liens inutiles qui n'ont rien de pertinent dans une recherche internet, pour simplifier au maximum l'url. Attention respecter les règles de nommmage (que des minuscule, chiffres, trait d'union, pas d'espace, ni de majuscules, ni de caractère accentués). N'oubliez pas de mettre à jour votre article.
+Pour un site d'actualité pour laquelle la date de publication peut être une information importante je vous conseille de choisir plutôt l'option "Structure personnalisée" et d'indiquer une date (jour/mois/année) avant le nom du post. Ces informations sont importantes car elle peuvent indiqué si un article est toujours d'actualité ou peut comporter des informations qui ne seront pas toujours très récentes.
 
 On obtient alors une URL de ce type:
 
 http://localhost/wp_workshop/wordpress-simplicite/
 
+On peut aller encore plus loin dans la personnalisation de nos permalien en allant directement dans "Articles" --> "Tous les articles" et en cliquant sur un des articles de la liste. Sous le titre,on vois s'affiche le permalien. Cliquer sur le petit bouton "Modifier" et supprimer dans le lien tout les mots liens inutiles qui n'ont rien de pertinent dans une recherche internet, pour simplifier au maximum l'url. Attention respecter les règles de nommmage (que des minuscule, chiffres, trait d'union, pas d'espace, ni de majuscules, ni de caractère accentués). N'oubliez pas de mettre à jour votre article.
+
+On obtient alors une URL de ce type:
+
+http://localhost/wp_workshop/20/03/2018/bonjour-tout-le-monde/
+
+## Problème de liens cassés - page 404 lorsque permaliens passé en option "Nom de l'article"
+
+Le problème est identique lorque l'on choisi "structure personnalisée" et que l'on indique juste "/%postname%/", ce cela revient au même que l'option "Nom de l'article" et donc est modifié en "Nom de l'article" automatiquement lors de l'enregistrement.
+
+Voici la marche à suivre pour optimiser malgrès tout vos liens. Choisissez "Structure personnalisée" et copier dans le champ le code suivant:
+
+```
+/index.php/%postname%/
+```
+
+Enregistrer les modifications. Revenez sur la page d'acceuil de votre site (http://localhost/wp_workshop/), rafraichissez la page et cliquer sur le titre d'un de vos articles. Il devrait à présent s'afficher avec une adresse URL du type : http://localhost/wp_workshop/index.php/bonjour-tout-le-monde/
+
+Le rajout de index.php dans l'URL n'est pas idéal mais permet de contourner le problème et surtout d'indiqué une url contenant le titre de votre article plutôt qu'un numéro d'ID qui n'apporte aucune infos à vos visiteurs, ni au moteurs de recherche et donc nuit à votre référencement (SEO).
+
+Le contenu du fichier .htaccess situé à la racine du dossier de votre site (créer lors de la modification des permaliens) reflète ce changement (fichier caché auquel on ne peut avoir accès en écriture qu'en mode administrateur (sudo))
+
+```
+# BEGIN WordPress
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /wp_workshop/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /wp_workshop/index.php [L]
+</IfModule>
+
+# END WordPress
+```
 
 
 
