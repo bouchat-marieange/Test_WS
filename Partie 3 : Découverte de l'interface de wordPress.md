@@ -449,7 +449,12 @@ La disposition de l'interface centrale pour les étiquettes est en tout point si
 
 Dans cette section vous pourrez ajouter toutes une série de médias.
 
-Un média peut être une image, un son ou musique, une vidéo ou un fichier à télécharger par vos visiteurs via un lien.
+Un média peut être une image, un son ou musique, une vidéo ou un fichier à télécharger par vos visiteurs via un lien comme un fichier pdf ou texte.
+
+La taille maximam pour les fichiers est de 2MB.
+
+Pour les images, les formats autorisés par WordPress sont jpeg, png et gif. Optimisé vos images pour le web afin d'assurer un téléchargement rapide et un bon référencement même sur les supports mobiles qui pourrait consulter votre site via la 4G moins performante et rapide que le wifi ou la connexion directe à un modem.
+
 
 **Attention:**
 
@@ -461,10 +466,25 @@ Renseigner vous bien sur les droits d'auteurs avant d'utiliser sur votre site de
 
 La bibliothèque est l'endroit dans WordPress où sont stockées tous vos fichiers médias. C'est ici que vous pourrez modifier les paramètres qui y sont rattaché (titre, légende, description, texte alternatif, etc...).
 
+On peut choisir si on désire voir les médias affiché sous forme de liste ou sous forme de miniatures. Filtrer le type de médias que l'on voir afficher (image, son, video, non attaché (pas utilisé dans le site)). On peut également les classé par date de téléchargement (mois année) et effectuer une "Sélection en masse", c'est à dire une selection multiple en cochant plusieurs images. Il est également possible de faire une recherche sur le titre, la légende ou la description d'un média ce qui peut s'avérer très utile lorsque le site devient plus conséquent (d'où l'importance de nommer ces images intelligement).
+
 Il est recommandé d'optimiser vos images pour le web (photoshop ou pixlr https://pixlr.com/editor/ (outil gratuit en ligne)) et vos fichiers afin de réduire leurs taille au maximum pour améliorer les performance de votre site et du même coup améliorer votre référencement qui dépend également de la vitesse de chargement de votre page.
 
+En cliquant sur l'un des média vous aurez accès à toute une serie d'informations comme :
+
+* Nom du fichier : apprendre.png
+
+* Type du fichier : image/png
+
+* Téléversé le : 21 mars 2018
+
+* Taille du fichier : 8 KB
+
+* Dimensions : 347 × 145
 
 #### Ajouter
+
+Vous pouvez ajouter plusieurs médias en même temps par une selection multiples ou par un glisser déposer de plusieurs fichiers sur la zone en pointillés.
 
 Vous pouvez ajouter des médias via le menu "Medias" mais vous pouvez aussi ajouter des médias à la bibliothèque directement lors de la rédaction d'une page ou d'un article en cliquant sur le bouton "Ajouter un média" se trouvant juste au-dessus de l'éditeur de texte. Dans ce cas le média sera "lié" à votre page, ce qui peut être nécessaire pour certains plugins permettant par exemple de présenter vos fichiers pdf à télécharger sous forme d'une icone plutôt que sous la forme d'un lien texte.
 
@@ -483,19 +503,34 @@ Il est très important de remplir quelques informations concernant les fichiers 
 
 Vous avez accès à ces informations en cliquant sur l'icone de votre fichiers dans la bibliothèque.
 
-Adresse web: C'est l'url auquel correspond votre média (il n'est pas nécessaire de la modifier sous peine de rencontrer des problèmes d'affichage)
+Adresse web: C'est l'url auquel correspond votre média (il n'est pas nécessaire et risqué de la modifier sous peine de rencontrer des problèmes d'affichage)
 
-Titre : Le titre par defaut indiqué sera celui du fichier que vous avez télécharger. Il peut être très intéressant de le modifier pour utiliser des mots qui le définisse bien et qui auront un bon impact sur votre référencement en fonction de votre domaine d'activité. Choississez un nom court et clair. Ce champ peut contenir des majuscules, minuscule, plusieurs mots, des chiffres, ... Eviter cependant les underscores car dans certains cas des plugins affiche le titre de votre fichiers (exemple titre du pdf)
+Titre : Le titre par defaut sera celui du nom du fichier que vous avez télécharger. Il peut être très intéressant de le modifier pour utiliser des mots qui le définisse bien et qui auront un bon impact sur votre référencement en fonction de votre domaine d'activité. Ce titre généré automatiquement est rarement "propre", lui ajouter une majuscule, remplacer les underscore par des espace ou des tirets rende le titre de l'image plus lisible. Choississez un nom court et clair. Ce champ peut contenir des majuscules, minuscule, plusieurs mots, des chiffres, ... Certains plugins affiche le titre de votre fichiers donc soigné l'orthographe et la lisibilité. (exemple: titre de fichier pdf)
 
-Légende: Ce champ n'est pas obligatoire et s'affichera ou non selon le thème et les réglage du thème que vous utiliserai.
+Légende: Ce champ n'est pas obligatoire et s'affichera ou non selon le thème et les réglage du thème que vous utiliserez.
 
-Texte alternatif: Ce champ est très important. Il correspond à l'option alt pour la balise image en html. Il s'agit du texte qui s'affichera si votre image n'est pas disponible et qui sera lu pour les personnes présentant des problèmes de vue. utiliser un texte court et clair. Dans tout les cas remplissez ce champ. Par facilité, vous pouvez faire un copier-coller du titre de votre média, cela devrait convenir.
+Texte alternatif: Ce champ est très important. Il correspond à l'option alt pour la balise image en html. Il s'agit du texte qui s'affichera si votre image n'est pas disponible et qui assure une meilleure accessibilité aux personnes handicapée. Utiliser un texte court et clair. Dans tout les cas remplissez ce champ. Par facilité, vous pouvez faire un copier-coller du titre de votre média.
 
-Description: Ce champ n'est pas obligatoire, mais peut apporter des informations complémentaire, il pourra être affiché dans certains thèmes selon vos réglages. Soigner donc votre orthographe.
+Description: Ce champ n'est pas obligatoire et s'affichera ou non selon le thème et les réglage du thème que vous utiliserez.
+
+En dessous vous trouverez les liens:
+
+**Voir la page du fichier joint**
+
+Cela affiche la page dédié seulement à la photo mais dans le cadre du thème appliqué à votre site
+
+**Indiquer plus de détails**
+
+L'image est affichée en plus grand si sa taile le permet. on retrouve sur le coté les informations techniques et sous l'image les champs Légende, Texte alternatif et Description. Mais cette fois, on a la possibilité de mettre en forme le texte de Description (gras, italique, liste à puces, code, etc...). La mise en forme apparait dans le champ sous sa forme html mais la mise en forme avec les balise se fait automatiquement en fonction des boutons de mise en forme selectionnés. Si modifications, n'oubliez pas de mettre à jour.  
+
+
+**Supprimer définitivement une image**
+
+L'intitulé est clair. Si vous cliquer sur le lien vous supprimer définitivement le media de la bibliothèque et donc également partout où celui-ci aurait pu être intégré dans vos contenus.
 
 Toutes les modifications faites dans cette zone sont automatiquement enregistrées sans que vous deviez cliquer sur un bouton d'enregistrement.
 
-Vous pouvez également à cet endroit apporter des modifications à votre image en cliquant sur le bouton se trouvant juste sous la prévisualisation de celle-ci "Modifier l'image". Vous avez alors la possibilité d'effecuter des rotation (vertical ou horizontal) des symétrie (axe vertical ou horizontal). Vous pourrez également redimensionnez votre image en indiquant de nouvelle dimensions pour celle-ci (les valeurs de hauteur et largeur sont liées pour éviter la déformation de votre image). vous pouvez également recadrer votre image. Le moyen le plus simple pour procéder au recadrage est de cliquer sur l'image et de délimiter la zone à recadrer par cliquer glisser.
+Vous pouvez également à cet endroit apporter des modifications à votre image directement dans l'interfce de WordPress en cliquant sur le bouton se trouvant juste sous la prévisualisation de celle-ci "Modifier l'image". Vous avez alors la possibilité d'effecuter un recadrage, des rotation (vertical ou horizontal) des symétrie (axe vertical ou horizontal). Vous pourrez également redimensionnez votre image en indiquant de nouvelle dimensions pour celle-ci (les valeurs de hauteur et largeur sont liées pour éviter la déformation de votre image). vous pouvez également recadrer votre image. Le moyen le plus simple pour procéder au recadrage est de cliquer sur l'image et de délimiter la zone à recadrer par cliquer glisser. Cette solution est pratique et rapide mais il est préférable d'effectuer ses modifications dans un logiciel dédié à la retouche d'image avant de l'importer dans la bibliothèque de votre site.
 
 
 ![Medias - modifier image](interface_barre_menus_Medias_ Modifier.png)
@@ -562,7 +597,13 @@ Dans la section "Ajouter" vous avez accès à toutes les options de la page:
 **Bouton Ajouter un média:** Permet d'ajouter un média dans la bibliothèque. Ce média sera lié à votre page (utile pour certains plugin d'affichage de lien de téléchargement de fichiers sous forme d'icone par exemple). Cette liaison peut être faite également via les options si vous cliquer sur le média dans votre article, une fois dans la bibliothèque, vous pourrez voir dans les infos de l'image que vous aurez selectionner une section "Réglages de l'affichage du fichier joint". Vous pourrez y déterminer l'alignement de votre média, Lier à Aucun, Fichier média, page du fichier joint (ouvre un page avec uniquement la photo), lien personnalisé), ainsi que sa taille: miniature, moyennen ou taille originale)
 
 **L'éditeur de texte:**  vous permet de mettre le texte en forme Titre, paragraphe, gras,italique, lise à puce, alignement, citation, insérer un lien, insérer une balise lire la suite, ...
-Si vous cliquer sur la dernière icone vous aurez accès à d'autres options de mise en forme supplémentaires: texte barré, ligne horizontale, couleur du texte, nettoyer le formatage, caractères spéciaux, diminuer ou augmenter l'indentation, annuler ou rétablir une modification, un bouton ? reprenant tous les raccourcis de mise en forme)?.
+Si vous cliquer sur la dernière icone vous aurez accès à d'autres options de mise en forme supplémentaires: texte barré, ligne horizontale, couleur du texte, nettoyer le formatage (enleve tout formatage lors d'un copier-coller à partir d'un logiciel de traitement de texte --> texte brut), caractères spéciaux, diminuer ou augmenter l'indentation, annuler ou rétablir une modification, un bouton ? reprenant tous les raccourcis de mise en forme)?.
+
+Il est important de dire à vos utlisateurs rédacteurs ou susceptibles d'ajouter du contenu texte à votre site qu'ils peuvent saisir leur texte dans leur traitement de texte favori avant de le copier-coller dans wordpress mais que c'est inutile de le mettre en forme car la bonne pratique est de copier-coller du texte brut (sans mise en forme) dans WordPress et de réaliser la mise en forme avec l'éditeur de texte incorporé de WordPress.
+
+Si le texte copier a déja une mise en forme (police, taille, graisse, italique, couleur, etc...), le bouton "coller en texte"(dans le second étage de la barre d'outils de l'éditeur auquel on accède en cliquant sur la dernière icone de la barre de mise en forme de l'éditeur texte WordPress)permet de coller tout texte automatiquement sans mise en forme. Une fois le bouton cliqué, celui-ci reste enfoncé et la fonction reste active jusqu'à ce que l'on clique à nouveau sur le bouton.
+
+Si l'éditeur de texte de WordPress est trop basic pour vos rédacteur, sachez qu'il existe des plugins qui permettent non seulement d'ajouter de très nombreuses fonctions à l'éditeur de texte par defaut de WordPress mais également de définir avec précision selon le type dutilisateurs quel sont les fonctions d'édition (les boutons) auquel les rédacteurs ont accès. Cela permet par exemple de ne pas donner accès au changement de couleur de texte qui placer dans de mauvaises mains pourrait très vite transformer votre charte graphique conçue avec amour en un arc-en-ciel textuel du plus mauvais goût. Le plugin que je vous conseil se nomme TinyMCE Advanced (https://fr.wordpress.org/plugins/tinymce-advanced/), il permet également la réalisation de tableaux et de pleins d'autres mise en forme avancées.
 
 Pour les amoureux du code ou si vous avez du texte déja formaté en html que vous désirez utiliser, vous pouvez cliquer sur l'onglet" Texte (Jusqu'à présent nous étions dans l'onglet "Visuel"), où vous pourrez retrouver toute votre mise en forme en html.
 
@@ -974,6 +1015,14 @@ Ne pas oublier de cliquer sur le bouton "Enregistrer les modifications".
 #### Médias
 
 ![Reglages - Medias](images/interface_barre_menus_Reglages_medias.png)
+
+Lorsque vous télécharger une image dans la bibliothèque de WordPress, celui génère automatiquement 3 tailles d'images différentes qui seront toute accessible lors de leur insertion dans les contenu (articles ou pages). Vous pouvez déterminer les dimensions exactes des trois tailles (miniatures (par defaut 150x150), moyenne (par defaut 300 x 300) et grande (par defaut 1024 x 1024)) qui seront générer par WordPress pour vos images en allant dans le menu "Réglages"--> "Médias". L'image sera tronquée pour correspondre à ces mesures. Pour les images qui ne sont pas carrée, Wordpress adaptera au mieux le recadrage en fonction de la hauteur ou de la largeur de votre image.
+
+Certains thème utilise une taille précise pour assurer un affichage optimal de vos images. Consulter la documentation de votre thème pour savoir quelle devrait être la taille de vos images pour assurer un meilleur résultat.
+
+Toutes les images (format original + 3 tailles générés par WordPress) sont placés dans l'arborescence de votre site wordpress dans un dossier appellé "uploads". Si vous avez coché la case " Organiser mes fichiers envoyés dans des dossiers mensuels et annuels" les images seront placés à cet endroit dans des sous-dossier portant le nom de l'année et du mois durant lequel elles ont été téléchargées.Je vous conseille de laissé cette case cochée car elle facilite la recherche d'une image précise.
+
+Si vous apporter des modifications au réglages médias, n'oubliez pas d'enregister vos modifications.
 
 #### Permaliens (A manipuler avec précaution)
 
