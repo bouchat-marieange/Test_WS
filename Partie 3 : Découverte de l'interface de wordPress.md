@@ -601,7 +601,7 @@ Ordre — Les pages sont généralement affichées par ordre alphabétique, mais
 
 #### Image mise en avant
 
-Ce champ n'est pas obligatoire, il permet de choisir une image qui symbolisera le mieux le sujet de votre page et qui sera utiliser différemment selon votre thème. Généralement il affiche l'image en grand sur toute la largeur dans le haut de votre page avant son contenu. 
+Ce champ n'est pas obligatoire, il permet de choisir une image qui symbolisera le mieux le sujet de votre page et qui sera utiliser différemment selon votre thème. Généralement il affiche l'image en grand sur toute la largeur dans le haut de votre page avant son contenu.
 
 Veillez à employer des images de taille suffisante car certains thème les affichent sur toute la largeur de la page ce qui peut provoquer une pixelisation de l'image si celle-ci est de petite taille. Bien sur optimisé pour le web votre image avant de la télécharger dans la bibliothèque.
 
@@ -610,6 +610,33 @@ Veillez à employer des images de taille suffisante car certains thème les affi
 
 ![Commentaires](images/interface_barre_menus_Commentaires.png)
 
+C'est dans cette section que vous aller pouvoir gérer les commentaires portant sur les articles de votre site.
+
+Vous avez la possibilité de désactivé la possibilité pour les utilisateurs de laisser des commentaires soit pour toutes les pages soit pour une ou plusieurs pages uniquement.
+
+**Pour désactivé les commentaires sur toutes les pages.**
+
+* Aller dans le menu "Pages"--> "Toutes les pages".
+
+* Cliquer sur la case à cocher à coté du mot titre (toutes les pages sont selectionnées d'un seul coup).
+
+* Aller ensuite dans le menu déroulant "Actions groupées" et selectionnez "Modifier".
+
+* Dans la page qui s'affiche vous vérrai les pages selectionnée ainsi que plusieurs opérations que vous pourrez effectué sur toutes les pages en même temps telles que : changer le nom de l'auteur, changer la page parent, autoriser au refuser les commentaires (c'est la partie qui nous intéresse) et enfin modifier l'état (publié, brouillon, ...)
+
+* Choisissez dans la liste déroulante "commentaires"  l'option "refuser"
+
+* N'oubliez pas de cliquer sur le bouton Mettre à jour.
+
+* Alternative: Vous pouvez aussi après activé la modification rapide sur la page où vous voulez désactivé les commentaires, aller dans les options de l'écran (sous la barre d'outils à droite) et décoché la case "commentaires" puis "Appliquer".
+
+
+**Pour désactivé les commentaires sur une pages précise :**
+
+* Survoler le titre de la page dans la liste "Toutes les pages"
+Cliquer sur "Modification rapide" et cocher ou non la case "Autorisé les commentaires"
+
+* N'oubliez pas de cliquer sur le bouton "Mettre à jour"
 
 
 ### Apparence
