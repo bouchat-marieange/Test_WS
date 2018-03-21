@@ -243,6 +243,15 @@ Retourner sur l'onglet où se trouve l'interface d'administration de votre WordP
 
 Voici la procédure détaillée dans un tuto : https://medrhamnia.wordpress.com/2011/06/18/pourquoi-wordpress-demande-les-parametres-de-connexion-ftp-en-local/
 
+### Différences entre pages et Articles
+
+Les pages sont comme des articles, en cela qu’elles ont un titre, un contenu et des métadonnées associées ; mais elles diffèrent en cela qu’elles ne font pas partie du flux chronologique du blog - un peu comme des articles permanents.
+
+Les pages servent à gerer le contenu informatif de votre site (informations générales, page de contact, présentation de projet, présentation statique de la structure de votre entreprise,...). C'est ce que l'on appelle l'actualité froide dans le monde de la presse.
+
+Les articles permettent de gérer le contenu régulier de votre site telles que les actualités courantes, quotidiennes ou hebdomadaires selon la fréquence de publication de votre site. C'est ce que l'on nomme dans la presse "l'Actualité chaude" dans le monde de la presse.
+
+Les pages ne sont pas catégorisées et ne reçoivent pas d’étiquettes, mais peuvent disposer d’une hiérarchie. En effet, vous pouvez imbriquer des pages sous d’autres pages, faisant de ces dernières les « parentes » des premières, créant ainsi un groupement de pages.
 
 
 ### Articles
@@ -509,12 +518,6 @@ Quelques autres exemple de définition des infos pour différents type de média
 
 ### Pages
 
-#### Différences entre pages et Articles
-
-Les pages sont comme des articles, en cela qu’elles ont un titre, un contenu et des métadonnées associées ; mais elles diffèrent en cela qu’elles ne font pas partie du flux chronologique du blog - un peu comme des articles permanents.
-
-Les pages ne sont pas catégorisées et ne reçoivent pas d’étiquettes, mais peuvent disposer d’une hiérarchie. En effet, vous pouvez imbriquer des pages sous d’autres pages, faisant de ces dernières les « parentes » des premières, créant ainsi un groupement de pages.
-
 ![Pages](images/interface_barre_menus_Pages.png)
 
 Dans cette partie vous pourrez ajouter de nouvelles pages à votre site.
@@ -543,7 +546,7 @@ Permet de visualiser la page
 
 **Astuce WorkShop :**
 
-Générer du faux-texte (lorem ipsum) : http://www.faux-texte.com/
+Générer du faux-texte (lorem ipsum) : http://www.faux-texte.com/ ou pour ceux qui veulent un peu d'originalité dans leurs faux texte: https://blog.shevarezo.fr/post/2015/06/02/generateurs-textes-plus-cools-lorem-ipsum
 
 Ou vous pouvez aller dans le dossier "Lorem ipsum" du repository github de ce workshop où vous trouverez un fichier texte avec 10 paragraphes de faux texte à copier et coller pour générer rapidement plusieurs articles et pages.
 
@@ -552,7 +555,7 @@ Adresse vidéo à insérer dans WordPress : https://www.youtube.com/watch?v=cOPW
 
 Dans la section "Ajouter" vous avez accès à toutes les options de la page:
 
-**Titre:** Veuillez à ce qu'il ne soit pas trop long et pensez à y inclure des termes utile pour votre référencement.
+**Titre:** Veuillez à ce qu'il ne soit pas trop long (il sera utiliser comme intitulé dans les menu) et pensez à y inclure des termes utile pour votre référencement et suffissament explicites pour que vos utilisateurs sachent ce qu'ils vont pouvoir y trouver comme informations.
 
 **Permalien :** Permet de modifier l'adresse URL de votre page (cette manipulation est délicate et peut posé des problème de lien brisé. Je vous conseille donc de toujours faire une sauvegarde avec updraftplus avant de modifier quoi que se soit dans les permalien). Il peut être intéressant de retirer de l'adresse url tous les mots liens inutiles qui n'apporte rien à vos utlisateur, ni au moteurs de recherche. Faites cette opération avant de rédiger votre contenu et d'y insérer des médias car sinon il y a un risque de problème d'affichage par après.
 
@@ -593,11 +596,11 @@ Le module "Publier" des pages est en tout point similaire à celui utiliser dans
 
 Vous permet de créer une hierarchie entre vos pages et pour certains thème appliquer à votre page un modèle précis particulier.
 
-Parent — Vous pouvez arranger vos pages en hiérarchies. Par exemple, vous pourriez avoir une page « À propos », avec comme sous-pages « Ma vie » et « Mon œuvre ». Il n’y a pas de limite à la profondeur des sous-pages.
+Parent — Vous pouvez arranger vos pages en hiérarchies. Par exemple, vous pourriez avoir une page « À propos », avec comme sous-pages « Ma vie » et « Mon œuvre ». Il n’y a pas de limite à la profondeur des sous-pages. Cela sera utile lorsque nous verrons la gestion des menus.
 
 Modèle — Certains thèmes utilisent des modèles spéciaux que vous pouvez appliquer à pages des pages précises, avec des fonctionnalités supplémentaires ou une mise en page qui leur est propre. Si c’est le cas, vous les verrez dans ce menu déroulant.
 
-Ordre — Les pages sont généralement affichées par ordre alphabétique, mais vous pouvez indiquer un nombre dans ce champ pour modifier l’ordre d’apparition : 1 pour premier, etc.
+Ordre — Les pages sont généralement affichées par ordre alphabétique, mais vous pouvez indiquer un nombre dans ce champ pour modifier l’ordre d’apparition : 1 pour premier, etc. dans le menu de navigation.
 
 #### Image mise en avant
 
@@ -747,6 +750,72 @@ En **changeant de thèmes**, il y a souvent des variations sur le nombre et l’
 
 ![Apparence - Menus](images/interface_barre_menus_Apparence_Menus.png)
 
+Les menus permettent à vos utilisateurs de naviguer parmi vos pages. L'emplacement et le nombre de menus dépendra du thème que vous aurez choisi.
+
+Par defaut à chaque fois que vous créer une nouvelle page, elle est automatiquement ajouter à la barre des menus de votre site.
+
+**Pour créer notre propre menu**
+
+* Aller dans "Apparence"--> "Menus"
+
+* Dans la partie droite de l'écran indiquer le Nom du menu (exemple: Menu principal)
+
+* Cliquer sur le bouton "Créer le menu"
+
+* Maintenant que le menu est créer on va pouvoir créer la structure du menu en y ajoutant les pages que l'on souhaite en cochant dans le module Pages (à gauche) les pages que je veux ajouter au menu. Puis cliquer sur "Ajouter au menu"
+
+* Les pages ajoutée se positionne dans la Structure du menu. Maintenant cliquer en haut à droite sur le bouton "Enregister le menu"
+
+
+Vous pouvez modifier l'ordre des différents élément du menu par glisser-déposer en faisant remonter ou descendre des éléments.
+
+**Création d'un menu déroulant**
+
+Si vous décaler légèrement un des éléments vers la droite, vous créer un sous-menu ce qui sera utile si votre thème permet l'usage de menu déroulant (ce n'est pas toujours le cas). Il est possible de remettre tous les éléments au même niveau en les deplaçant légèrement vers la gauche. Il n'y a rien d'autre à faire, aller ensuite dans votre site et rafraichissez la page pour voir si le menu déroulant s'est effectivement appliquer à votre menu.
+
+**Réglages du menu**
+
+En dessous de la liste vous pouvez cocher **"Ajouter automatiquement les pages de premier niveau au menu"** cela vous évitera de devoir le faire manuellement à chaque nouvel ajout de page. Si cela ne vous convient pas, vous pourrez modifier cela en supprimant la page de votre menu à cet endroit.
+
+Juste en dessous **Afficher l'emplacement** vous permet de choisir à quel endroit prévu par votre thème vous choisissez d'afficher votre menu dans votre site.
+
+N'oubliez pas "Enregister le menu" et visualiser le résultat dans votre page. (http://localhost/wp_workshop/)
+
+**Les options de gestion de page dans les menus**
+
+En cliquant sur la flèche situé à coté de Page dans l'un des élément du menu, on pourra voir apparaitre une série d'options:
+
+* Titre de la navigation :  C'est le titre qui sera afficher dans la navigation qui par defaut reprend le titre de la page. Il est cependant possible grâce à cette option de changer ce titre dans la navigation si par exemple le titre de la page est trop long.
+
+* Déplacer (Un cran vers le haut, descendre d'un cran , Sortir de sous Qui sommes-nous ?) : cela peut aussi être fait par glisser déposer haut bas gauche droite
+
+* Original: Nos projets (C'est le titre original utlisé au dépar dans le menu avant modification - bref le titre de la page)
+
+* Retirer (retirer la page du menu) - Annuler (annuler les modifications)
+
+Attention: N'oubliez pas d'enregister le menu pour que les modification soient prises en compte.
+
+L'utilisation principale des pages est d'être placé dans des menus pour faciliter la navigation dans le site et gérer les contenus du site en en les plaçant dans différentes pages pour faciliter l'accès au contenu rechercher par les visiteurs dans le site.
+
+#### Il n'y a pas que les pages qui peuvent devenir des éléments de menus
+
+Dans la section "Apparence"-->"Menu" on voit que l'on a le module "Pages" à gauche mais également juste en dessous, le module "Articles","Liens personnalisés" et "Categories"
+
+**Articles**
+
+Permet de créer des éléments de menu menant directement à des articles.
+
+**Liens personnalisés**
+
+Un usage pratique lorsque l'on place un lien dans le menu est que l'on peut par exemple placer un lien vers la page d'acceuil dans le menu en indiquant tout simplement son adresse URL(Attention celle-ci changera entre la version en local et lorsque vous mettrez votre site en ligne). Titre de la navigation indique le nom qu'aura ce lien dans le menu (par exemple : Accueil) . Cela permet d'avoir un autre accès à la page d'acceuil qu'en cliquant sur le titre du site. On peut également faire des liens vers des sites externes. Si on veut effectuer des modification. Dans les "Options de l'écran" coché la case "Cible du lien" qui permet si cette case est cochée dans l'élément de votre menu d'ouvrir la page web dans un nouvel onglet, et donc de garder votre site ouvert. On peut également cliquer sur la case "Classes CSS" qui permet d'ajouter par exemple une icone ou de mettre une petite maison pour remplacer le mot accueil.
+
+**Catégories**
+
+Permet de créer des éléments de menu menant directement à des catégories.
+
+D'autres options sont disponibles en cochant des cases dans "Options de l'écran". (Etiquette, Format)
+
+
 #### En-tête
 
 ![Apparence - En-tête](images/interface_barre_menus_Apparence_entete.png)
@@ -761,19 +830,50 @@ En **changeant de thèmes**, il y a souvent des variations sur le nombre et l’
 
 ![Extensions](images/interface_barre_menus_Extensions.png))
 
+Les extensions (plugins) étendent les fonctionnalités de WordPress. Une fois une extension installée, vous pouvez l’activer, la désactiver ou la supprimer à cet endroit. Vous pourrez également faire une recherche de plugins directement à partir de l'interface de WordPress et installés ceux qui vous intéressent très facilement.
+
+C'est également ici que vous aurez accès aux réglages de vos extensions (plugins). Attention cependant certains plugins ajoute des nouveaux sous-menus avec des réglages à d'autres endroits de la barre de menu de WordPress. Par exemple, UpdraftPlus que nous utlisons pour la sauvegarde de notre site, ajoute lors de son installation et activation, un nouveau sous-menu "Sauvegardes UpdraftPlus" dans le menus Réglages.(Vous pouvez y accéder facilement en cliquant sur le lien réglages dans la liste des extension au survol de UpdraftPlus qui vous redirige directement au bon endroit).
+
+Attention pour désinstaller une extension de WordPress, il est obligatoire d'abord la désactivé pour pouvoir ensuite la supprimer. Il est parfois demandé également si on veut également supprimés les données qui y sont associée. N'oubliez pas de les supprimer également. "Oui supprimer ces fichiers et les données"
+
+Pour activer à l'activation, la désactivation, les réglages et la suppression d'un plugins, il suffit de survoler celui-ci et de choisir l'option voulue dans le menu supplémentaire qui apparait sous son nom.
+
+Vous pouvez par exemple supprimer le plugin "Hello Dolly" qui est installé par defaut avec WordPress à titre d'exemple.
+
+Attention: Un plugin même désactivé laisse malgrès tous accès à votre site via d'eventuelles failles. Il est donc fortement recommandé non seulement de désactivé les plugins que vous n'utiliser pas mais également de les supprimer totalement (gain d'espace de stockage et sécurité accrue)
+
+
 #### Extensions installées
 
 ![Extensions - Extensions installées](images/interface_barre_menus_Extensions_installees.png)
+
+
+
 
 #### Ajouter
 
 ![Extensions - Ajouter](images/interface_barre_menus_Extensions_ajouter.png)
 
+**Chercher une extension et l'installer à partir de l'interface de WordPress**
+
+Vous pouvez rechercher un plugin en fonction de son nom, de son auteur ou de son étiquette dans le champ rechercher incorporé à l'interface de Wordpress dans la section "Extensions" --> "Ajouter" . Un tri est également possible au dessus (Mises en avant, Populaires, Recommandées, Favorites).
+
+Le nombre de téléchargements d'un plugin, la date de sa dernière mise à jour et l'indication de sa compatibilité avec votre version de WordPress vous assurent généralement de la qualité d'un plugin. De plus si un plugin est très populaire et mis régulièrement à jour vous pourrez très certainement profiter d'une large communauté et des réponse du développeur en cas de problème, ainsi que des tutoriaux sur internet pour vous expliquer son fonctionnement et son paramètrage.
+
+Une fois le plugin trouvé, vous pouvez cliquer sur son nom pour obtenir d'avantage d'information (version, dernière mise à jour, version minimale de WordPress, compatibilité WP, nb d'installation actives, note moyenne et avis des utilisateurs). Cela vous permettra de vous faire une idée plus précise avant de décider de l'installer ou non. Une rapide recherche sur internet peut également vous permettre de glaner des renseignements intéressants notamment concernant d'éventuels conflits avec d'autres plugins qui sont peut-être installé sur votre site.
+
+Si les informations recueillies vous ont convaincus, cliquer sur le bouton "Installer". L'installation se lance automatiquement. Le bouton "Installer" est alors remplacé par le bouton "Activer". N'oubliez pas de cliquer dessus pour rendre le plugin opérationnel sur votre site.
+
+
+**Chercher une extension et l'installer à partir du site de WordPress**
+
+Vous pouvez également aller sur le site de wordpress https://fr.wordpress.org/plugins/ et télécharger le fichiez zip  de l'extension. Ensuite rendez-vous dans l'interface de votre site dans "Extensions" --> "Ajouter" et en haut de la page cliquer sur le bouton "Téléverser une extension" et indiquer l'emplacement où le fichier zip à été télécharger sur votre ordinateur. Ensuite installer et activé l'extension. Cete option peut être pratique si vous n'avez pas accès à internet et voulez développer en local tout en disposant des fichiers de vos extensions pour les installés. Elle présente le désavantage de ne pas offrir les dernières versions des plugins et donc de nécessiter d'avantage de mise à jour lors de la connexion à internet.
 
 #### Editeur
 
 ![Extensions - Editeur](images/interface_barre_menus_Extensions_editeur.png)
 
+Cette parti
 
 
 ### Utilisateurs
