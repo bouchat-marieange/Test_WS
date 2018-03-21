@@ -468,7 +468,9 @@ La bibliothèque est l'endroit dans WordPress où sont stockées tous vos fichie
 
 On peut choisir si on désire voir les médias affiché sous forme de liste ou sous forme de miniatures. Filtrer le type de médias que l'on voir afficher (image, son, video, non attaché (pas utilisé dans le site)). On peut également les classé par date de téléchargement (mois année) et effectuer une "Sélection en masse", c'est à dire une selection multiple en cochant plusieurs images. Il est également possible de faire une recherche sur le titre, la légende ou la description d'un média ce qui peut s'avérer très utile lorsque le site devient plus conséquent (d'où l'importance de nommer ces images intelligement).
 
-Il est recommandé d'optimiser vos images pour le web (photoshop ou pixlr https://pixlr.com/editor/ (outil gratuit en ligne)) et vos fichiers afin de réduire leurs taille au maximum pour améliorer les performance de votre site et du même coup améliorer votre référencement qui dépend également de la vitesse de chargement de votre page.
+Il est recommandé d'optimiser vos images pour le web (photoshop ou pixlr https://pixlr.com/editor/ (outil gratuit en ligne)) et vos fichiers afin de réduire leurs taille au maximum pour améliorer les performance de votre site et du même coup améliorer votre référencement qui dépend également de la vitesse de chargement de votre page. Pour insérer une vidéo dans vos contenu, positionner votre curseur à l'endroit où vous voulez insérer la vidéo et copier-coller l'url de la vidéo à cet endroit. Une prévisualisation avec un lecteur s'affiche automatiquement à la place du lien dans votre contenu. Sauvegarder votre page ou votre article
+
+Par soucis d'économie de votre espace d'hébergement il est également conseillé si vous désirez intégré des vidéos dans vos articles ou vos pages de le faire via une url plutôt que de stocker vos vidéos dans votre bibliothèque.
 
 En cliquant sur l'un des média vous aurez accès à toute une serie d'informations comme :
 
@@ -594,18 +596,65 @@ Dans la section "Ajouter" vous avez accès à toutes les options de la page:
 
 **Permalien :** Permet de modifier l'adresse URL de votre page (cette manipulation est délicate et peut posé des problème de lien brisé. Je vous conseille donc de toujours faire une sauvegarde avec updraftplus avant de modifier quoi que se soit dans les permalien). Il peut être intéressant de retirer de l'adresse url tous les mots liens inutiles qui n'apporte rien à vos utlisateur, ni au moteurs de recherche. Faites cette opération avant de rédiger votre contenu et d'y insérer des médias car sinon il y a un risque de problème d'affichage par après.
 
-**Bouton Ajouter un média:** Permet d'ajouter un média dans la bibliothèque. Ce média sera lié à votre page (utile pour certains plugin d'affichage de lien de téléchargement de fichiers sous forme d'icone par exemple). Cette liaison peut être faite également via les options si vous cliquer sur le média dans votre article, une fois dans la bibliothèque, vous pourrez voir dans les infos de l'image que vous aurez selectionner une section "Réglages de l'affichage du fichier joint". Vous pourrez y déterminer l'alignement de votre média, Lier à Aucun, Fichier média, page du fichier joint (ouvre un page avec uniquement la photo), lien personnalisé), ainsi que sa taille: miniature, moyennen ou taille originale)
+**Bouton Ajouter un média:** Permet d'ajouter un média dans la bibliothèque. Ce média sera lié à votre page (utile pour certains plugin d'affichage de lien de téléchargement de fichiers sous forme d'icone par exemple). Cette liaison peut être faite également via les options si vous cliquer sur le média dans votre article, une fois dans la bibliothèque, vous pourrez voir dans les infos de l'image que vous aurez selectionner une section "Réglages de l'affichage du fichier joint". Vous pourrez y déterminer l'alignement de votre média par rapport au text (flottant à droite ou à gauche ou centrer
 
-**L'éditeur de texte:**  vous permet de mettre le texte en forme Titre, paragraphe, gras,italique, lise à puce, alignement, citation, insérer un lien, insérer une balise lire la suite, ...
+Lier à permet de définir l'action à réaliser lorsque l'utilisateur va cliquer sur l'image. Aucun, Fichier média (affichage de l'image toute seule dans la fenêtre du navigateur) , page du fichier joint (ouvre un page avec l'image en grande taille sa légende et sa description),
+
+Lien personnalisé permet d'ouvrir un lien dont l'adresse doit être mentionnée juste en dessous quand l'utilisateur va cliquer sur l'image
+
+Taille: miniature, moyennen ou taille originale définit l'une des 3 tailles d'image générée automatiquement par WordPress choisie pour l'affichage dans votre article ou votre page.
+
+Pour modifier une image déja insérer dans un contenu, cliquer sur l'image et selectionner l'icone du petit crayon pour avoir accès aux options de l'image.
+
+**L'éditeur de texte:**  vous permet de mettre le texte en forme Titre, paragraphe, gras,italique, lise à puce, alignement gauche droite centré justifié (2e ligne d'outils), citation (dont l'affichage l'aspect dépend du thème utilisé), insérer un lien, insérer une balise lire la suite, ...
 Si vous cliquer sur la dernière icone vous aurez accès à d'autres options de mise en forme supplémentaires: texte barré, ligne horizontale, couleur du texte, nettoyer le formatage (enleve tout formatage lors d'un copier-coller à partir d'un logiciel de traitement de texte --> texte brut), caractères spéciaux, diminuer ou augmenter l'indentation, annuler ou rétablir une modification, un bouton ? reprenant tous les raccourcis de mise en forme)?.
 
-Il est important de dire à vos utlisateurs rédacteurs ou susceptibles d'ajouter du contenu texte à votre site qu'ils peuvent saisir leur texte dans leur traitement de texte favori avant de le copier-coller dans wordpress mais que c'est inutile de le mettre en forme car la bonne pratique est de copier-coller du texte brut (sans mise en forme) dans WordPress et de réaliser la mise en forme avec l'éditeur de texte incorporé de WordPress.
+**Pour insérer une galerie d'image dans un article ou une page**
+
+* Se positionner avec le curseur dans l'article ou la page à l'endroit où on veut insérer la galerie.
+* Cliquer sur le bouton "Ajouter un média"
+
+* Choisir dans la colonne de gauche "Créer une galerie"
+
+* Selectionner les photos que l'on veut insérer dans la galerie ou en télécharger d'autre (ne pas oublier de modifier titre et texte alternatif des images téléchargées)
+
+
+![Création galerie 1](images/creation_galerie1.png)
+
+
+* Choisir le nombre de colonnes, le type d'action au click sur l'image, si l'ordre des images sera alétoire ainsi que l'une des 3 tailles d'images. On peut également ajouter une description juste en dessous de chaque image.
+
+* On peut modifier l'ordre des images dans la galerie par cliquer-glisser
+
+* Cliquer sur le bouton "Créer une galerie" pour valider vos paramètres
+
+
+![Création galerie 2](images/creation_galerie2.png)
+
+
 
 Si le texte copier a déja une mise en forme (police, taille, graisse, italique, couleur, etc...), le bouton "coller en texte"(dans le second étage de la barre d'outils de l'éditeur auquel on accède en cliquant sur la dernière icone de la barre de mise en forme de l'éditeur texte WordPress)permet de coller tout texte automatiquement sans mise en forme. Une fois le bouton cliqué, celui-ci reste enfoncé et la fonction reste active jusqu'à ce que l'on clique à nouveau sur le bouton.
 
+
 Si l'éditeur de texte de WordPress est trop basic pour vos rédacteur, sachez qu'il existe des plugins qui permettent non seulement d'ajouter de très nombreuses fonctions à l'éditeur de texte par defaut de WordPress mais également de définir avec précision selon le type dutilisateurs quel sont les fonctions d'édition (les boutons) auquel les rédacteurs ont accès. Cela permet par exemple de ne pas donner accès au changement de couleur de texte qui placer dans de mauvaises mains pourrait très vite transformer votre charte graphique conçue avec amour en un arc-en-ciel textuel du plus mauvais goût. Le plugin que je vous conseil se nomme TinyMCE Advanced (https://fr.wordpress.org/plugins/tinymce-advanced/), il permet également la réalisation de tableaux et de pleins d'autres mise en forme avancées.
 
+Pour la rédaction même si elle se fait directement dans l'interface de Wordpress, il est conseillé de saisir le texte au kilomètre et une fois seulement l'encodage terminé réalisé la mise en forme de tout le texte. C'est une pratique qui permet d'éviter des problèmes de mise en forme.
+
+Dans le bas de l'éditeur de texte de WordPress, vous avez un compteur de mots ainsi qu'une indication de la dernière modification effectuée et par quel utilisateur.
+
 Pour les amoureux du code ou si vous avez du texte déja formaté en html que vous désirez utiliser, vous pouvez cliquer sur l'onglet" Texte (Jusqu'à présent nous étions dans l'onglet "Visuel"), où vous pourrez retrouver toute votre mise en forme en html.
+
+Dans la mise en forme du contenu du texte, il est préférable de n'utiliser que des titre de niveau T2 à T6 car le niveau T1 est plutôt réservé au titre de l'article. Vous obtiendrai ainsi une hierarchie cohérente de votre titrage. N'oubliez pas que tous les mots qui sont indiqué dans des titres sont particulièrement bien indexés, choississez les donc bien en fonctions des mots clefs sur lesquels vous voulez être bien référencé sur les moteurs de recherche.
+
+Pour vous concentrer uniquement sur l'aspect redactionnel et masquer le reste de l'interface de wordpress, vous pouvez passez en mode "Ecriture sans distraction" en cliquant en haut à droite de l'éditeur de texte sur l'icone représentant un petit carré entouré de flêche pointant vers l'extérieur.
+
+Il est possible de faire également des liens hypertext au sein de vos articles et de vos pages en positionnant votre curseur à l'endroit où vous voulez insérer le lien ou en selectionnant la partie de texte sur laquelle vous désirez que les utilisateur puisse cliquer. Cliquez ensuite sur l'icone représentant des mailles de chaînes. Un champ vous permettant d'insérer une url apparait. Cliquer sur l'icone d'engrenage sur le coté du champ pour accéder à plus d'options. Vous êtes à présent sur le formulaire "Insérer/modifier un lien". Vous pouvez choisir soit de faire un lien vers un site externe et dans ce cas de cocher la case "Ouvrir le lien dans un nouvel onglet", soit créer un lien vers un autre contenu de votre propre site (ne cochez pas la case ouvrir le lien dans un nouvel onglet dans ce cas) et selectionner dans la liste des articles et pages de votre site le contenu vers lequel le lien va pointer. L'adresse web et le texte du lien dans le cas d'un contenu interne se remplisse automatiquement.
+
+![Insérer/modifier un lien](images/inserer_modifier_lien.png)
+
+Pour supprimer un lien dans un article, selectionner le lien et cliquer sur l'icone du maillon de chaine brisé dans la barre d'outils de l'éditeur de texte de WordPress.
+
+On peut également utiliser les extraits (Options de l'écran - cocher la case "Extrait"). Sous le contenu de mon texte s'affiche un nouveau module appelé extrait dans lequel je vais pouvoir afficher un court résumé de mon article qui donne envie au visiteur de lire la suite et qui en principe est affiché sur la page d'accueil de votre site. Attention certains thèmes ne prennent pas en charge la fonction "extrait". Si lorsque l'on va sur le site publié on ne voit pas de changement c'est que le thème ne prend pas cette fonctionnalité en charge. Dans ce cas on peut utiliser une astuce en rédigeant comme première partie de son article, un bref résumé de son contenu (on appelle cela un chapeau dans le domaine de la presse) et placer juste après celui-ci dans mon article une balise "Lire la suite". Lorsque j'affiche la page, seule la partie précédent la balise "Lire la suite est affichée", il faut cliquer sur le bouton lire la suite ou le titre de l'article pour avoir accès à la totalité de son contenu. La page d'accueil est moins encombrée et plus clair pour le visiteur et permet en un coup d'oeil de percevoir plus d'article et de cerner rapidement leur contenu pour savoir si on désire en continuer la lecture.
 
 Si vous rencontrer un problème ou que vous ne savez pas comment mettre votre texte en forme, référer vous à l'onglet Aide (en haut à droite sous la barre d'outils) qui vous offrira une aide contextuelle sur tout ce qui concerne les pages.
 
@@ -1012,6 +1061,54 @@ Ne pas oublier de cliquer sur le bouton "Enregistrer les modifications".
 
 ![Reglages - Discussion](images/interface_barre_menus_Reglages_discussion.png)
 
+C'est à cet endroit que l'on va gérer les paramètres liés aux commentaires sur notre site.
+
+Les autres options permettent de:
+
+*  Tenter de notifier les sites liés depuis le contenu des articles : Si vous cochez cette case, WordPress enverra un ping à un site ou un article
+
+* Autoriser les liens de notification d’autres blogs (pings et rétroliens) sur les nouveaux articles : Cochez cette case pour que WordPress accepte ou décline les pings d'autres sites qui pourraient référencer votre site ou un article sur votre site.
+
+* Autoriser les lecteurs à publier des commentaires sur les nouveaux articles
+(Ces réglages peuvent être modifiés pour chaque article.) :  est cochée par defaut, les commentaires sont donc par défaut autorisé sur la totalité des articles de votre site WordPress. Il est option est cochée il est possible de ne pas autorisé les commentaires sur certains articles seulement. Cela fonctionne aussi si vous décoché l'option, vous pouvez faire une ou plusieurs exceptions en autorisant les commentaires sur certains articles seulement.
+
+*  L’auteur d’un commentaire doit renseigner son nom et son adresse de messagerie : évite les messages anonyme
+
+* Un utilisateur doit être enregistré et connecté pour publier des commentaires : Autorise uniquement les utlisateur enregistré et connecté à publier des Commentaires
+
+* Fermer automatiquement les commentaires pour les articles vieux de plus de 14 jours : évite d'avoir des réactions sur des articles obsolètes
+
+* Permet une hierarchisation des commentaires et des réponses précises à certaines partie des commentaires.
+
+* Diviser les commentaires en pages, avec 50 commentaires de premier niveau par page et la dernière page affichée par défaut : nombre de commentaires par page et ordre chronologique de ceux-ci.
+
+* Les commentaires doivent être affichés avec le plus  en premier: ordre chronologique de l'affichage des commentaire
+
+* M’envoyer un message lorsque un nouveau commentaire est publié
+
+* M’envoyer un message lorsque un commentaire est en attente de modération
+
+* Avant la publication d’un commentaire,  le commentaire doit être approuvé manuellement : attention exige le travail très régulier d'un modérateur pour approuvé ou non la publication des commentaires
+
+* Avant la publication d’un commentaire, l’auteur d’un commentaire doit avoir déjà au moins un commentaire approuvé
+
+* Modération de commentaires : vise à limiter au maximum les spams dans les commentaires qui contiennent généralement plusieurs liens et les place alors automatiquement dans la file de modération. Il est également possible d'indiquer ici des adresse Ip, ou des mots (lié à la pornographie, racisme, vente illégale de produits en tout genre, mots grossier ou insultes, ...) qui si ils sont repéré dans un commentaire les placera automatiquement en file de modération . Attention n'indiquer que une adresse IP ou un mot clef par ligne.
+
+* Liste noire pour les commentaires : Lorsqu’un commentaire contient l’un de ces mots dans son contenu, son nom, son URL, son adresse de messagerie, ou son adresse IP, il sera mis à la corbeille. Un seul mot ou une seule adresse IP par ligne. Cette fonction reconnaît l’intérieur des mots, donc « press » suffira pour reconnaître « WordPress ».
+
+* Avatars
+  * Afficher les Avatars
+  * Classement maximal  G — Visibles par tous
+                        PG — Possiblement offensants, réservés normalement aux personnes de 13 ans et plus
+                        R — Réservés aux personnes de plus de 17 ans
+                        X — Réservés aux adultes
+
+* Avatar par défaut : choisissez un avatar par défault si l'utilisateur n'en choisi pas un lui-même
+
+Attention: Vous devez cliquer sur « Enregistrer les modifications » en bas de l’écran pour que les nouveaux réglages prennent effet.
+
+
+
 #### Médias
 
 ![Reglages - Medias](images/interface_barre_menus_Reglages_medias.png)
@@ -1134,7 +1231,9 @@ RewriteRule . /wp_workshop/index.php [L]
 
 ## Plugins et widgets
 
+### Mes plugins préférés:
 
+Tinymce-advanced (https://fr.wordpress.org/plugins/tinymce-advanced/)
 
 
 
