@@ -1231,10 +1231,34 @@ RewriteRule . /wp_workshop/index.php [L]
 
 ## Plugins et widgets
 
-### Mes plugins préférés:
 
-Tinymce-advanced (https://fr.wordpress.org/plugins/tinymce-advanced/)
+### Plugins testés et approuvés:
 
+Contact Form (gérer les formulaires) : https://fr.wordpress.org/plugins/contact-form-7/
+
+Yoast SEO (optimiser votre référencement): https://fr.wordpress.org/plugins/wordpress-seo/
+
+Akismet anti-spam) : https://fr.wordpress.org/plugins/akismet/
+
+WooCommerce(commerce en ligne): https://fr.wordpress.org/plugins/woocommerce/
+
+TinyMCE Advanced (personnalisation éditeur texte): https://fr.wordpress.org/plugins/tinymce-advanced/
+
+Wordfence (sécurité) : https://fr.wordpress.org/plugins/wordfence/
+
+WP Rocket - payant (optimisation vitesse chargement): https://wp-rocket.me/
+
+UpdraftPlus WordPress Backup Plugin (sauvegarde restauration): https://fr.wordpress.org/plugins/updraftplus/
+
+Duplicator (migration - clonage de site) : https://fr.wordpress.org/plugins/duplicator/
+
+Page Builder par SiteOrigin (page builder wysiwyg) : https://fr.wordpress.org/plugins/siteorigin-panels/
+
+MetaSlider (slideshow): https://fr.wordpress.org/plugins/ml-slider/
+
+Google Analytics (analyse des statistique de votre site - SEO): https://fr.wordpress.org/plugins/googleanalytics/
+
+WPML to Polylang (traduction de votre site en plusieurs langues): https://fr.wordpress.org/plugins/wpml-to-polylang/
 
 
 
@@ -1244,31 +1268,61 @@ Rendez-vous à l'adresse : http://whatwpthemeisthat.com/
 Taper l'url du site concerné dans le champ de recherche et voilà !!!!
 Pour tester, taper l'adresse: http://www.tinkeringmonkey.com/work/
 
+
+
 ## Outils de commerce en ligne
 
-### Woocommerce:
+### Woocommerce (gratuit):
 
-Pour qui:
-
-Avantages:
-
-Inconvénients:
-
-### Prestashop:
-
-Pour qui:
+Pour qui: PME et startups
 
 Avantages:
 
+* pouvoir communiquer avec les clients (possibilité création blogs) pour établir réelle communication client.
+
+* Prise en main rapide
+
+* API fournie de base
+
+* Beaucoup de plugins gratuits
+
 Inconvénients:
+
+* Gestion des produits devenant problèmatique quand beaucoup d'Articles
+
+* Manque de classification des produits par dossiers ou Catégories
+
+exemple: https://www.archisain.be/ (photo credits Daniel De Vos)
+
+### Prestashop (gratuit):
+
+Pour qui: Pour les PME et société plus importantes (moins de services orienté client - plus service orienté vente uniquement)
+
+Avantages: Ce plugin d'e-commmerce assurent même avec un grand nombre d'articles
+
+Prise en main intuitive
+
+Inconvénients:
+
+La plupart des plugins sont payants
+
+exemple: https://shop.bonnegueule.fr/
 
 ### Magento:
 
-Pour qui:
+Pour qui: Pour les grosses société de e-commerce
 
 Avantages:
 
+Une fois maitriser permet de réaliser un site de ecommerce très performant
+
 Inconvénients:
+
+Prise en main complexe, très nombreux réglages, peu intuitif
+
+exemple : http://www.kookai.co.uk/
+
+
 
 Petits comparatifs
 
@@ -1277,14 +1331,17 @@ https://www.mister-wp.com/plugin/woocommerce/
 https://monsieurecommerce.com/shopify-woocommerce-magento-prestashop-comment-choisir/
 
 
+
+
 ## Traduction de vos sites multilingues
 
 Pour traduire vos site en plusieurs langues, je vous conseille d'utiliser un plugin dédié.
 
 
+
 ## Bonnes pratiques dans l'usage de WordPress
 
-* Effacer les fichiers et articles inutiles sans WordPress après installation - supprimer certains réglages par default (settings/permalinks; supprimer fichier readme.html (à la racine), suppprimer tagline settings/general et remplacer par theme du site pour le SEO, modifier footer (fièrement propulsé par Wordpress + hook avec mise à jour automatique de l'année))
+* Effacer les fichiers et articles inutiles dans WordPress après installation - supprimer certains réglages par default (settings/permalinks; supprimer fichier readme.html (à la racine), suppprimer tagline settings/general et remplacer par theme du site pour le SEO, modifier footer (fièrement propulsé par Wordpress + hook avec mise à jour automatique de l'année))
 
 * Mettre à jour régulièrement son site tant la version de WordPress que les plugins (sécurité)
 
@@ -1315,3 +1372,5 @@ Pour traduire vos site en plusieurs langues, je vous conseille d'utiliser un plu
 * Voici encore quelques astuces qui vont vous permettre de rendre votre site WordPress plus professionnel rapidement : https://wpmarmite.com/site-wordpress-professionnel/
 
 * Modifier les permaliens (url) de vos articles afin d'avoir des url propre et dépourvues de mots liens inutiles. Une bonne gestion des permaliens (URL) de vos articles permet une optimisation de l'indexation des pages de votre site et un meilleur référencement.
+
+* Ne pas se contenter de désactivé les plugins que l'on utilise pas mais les désinstaller car ils offrent malgrès leur désactivation un porte d'entrée pour les pirates sur votre site si une faille est découverte dans leur code.

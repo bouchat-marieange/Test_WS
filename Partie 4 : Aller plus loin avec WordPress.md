@@ -1,12 +1,57 @@
 # Partie 4 : Aller plus loin avec WordPress
 
+## La structure des fichiers et dossiers WordPress
+
+![Structure fichiers et dossiers WordPress](structure_fichiers_et_dossiers_wordpress.png)
+
+Connaître l’organisation des fichiers dans WordPress est important. La structure est toujours la même, pour un petit site ou pour un gros site : le core ou coeur de WordPress ne change pas.
+
+Les fichiers et dossiers à la racine du site
+Les sites WordPress ont tous la même structure. À la racine, vous trouverez les dossiers wp-admin, wp-content, wp-includes et les fichiers WordPress.
+
+
+### Fichiers et dossiers à la racine du site WordPress.
+
+Il ne faut pas modifier ou supprimer certains fichiers ou dossiers natifs de WordPress, en l’occurrence ceux qui font partie du core, le site risquerait de ne plus fonctionner. De plus, la mise à jour de WordPress écrase toutes les modifications.
+
+**Le dossier wp-admin** contient l’ensemble des fichiers concernant l’administration du site. Il ne faut pas modifier des fichiers dans ce dossier.
+
+**Le dossier wp-content** contient l’ensemble des fichiers des thèmes, des extensions et des médias. C’est dans ce dossier que s’effectuent les modifications et personnalisations du site.
+
+**Le dossier wp-includes** contient l’ensemble des fichiers du core de WordPress (classes, fonctions, scripts…). Il ne faut pas modifier des fichiers dans ce dossier.
+
+**Le fichier wp-config.php** est un fichier généré lors de l’installation de WordPress, à partir du fichier wp-config-sample.php. Les informations qui ont servi à la configuration du site se trouvent dans ce fichier : le nom de la base de données, le mot de passe, l’URL de la base de données, le préfixe des tables, les clés de sécurité, les langues… Ce fichier est modifié lors du changement d’hébergeur, lors de l’optimisation du site, du débogage, lors d’un changement de langue… La suppression du fichier wp-config.php réaffiche la page de configuration.
+
+**Les autres fichiers .php** servent au core de WordPress et il ne faut absolument pas les modifier ou les supprimer. Cependant, vous pouvez trouver à la racine du site des fichiers qui ont été générés par une extension, certains pourront être modifiés : .htaccess, robots.txt ou sitemap.xml…
+
+#### Le dossier wp-content
+
+**Le dossier wp-content** est le dossier servant à la création de thèmes, d’extensions, de fonctions. Il contient les dossiers languages, plugins, themes et le fichier index.php.
+
+D’autres dossiers apparaissent lors d’ajout d’images, comme le **dossier uploads**, et lors de mises à jour, tel le **dossier upgrade**.
+
+D’autres dossiers peuvent encore apparaître selon l’installation de certaines extensions, comme le **dossier cache**.
+
+Dossiers et fichiers du répertoire wp-content, lors de l’installation de WordPress.
+
+**Le dossier languages** contient les fichiers de langue de WordPress. L’installation manuelle s’effectue en téléchargeant par FTP les fichiers de langue dans ce dossier. Les fichiers de langue ont les extensions .mo et .po/.pot.
+
+**Le dossier plugins** contient l’ensemble des extensions installées. De base, le dossier contient deux extensions : Akismet et Hello Dolly. L’installation
+manuelle s’effectue en téléchargeant par FTP le dossier contenant les fichiers de l’extension dans le dossier plugins.
+
+**Le dossier themes** contient l’ensemble des thèmes installés. De base, il y a trois thèmes : Twenty Fourteen, Twenty Thirteen, Twenty Twelve. L’installation manuelle s’effectue en téléchargeant par FTP le dossier contenant les fichiers et dossiers du thème dans le dossier themes.
+
+**Le dossier uploads** contient l’ensemble des médias téléchargés. Pour les images, WordPress crée trois formats d’image et les classe selon les paramètres entrés dans l’administration. Par défaut WordPress classe les médias dans des dossiers ayant pour nom l’année, avec à l’intérieur des dossiers ayant pour nom les mois en chiffres (01, 02, … 12). Certaines extensions y créent parfois des dossiers pour y stocker divers fichiers.
+
+**Le dossier upgrade** accueille les fichiers compressés des mises à jour de thèmes ou d’extensions. Avant leur décompression, WordPress les télécharge dans ce dossier. Si la mise à jour se passe mal, vous retrouvez le fichier compressé dans ce dossier. Ce dossier apparaîtra lorsque vous effectuerez une mise à jour.
+
+**Le fichier index.php** sert uniquement à la sécurité du dossier wp-content. Ce fichier vide permet d’afficher une page blanche au lieu de l’arborescence du site en cas de dysfonctionnement. Vous le retrouvez dans différents dossiers.
+
+Source: http://wordpress.laurentdumoulin.com/premier-pas/la-structure-des-fichiers-et-dossiers-wordpress/
+
 ## Création et personnalisation de thèmes
 
-### L'architecture d'un site WordPresse
-
 Parmi tous les fichiers et dossiers qui constitue un site WordPress, pour la personnalisation, la création de thème ou de plugins et widgets, vous devrez uniquement aller dans le dossier wp-content.
-
-
 
 ### Création thème enfant
 https://wpmarmite.com/creer-theme-enfant/
@@ -117,6 +162,8 @@ Voilà vous avez créer votre premier thème enfant qui contient les 3 fichiers 
 **IMPORTANT :**
 
 Pour que cela fonctionne il faut maintenant aller dans votre administration WordPress "Apparence" --> "Thèmes" et **"Activer" votre theme qui apparait dans la liste des theme installé lorsque vous rafraichissez la page**. Faites une prévisulasation en direct, si ça marche "Activer le theme". A partir de maintenant votre site fonctionne en se basant sur le thème parent mais les modifications que vous ferez dans votre thème enfant auront la priorité sur le théme parent et viendront donc remplacer ces parties modifiées par votre version contenue dans le theme enfant.
+
+Voici un petit article bien clair sur le sujet: https://wpformation.com/theme-enfant-wordpress/
 
 
 
@@ -305,6 +352,6 @@ https://www.youtube.com/watch?v=lZwFW_cr5Xg
 
 ### Snippets pour personnalisé votre site avec quelques copier-coller de fragment de code
 
-Les snippets sont des petits morceaux de code qui permettent de réaliser des actions ciblées pour répondre à des besoins précis sans pour autant devoir installer de nouveaux plugins qui alourdissent votre site et augmente le risque de problème de compatibilité.
+Les snippets sont des petits morceaux de code qui permettent de réaliser des actions ciblées pour organiser votre interface d'administration ou la partie frontend de votre site. Ils permettent de gagner du temps et de personnaliser facilement notre interface d'administration selon nos besoins.
 
 https://wpmarmite.com/snippets/

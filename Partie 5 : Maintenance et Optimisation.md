@@ -13,14 +13,60 @@ https://wpmarmite.com/video/liste-securite-wordpress/
 
 Lorsque vous n'utilisez pas un plugin, désinstaller-le car les pirates informatiques peuvent continuer à exploiter les failles d'un plugin même désactivé pour nuire à votre site.
 
+Voici les étapes de sécurisation de votre site avec le plugin gratuit secupress (en français):
+
+1. Installer SecuPress via l'interface administration de votre site (Extensions --> Ajouter)
+
+![Télécharger Secupress](images/securité_secupress_telecharger.png)
+
+
+2. Activer SecuPress
+
+3. Aller dans réglages en survolant plugins secupress dans la liste des extensions installées
+
+4. Secupress propose de réaliser un scan de votre sites
+
+![Télécharger Secupress](securite_secupress_reglages1.png)
+
+5. Cliquer en haut sur le bouton "Scanner mon site"
+
+6. Secupress affiche un rapport détaillé des points qu'il est possible d'améliorer.
+
+![Secupress Rapport](secupress_rapport.png)
+
+7. Après avoir visionner les 2 liens (vidéo + article) qui précède afin de comprendre les mesures facile à mettre en place et qui amélioreront grandement la sécurité de votre site.
+
+8. Pour améliorer la sécurité, cliquer sur les points noté comme mauvais sur le petit lien "en savoir plus". La mesure à prendre pour corriger cette faille de sécurité vous est clairement expliquée
+
+9. Procéder aux modifications nécessaires en cliquant sur "Prochaine étape"
+
+10. Cocher les cases souhaitées et cliquer sur le bouton "Corriger" pour que les failles selectionnées soient automatiquement corrigées.
+
+11. Effectuer les opérations manuelles de correction restantes.
+
+12. Effectuer un nouveau scan du site pour voir l'amélioration du niveau de sécurité de votre site.
+
+Vous trouverez des informations complémentaires sur le site de l'éditeur du plugin : https://secupress.me/fr/ . Le support est bien assuré par Julio Potier spécialiste en sécurité internet qui a créer ce plugin. Lisez la documentation (https://secupress.me/fr/support/) ou contacter le support via le formulaire en cas de question ou de problème (https://secupress.me/fr/contact)
+
 
 
 ## Optimisation
 
+Pour optimiser les performances de votre site, tout d'abord débarasser vous de tous ce que vous n'utiliser pas (comme des plugins désactivé, des articles, et autres contenu par défaut créer par WordPress lors de son installation).
 
+Eviter d'utiliser des plugins qui font double emploi (exemple: vous ne serez pas mieux protéger parce que vous avez 2 plugins de sécurité au lieu d'un)
 
+Le core de WordPress est déja très bien optimisé. Il n'est pas forcément nécessaire d'ajouter des plugins d'optimisation à l'exception peut-être de plugin qui mignie le css et le javascript de votre site pour le rendre plus rapide.
 
+Celui que je vous conseillerai le plus est WP Rocket (payant), mais l'investissement d'environ 50€ est totalement justifier par le gain impressionnant de performance.
 
+WP super cache est gratuit mais ne permet pas un gain important de performance. Je vous le déconseille.
+
+W3 Total Cache à une meilleure réputation et est gratuit.
+
+Eviter d'installer des plugin très lourd et multifonctions si vous n'avez besoion que d'une fonctionnalité précise (exemple: Jetpack). Par contre ce plugin peut s'avérer très puissant et utile si vous vous servez régulièrement de ses nombreuses fonctionnalités.
+
+Il est possible de réaliser des effets graphique comme une galerie d'images sans utiliser de plugin. Renseigner vous sur les possibilité native de WordPresse dans le codex avant de vous jetter sur des plugins.
 
 
 ## Sauvegarde
@@ -102,10 +148,14 @@ Très simple de prise en main, c'est le plugin de sauvegarde que je vous conseil
 
 ## SEO
 
-Dans settings / permalinks choisir l'option post name pour l'affichage des url qui reprend le titre de l'article . C'est ce qui donne les meilleurs résultats pour le référencement.
+Remplissez systematiquement le champ de texte alternatif sur vos image et média.
+
+Veillez à garder un bon niveau de performance car cela influe aussi sur votre classement dans les moteurs de recherche.
 
 Lors de la rédaction de vos articles, veillez à bien choisir les titres mais également à utiliser des mots clefs vous assurant un bon référencement dans le domaine dont traite votre site. Utliser les catégorie (obligatoire), mais utiliser également les étiquettes avec des mots clefs optimisés SEO.
 
 Modifier les permaliens (url) de vos articles afin d'avoir des url propre et dépourvues de mots liens inutiles. Une bonne gestion des permaliens (URL) de vos articles permet une optimisation de l'indexation des pages de votre site et un meilleur référencement.
 
 Commencer toujours par faire une sauvegarde de votre site et de votre base de données (plugin updraftplus) avant de modifier les options de permaliens ou les permaliens directement dans la section "Articles". Choisissez l'option "Nom de l'article" dans "Réglages" --> "Permaliens" dès l'installation de WordPress, car c'est cette option qui offre les meilleurs résultats en matière de référencement. (vous pouvez customiser les différentes parties qui compose l'url en choississant de ne pas inclure la date, l'heure, l'auteur, la categorie ou autres...)
+
+Installer un plugin qui vous permet de gérer efficacement votre référencement (Yoast SEO) et en savoir d'avantage sur les statistiques de votre site (Google Analytics pour WordPress avec MonsterInsights) (mot clefs utilisé dans les recherche, articles qui ont retenus l'attention, taux de rebond, ...) afin de mieux déterminés vos mots clefs, votre public cible, vos horaires de publication ...
