@@ -703,9 +703,11 @@ Veillez à employer des images de taille suffisante car certains thème les affi
 
 ![Commentaires](images/interface_barre_menus_Commentaires.png)
 
-C'est dans cette section que vous aller pouvoir gérer les commentaires portant sur les articles de votre site.
+C'est dans cette section que vous aller pouvoir gérer les commentaires portant sur les articles de votre site. C'est ici que vont s'afficher la liste des commentaires et les informations qui s'y rattachent (Auteur, en réponse à , envoyé le).
 
-Vous pouvez désactivé la possibilité pour les utilisateurs de laisser des commentaires soit pour toutes les pages soit pour une ou plusieurs pages uniquement.
+Vous pouvez choisir le nombre de commentaires affichés par page dans les "Options de l'écran"(en haut à droite sous barre d'outils) ainsi que si vous désirez afficher les commentaire en mode liste ou liste avec extraits.
+
+Vous pouvez désactivé la possibilité pour les utilisateurs de laisser des commentaires soit pour toutes les pages soit pour une ou plusieurs pages uniquement. Vous avez également accès à toute une série de réglages concernant les commentaire dans le menu "Réglages" --> "Discussion". (cfr cette section pour plus d'information)
 
 **Pour désactivé les commentaires sur toutes les pages.**
 
@@ -722,8 +724,10 @@ Vous pouvez désactivé la possibilité pour les utilisateurs de laisser des com
 * N'oubliez pas de cliquer sur le bouton Mettre à jour.
 
 
-
 **Pour désactivé les commentaires sur une pages précise :**
+
+Vous pouvez utiliser l'option la plus pratique en allant dans le menu "Articles" , en ouvran l'article puis "Options de l'écran" (en haut à droite sous barre d'outils), cocher "Discussion" . Sous l'éditeur de texte de votre article est apparu un nouveau module "Discussion", dans lequel il vous est très facile, simplement en cochant ou non une case d'autorisé ou de refuser les commentaires uniquement sur cette page et d'autorisé ou non les rétroliens et pings sur cette page.
+
 
 * Survoler le titre de la page dans la liste "Toutes les pages"
 Cliquer sur "Modification rapide" et cocher ou non la case "Autorisé les commentaires"
@@ -743,19 +747,92 @@ Un article intéressant sur les motivations des spammeurs à déposer des liens 
 
 Quelques conseils pour répondre aux commentaires négatifs ou malveillants: https://www.webmarketing-com.com/2015/06/15/38270-repondre-a-commentaire-negatif-laisse-ligne
 
+Nous pouvons simuler le dépot d'un commentaire par un utilisateur lambda en allant sur notre site sans etre connecter en tant qu'administrateur pour commenter un article. On peut le faire facilement en ouvrant un autre navigateur (exemple: firefox) et se connecter à l'adresse http://localhost/wp_workshop/. Si on selectionne un article et que l'on clique sur ton titre ou le lien "Continuer la lecture", on voit qu'il est possible de laisser un commentaire sur cet article. Les champs obligatoires sont mentionné par l'étoile à coté du nom du champ. Indiquer un Nom et une adresse de messagerie pour pouvoir "Laisser un commentaire" est une option qui a été définie dans le menu  "Réglages" --> "Discussion" afin d'éviter les commentaires anonyme.
+
+Le commentaire est ajouter dans le site entre l'article et la zone "Laisser un commentaire", il porte la mention très importante "Votre commentaire est en attente de modération" ce qui signifie qu'il n'est visible jusqu'à ce qu'il soit validé par l'administrateur que par la personne qui a rédigé ce commentaire et non par tous les visiteurs du site.
+
+![commentaire utilisateur attente validation sur le site](images/commentaire_utilisateur_attente_validation.png)
+
+Lorsque l'on retourne dans le navigateur dans lequel on est logger en tant qu'administrateur on peut voir que le nouveau commentaire à été ajouter dans la liste et est en attente de validation. Pour les approuver, passer au survol sur le commentaire et cliquer sur Approuver. Il est également possible de répondre, d'effectuer une modification rapide, une modification standard, de placer le commentaire dans les indésirable ou dans la corbeille. Lorsque vous avez des commentaires en attente de modération, vous pouvez le voir dans le tableau de bord dans le module "Activité" et dans la barre d'outils par un chiffres à coté de l'icone du phylactère (petite bulle) et aussi dans la barre des menu avec une petite pastille orange avec le chiffres 2 indiquant le nombre de commentaires en attente de modération.
+
+Grâce au filtre au dessus de la liste des commentaire dans l'interface d'administration dans le menu "Commentaires" vous pouvez afficher soit tous les commentaires, soit uniquement ceux en attente, approuvés, indésirable ou mis à la corbeille. vous avez également la possibilité d'effectuer une recherche. Dans le menu déroulant "Tous les types de commentaires" vous pouvez aussi filtrer l'affichage entre les commentaires et les pings.
+
+Dans la liste dans la colonne auteur vous pourrez voir le nom de l'utilisateur, son email ainsi que son adresse IP.
+
+Les commentaires validés seront à présent visible dans le site et les autres utilisateurs pourront à présent y répondre. Dans l'administration le nombre de commentaires validés s'indique dans la petite bulle de la liste.
+
+On peut également répondre au commentaire. La réponse appaitra sous le commentaire original.
+
+On peut modifier un commentaire Nom, mail et même contenu du commentaire. Cela pose bien entendu un problème d'éthique de savoir si on décide de laisser les commentaires ouverts on s'expose à des commentaires qui peuvent être négatifs. On peut alors soit les publier (car il s'agit du droit d'expression de vos utilisateurs si les propose ne sont pas injurieux bien entendu) soit les placer dans les indésirable ou à la corbeille. Modifier le contenu d'un commentaire écrit par une personne ne me parait pas correct.
+
+Un article placé dans les indésirables, provoquera automatiquement le placement d'un autre commentaire du même auteur dans les indésirables. Vérifier donc les commentaires indésirables avant de la mettre à la corbeille et de les supprimé.
+
+Le widgets commentaires récents qui permet d'afficher les derniers commentaires dans la zone de widgets sur votre site dispose de différents paramètres. Pour régler ceux-ci. Rendez-vous dans "Apparence"-->"Widgets". Lorsque vous dérouler les options de ce widget si il est déja placé dans une des zones de widgets, on peut afficher un titre et définir le nombre de commentaires à afficher.
+
+Dans le widgets Méta, il existe également une option "RSS des commentaires" qui permettra à vos utilisateurs de s'abonner aux commentaires de votre site. Il est d'ailleurs dans ce même widgets possible pour vos utilisateurs de s'abonner à votre Flux RSS des articles pour recevoir tous les articles publier sur votre site.
+
 ### Apparence
 
 ![Apparence](images/interface_barre_menus_Apparence.png)
+
+Cet à cet endroit que sont réunis toutes les différentes options qui vont vous permettre de gérer l'affichage de votre site (thème, menus, widgets, ...)
 
 #### Thèmes
 
 ![Apparence - themes](images/interface_barre_menus_Apparence_themes.png)
 
+Les thème se charge de l'affichage des fonctionnalités du core de WordPress mais également de tous les plugins qui lui ont été ajouter pour augmenter ses fonctionnalités.
+
+Le choix d'un thème est particulièrement important car c'est lui qui va déterminer quelles seront les fonctionnalités prises en charge pour l'affichage. C'est le premier contact visuel qu'auront vos visiteurs lorsqu'il viendront visiter votre site. De plus certains thèmes ajoute également leurs propres fonctionnalités qui peut être intéressants d'analyser de voir si la prise en main de ce thème ne sera pas trop complexe.
+
+Pour le choix d'un thème vous aurez l'embarra du choix (au sens stricte du terme). La multitude de site proposer sur internet tant gratuits que payants n'aident pas à choisir et fait souvent tourner la tête des débutants de WordPress tant l'offre est variée et cependant inégale dans sa qualité et dans les fonctionnalité proposées.
+
+**Thèmes gratuits vs Thèmes payants vs Thèmes personnalisé**
+
+Les thèmes gratuits:
+Avantage: la gratuité
+Inconvénients: Pas toujours de grande qualité pour le design, pas toujours mis à jour, possibilité de personnalisation souvent plus limitée, très utilisés et donc manque d'originalité, publicité imposé, voir du code masqué
+
+Les thèmes payants:
+Avantage: prix modique le plus souvent (gain de temps donc gain d'argent), design de qualité, mise à jour régulière, possibilité de personnalisation plus importante, moins utilisé donc plus original, support technique en cas de problème, pas de publicité, ni de code masqué
+
+Les thèmes personnalisés:
+Avantages: correspond totalement à vos besoins puisque construits sur mesure, vous connaissez parfaitement le code source et pouvez le manipuler selon vos besoins.
+Inconvenients: peut présenté des failles de sécurité, nécessite du temps pour la mise à jour du code au fil de l'évolution de WordPress, nécessite des compétences et des connaissances techniques poussées en graphisme, codage et en ergonomie pour offrir un thème à la fois beau et fonctionnel. Il est possible également de faire appel à des développeur spécialisé pour développer ce thème sur mesure.
+
+**Choisir un thème et l'activé**
+
+Pour choisir le thème que vous désirez appliqué à votre site, rendez-vous dans le menu "Apparence"--> "Thèmes".
+
+Les thèmes installés sur votre site apparaisse sous forme de vignette avec juste dessous leur nom affiché. Le thème activté actuellement est en principe le premier de la liste et indique la mention "Activé" juste avant son nom, ainsi qu'un bouton "Personnaliser" qui vous permet d'accéder à ces réglages (qui varie d'un thème à l'autre, généralement les thèmes payant offre des réglages et paramètrages plus nombreux et précis que les thèmes gratuis qui nécessite de devoir réaliser des modifications directement via le code dans un thème enfant)
+
+Cliquez sur le bouton "Personnaliser"
+
+
 ####Personnaliser
+
+Vous avez accès à toutes une liste de zones qu'il vous est possible de modifier de manière intuitive sans connaissance du code. Ajouter un logo,changer le titre du site, changer le slogan du site, selectionner la taille des icones, ...). Mais aussi une personnalisation des couleurs,
 
 ![Apparence - personnaliser](images/interface_barre_menus_Apparence_personnaliser.png)
 
+Vosu pouvez également avoir un aperçu de l'affichage selon la taille de l'écran en cliquant sur les différentes icones ordinateur, tablette, gsm en bas de la colonne de gauche.
+
 ![Apparence - personnaliser2](images/interface_barre_menus_Apparence_personnaliser2.png)
+
+Vous pouvez également personnalisé l'entête en y plaçant une autre image ou même une vidéo soit extraite de votre bibliothèque soit d'une url youtube (exemple: https://www.youtube.com/watch?v=pGbIOC83-So)
+
+**Photos gratuites : **
+
+https://unsplash.com/
+
+https://pixabay.com/
+
+https://picjumbo.com/
+
+
+**Vidéos gratuites : **
+
+https://videos.pexels.com/
 
 ![Apparence - personnaliser3](images/interface_barre_menus_Apparence_personnaliser3.png)
 
@@ -920,11 +997,20 @@ D'autres options sont disponibles en cochant des cases dans "Options de l'écran
 
 ![Extensions](images/interface_barre_menus_Extensions.png))
 
+Les fonctionnalités de base du core (coeur) de WordPress ainsi que les fonctionnalités qui lui sont ajoutées par les plugins seront vu au travers du thème choisi qui gère tous l'affichage de l'interface utilisateur de votre site.
+
+![Wp plugins theme](wp_plugins_theme.png)
+
 Les extensions (plugins) étendent les fonctionnalités de WordPress. Une fois une extension installée, vous pouvez l’activer, la désactiver ou la supprimer à cet endroit. Vous pourrez également faire une recherche de plugins directement à partir de l'interface de WordPress et installés ceux qui vous intéressent très facilement.
 
 C'est également ici que vous aurez accès aux réglages de vos extensions (plugins). Attention cependant certains plugins ajoute des nouveaux sous-menus avec des réglages à d'autres endroits de la barre de menu de WordPress. Par exemple, UpdraftPlus que nous utlisons pour la sauvegarde de notre site, ajoute lors de son installation et activation, un nouveau sous-menu "Sauvegardes UpdraftPlus" dans le menus Réglages.(Vous pouvez y accéder facilement en cliquant sur le lien réglages dans la liste des extension au survol de UpdraftPlus qui vous redirige directement au bon endroit).
 
-Attention pour désinstaller une extension de WordPress, il est obligatoire d'abord la désactivé pour pouvoir ensuite la supprimer. Il est parfois demandé également si on veut également supprimés les données qui y sont associée. N'oubliez pas de les supprimer également. "Oui supprimer ces fichiers et les données"
+
+#### Extensions installées
+
+![Extensions - Extensions installées](images/interface_barre_menus_Extensions_installees.png)
+
+Ce menu affiche la liste de toutes les installations installées sur votre site qu'elle soit activées ou désactivées.
 
 Pour activer à l'activation, la désactivation, les réglages et la suppression d'un plugins, il suffit de survoler celui-ci et de choisir l'option voulue dans le menu supplémentaire qui apparait sous son nom.
 
@@ -932,12 +1018,9 @@ Vous pouvez par exemple supprimer le plugin "Hello Dolly" qui est installé par 
 
 Attention: Un plugin même désactivé laisse malgrès tous accès à votre site via d'eventuelles failles. Il est donc fortement recommandé non seulement de désactivé les plugins que vous n'utiliser pas mais également de les supprimer totalement (gain d'espace de stockage et sécurité accrue)
 
+Attention pour désinstaller une extension de WordPress, il est obligatoire d'abord la désactivé pour pouvoir ensuite la supprimer. Il est parfois demandé également si on veut également supprimés les données qui y sont associée. N'oubliez pas de les supprimer également. "Oui supprimer ces fichiers et les données"
 
-#### Extensions installées
-
-![Extensions - Extensions installées](images/interface_barre_menus_Extensions_installees.png)
-
-
+Vous ave également accès aux réglages de vos plugins à cet endroits. Chaque plugins offrent des options et un paramètrage différents. Pour en savoir d'avantage sur la manière de faire, consulter la documentation du plugins (installation, capture d'écran, FAQ, etc...) que vous pouvez retrouver sur la page dédié au plugin sur le site de wordpress ou encore sur le site du plugin. Les réglages et le support sont parfois accessible directement via l'interface d'administration juste sous le nom du plugin dans la liste des plugins installés.
 
 
 #### Ajouter
@@ -950,7 +1033,9 @@ Vous pouvez rechercher un plugin en fonction de son nom, de son auteur ou de son
 
 Le nombre de téléchargements d'un plugin, la date de sa dernière mise à jour et l'indication de sa compatibilité avec votre version de WordPress vous assurent généralement de la qualité d'un plugin. De plus si un plugin est très populaire et mis régulièrement à jour vous pourrez très certainement profiter d'une large communauté et des réponse du développeur en cas de problème, ainsi que des tutoriaux sur internet pour vous expliquer son fonctionnement et son paramètrage.
 
-Une fois le plugin trouvé, vous pouvez cliquer sur son nom pour obtenir d'avantage d'information (version, dernière mise à jour, version minimale de WordPress, compatibilité WP, nb d'installation actives, note moyenne et avis des utilisateurs). Cela vous permettra de vous faire une idée plus précise avant de décider de l'installer ou non. Une rapide recherche sur internet peut également vous permettre de glaner des renseignements intéressants notamment concernant d'éventuels conflits avec d'autres plugins qui sont peut-être installé sur votre site.
+Une fois le plugin trouvé, vous pouvez cliquer sur son nom pour obtenir d'avantage d'information (version, dernière mise à jour, version minimale de WordPress, compatibilité WP, avis des utilisateurs, moyenne des notes, nb d'installation actives, note moyenne et avis des utilisateurs). Vous avez également accès à d'autres informations concernant le plugin come la "Page WordPress.org de l'extension et le Site web de l'extension. Cela vous permettra de vous faire une idée plus précise avant de décider de l'installer ou non. Une rapide recherche sur internet peut également vous permettre de glaner des renseignements intéressants notamment concernant d'éventuels conflits avec d'autres plugins qui sont peut-être installé sur votre site. N'hésitez pas à consulter les différents onglets (Description, Installation, FAQ, Liste des modifications, Avis, capture d'écran) sur l'écran qui s'affiche quand vous cliquer sur le nom du plugin qui vous intéresse avant de l'installer.
+
+Eviter d'installer trop de plugins, non seulement cela alourdit votre site mais en plus cela offre un risque de failles de sécurité et de problème de sécurité supplémentaire. Avant d'installer un plugin, demander vous si aucuen fonction native de WordPress n'est déja capable de vous fournir la fonctionnalité que vous rechercher.
 
 Si les informations recueillies vous ont convaincus, cliquer sur le bouton "Installer". L'installation se lance automatiquement. Le bouton "Installer" est alors remplacé par le bouton "Activer". N'oubliez pas de cliquer dessus pour rendre le plugin opérationnel sur votre site.
 
@@ -963,8 +1048,22 @@ Vous pouvez également aller sur le site de wordpress https://fr.wordpress.org/p
 
 ![Extensions - Editeur](images/interface_barre_menus_Extensions_editeur.png)
 
-Cette parti
+Cette partie vous permet de modifier directement le code à partir de l'interface de WordPress. Cette option est déconseillée et risquée.
 
+Vous avez ici accès directement à l'arborescence des fichiers qui constituent votre plugins (à droite - Fichiers de l'extension) et à gauche à l'éditeur de code.
+
+Si on effectue aucune modification, cette zone peut être utile pour visualiser le code et l'arborescenced des fichiers constituant le plugins sans devoir quitter l'interface d'administration. Les dossiers originaux se trouve dans le dossier wp-content plugins de votre site internet. C'est à cet endroit que vous pourrez copier vos fichiers pour en faire une sauvegarde avant d'effectuer une éventuelle modification du code.
+
+Réaliser toujours une sauvegarde de votre site si vous devez absolument utliser cette option et suivez les conseils du message d'avertissement qui s'affiche à l'écran.
+
+Attention effectué des changements dans les extensions actives n'est pas recommandé. Désactivé les au préalable.
+
+```
+Faites attention !
+Il semble que vous soyez en train de modifier directement votre thème dans le tableau de bord de WordPress. Ce n’est pas recommandé ! Modifier directement les extensions peut introduire des incompatibilités futures qui pourraient casser votre site et vos modifications risquent d’être perdues lors de futures mises à jour.
+
+Si vous devez absolument modifier directement cette extension, utilisez un gestionnaire de fichiers pour en créer une copie avec un autre nom et gardez-le près du code original. Ainsi, vous pourrez réactiver une version fonctionnelle si quelque chose tourne mal."
+```
 
 ### Utilisateurs
 
@@ -1259,6 +1358,10 @@ MetaSlider (slideshow): https://fr.wordpress.org/plugins/ml-slider/
 Google Analytics (analyse des statistique de votre site - SEO): https://fr.wordpress.org/plugins/googleanalytics/
 
 WPML to Polylang (traduction de votre site en plusieurs langues): https://fr.wordpress.org/plugins/wpml-to-polylang/
+
+Le répertoire où sont stockés vos sauvegardes de Updraft est:  /wp_workshop/wp-content/updraft. Ne le placez pas dans vos répertoires uploads ou plugins, ceci provoquerait une récursion (sauvegardes de sauvegardes de sauvegardes...).
+
+
 
 
 
