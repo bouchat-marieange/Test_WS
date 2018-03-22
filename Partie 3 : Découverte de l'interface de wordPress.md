@@ -1246,8 +1246,40 @@ Pour tester, taper l'adresse: http://www.tinkeringmonkey.com/work/
 
 ## Outils de commerce en ligne
 
+### Woocommerce:
+
+Pour qui:
+
+Avantages:
+
+Inconvénients:
+
+### Prestashop:
+
+Pour qui:
+
+Avantages:
+
+Inconvénients:
+
+### Magento:
+
+Pour qui:
+
+Avantages:
+
+Inconvénients:
+
+Petits comparatifs
+
+https://www.mister-wp.com/plugin/woocommerce/
+
+https://monsieurecommerce.com/shopify-woocommerce-magento-prestashop-comment-choisir/
+
 
 ## Traduction de vos sites multilingues
+
+Pour traduire vos site en plusieurs langues, je vous conseille d'utiliser un plugin dédié.
 
 
 ## Bonnes pratiques dans l'usage de WordPress
