@@ -3,7 +3,7 @@
 ## La structure des fichiers et dossiers WordPress
 
 ![Structure fichiers et dossiers WordPress](structure_fichiers_et_dossiers_wordpress.png)
-
+ssw
 Connaître l’organisation des fichiers dans WordPress est important. La structure est toujours la même, pour un petit site ou pour un gros site : le core ou coeur de WordPress ne change pas.
 
 Les fichiers et dossiers à la racine du site

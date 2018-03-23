@@ -819,9 +819,12 @@ Vosu pouvez également avoir un aperçu de l'affichage selon la taille de l'écr
 
 ![Apparence - personnaliser2](images/interface_barre_menus_Apparence_personnaliser2.png)
 
-Vous pouvez également personnalisé l'entête en y plaçant une autre image ou même une vidéo soit extraite de votre bibliothèque soit d'une url youtube (exemple: https://www.youtube.com/watch?v=pGbIOC83-So)
+![Apparence - personnaliser3](images/interface_barre_menus_Apparence_personnaliser3.png)
 
-**Photos gratuites : **
+
+Vous pouvez également personnalisé l'entête en y plaçant une autre image ou même une vidéo soit extraite de votre bibliothèque (max 2 MB) soit d'une url youtube (exemple: https://www.youtube.com/watch?v=pGbIOC83-So). Le temps du chargement de la vidéo c'est l'image qui sera affiché.
+
+**Photos gratuites :**
 
 https://unsplash.com/
 
@@ -830,11 +833,40 @@ https://pixabay.com/
 https://picjumbo.com/
 
 
-**Vidéos gratuites : **
+**Vidéos gratuites :**
 
 https://videos.pexels.com/
 
-![Apparence - personnaliser3](images/interface_barre_menus_Apparence_personnaliser3.png)
+Vous pouvez également modifier les menus (options identiques que dans le menu "Menus"), les widgets (options identiques que dans le menu "Widgets"), Réglage de la page d'accueil (vous pouvez choisir si la page d'accueil sera une page statique que vous choisissez ou la page d'affichage des articles par defaut).
+
+Il y a aussi la possibilité de CSS additionnel qui vous permet d'ajouter votre propre code CSS pour personnaliser l'apparence et la mise en page de votre site. La syntaxe du code est mise automatiquement en surbrillance. Mais comme préciser précédemment avant d'effectuer toutes modification sur votre code faites une sauvegarde updraftplus. Et dans la mesure du possible effectuer les modification dans le fichier style.css de votre thème enfant que vous aurez préalablement activé sur votre site. Car toutes les modifications effectuées dans cette zone ne sont pas enregistré dans le fichier style de votre theme enfant mais dans le thème parent. Les modifications seront donc effacées dès la prochaine mise à jour du thème parent.
+
+**Choisir et télécharger un nouveau thème sur le site de wordpress.org**
+
+Menu "Apparence" --> "Thèmes" : cliquer sur le bouton "Ajouter" (en haut). Vous pouvez voir les thèmes qui sont déja installés sur votre site (ils apparaissent en surbrillance avec la mention "Installé"). Vosu pouvez également voir tous les autres thèmes présents sur le site de Wordpress.org et les afficher selon différents critères (Mis en avant, Populaires, Derniers en date, Favoris). vous pouvez également choisir de cliquer sur le bouton "Filtre de fonctionnalités" qui va vous afficher les thèmes en fonction de leurs thématique (Blog, E-Commerce, Education, Divertissement, Nourriture et Boisson, Vacances, ...) ou en fonction de leurs fonctionnalités (optimisé pour l'accessibilité, arrière plan personnalisé, couleur personnalisé, personnalisation de l'en-tête, éditeur de style, images mise en avant, Modèle pleine largeur,...) ou encore selon leur arrangement (Style en grille, une colonne, deux colonnes, colonne latérale gauche ou droite, ...)
+
+Vous pouvez voir un aperçu de ces thèmes et choisir de les installer en cliquant sur le bouton "installer". Il ne vous restera plus qu'à les appliquer si vous souhaiter appliquer ce thème à l'affichage de votre site. Attention: selon les thèmes certaines fonctionnalités peuvent ne plus être prises en charge et donc provoqué le non-affichage de certains éléments de vote site.
+
+Indépendemment des thèmes proposés par WordPress.org, vous trouverez sur internet une multitudes de sites proposant des thèmes de prix et de qualité diverses. Les plus connus sont :
+
+Elegant Themes : https://www.elegantthemes.com/
+Créateur du très célèbre thème DIVI (cher mais aux fonctionnalités de personnalisation quasiment sans limites)
+
+Theme forest : https://themeforest.net/
+Avec un petit article pour éviter de se faire avoir :https://wpmarmite.com/guide-themeforest/
+
+WooThemes : https://woocommerce.com/
+Spécialisé dans les thèmes WooCommerce
+
+Voici un article plus détaillé proposants des thèmes gratuits selectionnés:
+
+https://wpmarmite.com/theme-wordpress-gratuit/
+
+Il est également possible de faire une recherche sur le site wordpress.org dans la rubriques thème, de télécharger le fichier sur son ordinateur et ensuite à l'aide du bouton "Ajouter" puis "Téléverser" d'importer ce fichier thème dans l'interface d'administration de WordPress.
+
+Pour désactivé un thème,il suffit d'en activé un autre.
+
+Pour supprimer un thème, commencer par le désactivé (en activant un autre thème) puis cliquer sur le thème (en bas à droite vous trouverez un lien "Supprimer")
 
 
 #### Widgets
@@ -1044,6 +1076,37 @@ Si les informations recueillies vous ont convaincus, cliquer sur le bouton "Inst
 
 Vous pouvez également aller sur le site de wordpress https://fr.wordpress.org/plugins/ et télécharger le fichiez zip  de l'extension. Ensuite rendez-vous dans l'interface de votre site dans "Extensions" --> "Ajouter" et en haut de la page cliquer sur le bouton "Téléverser une extension" et indiquer l'emplacement où le fichier zip à été télécharger sur votre ordinateur. Ensuite installer et activé l'extension. Cete option peut être pratique si vous n'avez pas accès à internet et voulez développer en local tout en disposant des fichiers de vos extensions pour les installés. Elle présente le désavantage de ne pas offrir les dernières versions des plugins et donc de nécessiter d'avantage de mise à jour lors de la connexion à internet.
 
+### Plugins testés et approuvés:
+
+Contact Form (gérer les formulaires) : https://fr.wordpress.org/plugins/contact-form-7/
+
+Yoast SEO (optimiser votre référencement): https://fr.wordpress.org/plugins/wordpress-seo/
+
+Akismet anti-spam) : https://fr.wordpress.org/plugins/akismet/
+
+WooCommerce(commerce en ligne): https://fr.wordpress.org/plugins/woocommerce/
+
+TinyMCE Advanced (personnalisation éditeur texte): https://fr.wordpress.org/plugins/tinymce-advanced/
+
+Wordfence (sécurité) : https://fr.wordpress.org/plugins/wordfence/
+
+WP Rocket - payant (optimisation vitesse chargement): https://wp-rocket.me/
+
+UpdraftPlus WordPress Backup Plugin (sauvegarde restauration): https://fr.wordpress.org/plugins/updraftplus/
+
+Duplicator (migration - clonage de site) : https://fr.wordpress.org/plugins/duplicator/
+
+Page Builder par SiteOrigin (page builder wysiwyg) : https://fr.wordpress.org/plugins/siteorigin-panels/
+
+MetaSlider (slideshow): https://fr.wordpress.org/plugins/ml-slider/
+
+Google Analytics (analyse des statistique de votre site - SEO): https://fr.wordpress.org/plugins/googleanalytics/
+
+WPML to Polylang (traduction de votre site en plusieurs langues): https://fr.wordpress.org/plugins/wpml-to-polylang/
+
+Le répertoire où sont stockés vos sauvegardes de Updraft est:  /wp_workshop/wp-content/updraft. Ne le placez pas dans vos répertoires uploads ou plugins, ceci provoquerait une récursion (sauvegardes de sauvegardes de sauvegardes...).
+
+
 #### Editeur
 
 ![Extensions - Editeur](images/interface_barre_menus_Extensions_editeur.png)
@@ -1075,35 +1138,52 @@ C'est vous qui avez installer votre site WordPress (en local ou directement en l
 
 ![Utilisateurs - Tous les utilisateurs](images/interface_barre_menus_Utilisateurs_tous_les_utilisateurs.png)
 
+Affiche la liste de tous les utilisateurs enregistrer sur votre site avec toutes les informations s'y rapportant. Par defaut il n'y au au départ que votre profil d'administrateur créer lors de l'installation de WordPress.
+
 #### Ajouter
 
 ![Utilisateurs - Ajouter](images/interface_barre_menus_Utilisateurs_ajouter.png)
+
+Permet d'ajouter de nouveau utilisateur en mentionnant toutes les infos nécessaires le concernant et surtout en définissant avec prudence et refléxion son Rôle (Abonné, contributeur, Auteur, Editeur, Administrateur)
 
 #### Votre profil
 
 ![Utilisateurs - Votre profil](images/interface_barre_menus_Utilisateurs_votre_profil.png)
 
+Permet de gérer toutes les informations relatives à votre profil. Il est important de changer ici le pseudonyme et le Nom à afficher publiquement pour ne pas facilité la tâche des pirates qui voudrait avoir prendre le pouvoir sur l'administration de votre site.
 
+Dans l'idéal on utlise pas le nom admin comme nom d'administrateur car il est trop courant. Pour changer cela, vous pouvez aller dans "Ajouter" dans le menu "Utilisateurs" et créer un nouvel administrateur avec un autre nom moins évident et un mot de passe sécurisé en gardant les deux précieusement et lui donné le rôle administrateur. Vous pouvez ensuite supprimer l'ancien utilisateur appellé admin.
 
+Dorénavant vous vous ne pourrez plus vous connecter avec le nom "admin" et votre ancien mot de passe. Il vous faudra entré votre nouveau nom d'administrateur et votre nouveau mot de passe sécurisé.
 
 
 ### Outils
 
 ![Outils](images/interface_barre_menus_Outils.png)
 
+Vous pourrez trouvez ici un outils déja installés.
+
 #### Outils disponibles
 
 ![Outils - Outils disponibles](images/interface_barre_menus_Outils_disponibles.png)
+
+Il s'agit de la liste des outils déja installés
 
 #### Importer
 
 ![Outils - Importer](images/interface_barre_menus_Outils_importer.png)
 
+Vous trouverez ici tous les outils que vous pouvez télécharger avec une explication brève de leur fonctionnalité.
+
 #### Exporter
 
 ![Outils - Exporter](images/interface_barre_menus_Outils_exporter.png)
 
+Cliquez sur ce bouton pour que WordPress crée un fichier XML que vous pourrez enregistrer sur votre ordinateur.
 
+Ce format, que nous appelons WordPress eXtended RSS (ou WXR), contient tous vos articles, pages, commentaires, champs personnalisés, catégories et étiquettes.
+
+Une fois que le fichier téléchargé a été enregistré, vous pouvez utiliser la fonction Importer d’un autre site WordPress pour importer ce fichier dans cet autre site.
 
 
 ### Réglages
@@ -1150,11 +1230,21 @@ Ne pas oublier de cliquer sur le bouton "Enregistrer les modifications".
 
 ![Reglages - Ecriture](images/interface_barre_menus_Reglages_ecriture.png)
 
+Cette section reprend toutes les options concernant les format par défaut des catégories et des articles.
 
+C'est également à cet endroit que vous pouvez définir les paramètre pour vous permettre de publier dans WordPress directement à partir d'un mail. Le contenu du mail sera publié sur le site. C'est utile si pour une raison ou l'autre on n'a pas la possibilité de se connecter à l'interface de WordPress mais que l'on doit y publier du contenu.
+
+N"oubliez-pas d'enregister les modifications.
 
 #### Lecture
 
 ![Reglages - Lecture](images/interface_barre_menus_Reglages_lecture.png)
+
+Cette section rassemble toutes les options d'affichage de votre site (ce que doit afficher la page d'accueil, le nombre d'article que doivent afficher les pages, le nombre d'éléments à afficher par les flux de syndication (flux RSS) et si le texte des flux doit être affiché au complet ou juste un extrait)
+
+C'est aussi à cet endroit que l'on peut cocher ou décocher la case " Demander aux moteurs de recherche de ne pas indexer ce site" sachant que
+certains moteurs de recherche peuvent décider de l’indexer malgré tout.
+
 
 #### Discussion
 
@@ -1306,65 +1396,6 @@ RewriteRule . /wp_workshop/index.php [L]
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Installation et usage des thèmes
-
-
-## Plugins et widgets
-
-
-### Plugins testés et approuvés:
-
-Contact Form (gérer les formulaires) : https://fr.wordpress.org/plugins/contact-form-7/
-
-Yoast SEO (optimiser votre référencement): https://fr.wordpress.org/plugins/wordpress-seo/
-
-Akismet anti-spam) : https://fr.wordpress.org/plugins/akismet/
-
-WooCommerce(commerce en ligne): https://fr.wordpress.org/plugins/woocommerce/
-
-TinyMCE Advanced (personnalisation éditeur texte): https://fr.wordpress.org/plugins/tinymce-advanced/
-
-Wordfence (sécurité) : https://fr.wordpress.org/plugins/wordfence/
-
-WP Rocket - payant (optimisation vitesse chargement): https://wp-rocket.me/
-
-UpdraftPlus WordPress Backup Plugin (sauvegarde restauration): https://fr.wordpress.org/plugins/updraftplus/
-
-Duplicator (migration - clonage de site) : https://fr.wordpress.org/plugins/duplicator/
-
-Page Builder par SiteOrigin (page builder wysiwyg) : https://fr.wordpress.org/plugins/siteorigin-panels/
-
-MetaSlider (slideshow): https://fr.wordpress.org/plugins/ml-slider/
-
-Google Analytics (analyse des statistique de votre site - SEO): https://fr.wordpress.org/plugins/googleanalytics/
-
-WPML to Polylang (traduction de votre site en plusieurs langues): https://fr.wordpress.org/plugins/wpml-to-polylang/
-
-Le répertoire où sont stockés vos sauvegardes de Updraft est:  /wp_workshop/wp-content/updraft. Ne le placez pas dans vos répertoires uploads ou plugins, ceci provoquerait une récursion (sauvegardes de sauvegardes de sauvegardes...).
-
-
-
-
-
 ## Connaitre le theme et les plugins utilisés sur un site WordPress**
 
 Rendez-vous à l'adresse : http://whatwpthemeisthat.com/
@@ -1438,7 +1469,13 @@ https://monsieurecommerce.com/shopify-woocommerce-magento-prestashop-comment-cho
 
 ## Traduction de vos sites multilingues
 
-Pour traduire vos site en plusieurs langues, je vous conseille d'utiliser un plugin dédié.
+Pour traduire vos site en plusieurs langues, je vous conseille d'utiliser un plugin dédié tel que WPML to Polylang (traduction de votre site en plusieurs langues): https://fr.wordpress.org/plugins/wpml-to-polylang/
+
+Deux articles intéressants pour vous aider à choisir le bon plugin selon vos besoins:
+
+https://www.lafabriquedunet.fr/creation-site-vitrine/articles/plugins-wordpress-traduire-site-internet/
+
+https://blog.lws-hosting.com/creation-de-sites-web/3-meilleurs-plugins-creer-site-multilingue-wordpress
 
 
 
