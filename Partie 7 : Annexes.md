@@ -60,12 +60,13 @@ Les hébergeurs que je vous conseille:
 
 - O2swithc (https://www.o2switch.fr/)
 
+
 Je vous recommande de consulter cet article concernant les meilleurs hébergements de sites WordPress pour 2018 : https://hebergement-wp.info/comparatif-hebergements-wordpress/
 
 Pour les sites de eCommerce qui se doivent d'être toujours accessible et sécurisé, le choix d'un hébergement de qualité est primordiale. Je vous recommande de consulter cet article concernant plus spécifiquement le top 5 des meilleurs hébergements WooCommerce pour 2017 : https://hebergement-wp.info/comparatif-hebergements-woocommerce/
 
 
-Voici quelques articles qui pourront vous aider dans le choix de votre hébergeur en fonction de vos besoins:
+Voici un article qui poura vous aider dans le choix de votre hébergeur en fonction de vos besoins:
 
 https://wpformation.com/choisir-hebergement-wordpress/
 
@@ -73,6 +74,7 @@ https://wpformation.com/choisir-hebergement-wordpress/
 Lorsque vous souscrivez à une formule d'hébergement, vous recevez un mail de votre hébergeur contenant les codes d'accès (adresse, identifiant, mot de passe, port) nécessaires pour mettre votre site en ligne sur votre espace d'hébergement.
 
 Selon les hébergeurs, les instructions seront peut-être légèrement différentes, mais généralement, vous devrez placer le contenu de votre dossier wordpress (pas le dossier mais uniquement son contenu) dans le dossier nommé "www" ou directement à la racine de votre espace d'hébergement.![Installation WP - etape 2](install wp 2.jpg)
+
 
 #### Les sites traitant de WordPress pour vous tenir au courant et en apprendre plus
 

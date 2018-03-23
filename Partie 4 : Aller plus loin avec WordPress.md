@@ -103,7 +103,7 @@ user@nb25:/opt/lampp/htdocs$
 sudo chmod -R 775 wp_workshop
 ```
 
-Cette commande vous donne les droits administrateur sur votre dossier WordPresse
+Cette commande vous donne les droits administrateur sur votre dossier WordPress
 
 5. Vous pouvez à présent créer un dossier "twentyseventeen_child" dans wp-content --> themes
 

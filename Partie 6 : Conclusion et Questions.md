@@ -24,9 +24,8 @@ Merci également à Laurent Hulstaert qui par le partage de son expérience de W
 
 ## Questions
 
-?
-?
-?
+Vos questions ...
+
 
 
 ## Ressources:
